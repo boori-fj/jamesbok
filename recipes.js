@@ -804,4 +804,803 @@ window.RECIPES = [
       "Pour the espresso over the top and stir.",
     ],
   },
+
+  {
+    slug: "thai-chicken-salad",
+    title: "Thai-Inspired Chicken Salad",
+    posted: "2026-09-08",
+    reel: "DdCgiN3JlEG",
+    photo: "thai-chicken-salad.jpg",
+    alt: "James behind a big glass bowl of crunchy Thai chicken salad",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "A crunchy, high-protein salad of shredded chicken, red cabbage, carrot and cucumber in a sweet and sour lime and fish sauce dressing. Scoop it up with crackers.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["chicken breast", "chicken breasts"], n: "cooked" },
+          { q: 1.5, u: "cup", i: "red cabbage", n: "thinly shredded" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "cut into thin strips" },
+          { q: 0.5, u: "cup", i: "carrot", n: "grated" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1 / 3, u: "cup", i: "cilantro", n: "chopped" },
+          { t: "as desired", i: "sliced almonds", b: "365 by Whole Foods Market" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 1, i: ["lime", "limes"], n: "juiced" },
+          { q: 1, u: "tbsp", i: "fish sauce", b: "Red Boat" },
+          { q: 0.5, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 1, u: "clove", i: "garlic", n: "grated" },
+          { q: 0.5, u: "tbsp", i: "sriracha", b: "Tabasco" },
+          { q: 0.5, u: "tsp", i: "ginger", n: "grated" },
+        ],
+      },
+    ],
+    steps: [
+      "Thinly shred the cabbage, cut the cucumber into thin strips, grate the carrot, and chop the cilantro and green onion.",
+      "Shred the cooked chicken with two forks.",
+      "For the dressing, squeeze the lime into a bowl. Add the fish sauce, soy sauce, honey and sriracha, then grate in the garlic and ginger. Stir well.",
+      "Put the chicken and vegetables in a large bowl, pour over the dressing and toss until everything is coated.",
+      "Top with sliced almonds and scoop it up with crackers.",
+    ],
+  },
+
+  {
+    slug: "banana-coconut-pie-chia-pudding",
+    title: "Banana Coconut Pie Chia Pudding",
+    posted: "2026-09-03",
+    reel: "Dc1yJ3CRNB5",
+    photo: "banana-coconut-pie-chia-pudding.jpg",
+    alt: "A glass of banana coconut chia pudding layered with banana slices",
+    tags: ["Sweet", "Meal prep", "High protein"],
+    intro:
+      "Banana cream pie in a jar: mashed banana, Greek yogurt and coconut milk set with chia seeds, then layered with fresh banana and graham cracker crumbs. High in protein and fiber, with no refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 1.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 0.5, u: "cup", i: "coconut milk", b: "365 by Whole Foods Market" },
+          { q: 0.25, u: "cup", i: "water" },
+          { q: 0.5, u: "cup", i: "chia seeds", b: "Mamma Chia" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "maple syrup", b: "Stonewall Kitchen" },
+          { q: 0.5, u: "tsp", i: "cinnamon", b: "The Spice House" },
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { t: "a pinch", i: "salt" },
+          { t: "for topping", i: "graham crackers", b: "Annie's" },
+        ],
+      },
+    ],
+    steps: [
+      "Break the bananas into a large container and mash them with a fork. Keep a few slices aside for layering if you like.",
+      "Add the Greek yogurt, coconut milk, water and chia seeds, plus the maple syrup, cinnamon, vanilla and salt if you're using them.",
+      "Stir well until there are no clumps of chia left.",
+      "Cover and refrigerate until thick and set, ideally overnight.",
+      "Spoon into glasses, layering with banana slices, and top with crushed graham crackers.",
+    ],
+  },
+
+  {
+    slug: "strawberry-cheesecake-dip",
+    title: "High-Protein Strawberry Cheesecake Dip",
+    posted: "2026-09-01",
+    reel: "DcwamV7pW9t",
+    photo: "strawberry-cheesecake-dip.jpg",
+    alt: "James holding up a glass of strawberry cheesecake dip topped with graham crumbs",
+    time: "10 min",
+    tags: ["Sweet", "High protein", "No cook"],
+    intro:
+      "Five ingredients that taste like strawberry cheesecake, with Greek yogurt for extra protein. The video uses lactose-free cream cheese and yogurt, so it works for anyone who's sensitive to lactose.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "block", i: "lactose-free cream cheese", n: "8 oz", b: "Philadelphia" },
+          { q: 1, u: "cup", i: "lactose-free Greek yogurt" },
+          { q: 1, q2: 2, u: "tbsp", i: "honey" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+          { q: 1, u: "cup", i: "strawberries", n: "diced" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 2, u: "tbsp", i: "graham crackers", n: "crushed" },
+        ],
+      },
+    ],
+    steps: [
+      "Hull and dice the strawberries.",
+      "Put the cream cheese in a bowl with the Greek yogurt, honey and vanilla.",
+      "Add most of the strawberries and mix until smooth and pink.",
+      "Spoon it into a glass, layering it with the rest of the strawberries.",
+      "Top with crushed graham crackers and serve with fruit or crackers for dipping.",
+    ],
+  },
+
+  {
+    slug: "creamy-spinach-chicken-butter-beans",
+    title: "Creamy Spinach and Chicken Butter Beans",
+    posted: "2026-08-30",
+    reel: "DcrZJ_jpf0w",
+    photo: "creamy-spinach-chicken-butter-beans.jpg",
+    alt: "A pan of creamy butter beans with chicken and spinach, next to sourdough toast",
+    tags: ["Chicken", "High protein"],
+    intro:
+      "Butter beans and shredded chicken simmered in broth with spinach, then made creamy with Greek yogurt and Parmesan instead of cream. Mop it up with toasted sourdough.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "butter beans", n: "drained", b: "Eden" },
+          { q: 1, i: ["cooked chicken breast", "cooked chicken breasts"], n: "shredded" },
+          { q: 0.5, i: ["large onion", "large onions"], n: "diced" },
+          { q: 0.5, u: "cup", i: "celery", n: "diced" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Terra Delyssa" },
+          { q: 1, u: "cup", i: "chicken bone broth", b: "Brodo" },
+          { q: 4, u: "clove", i: "garlic", n: "minced" },
+          { q: 3, u: "cup", i: "spinach" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 0.5, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { t: "to taste", i: "salt and pepper" },
+          { t: "for serving", i: "sourdough toast" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the onion and celery, and shred the cooked chicken with two forks.",
+      "Heat the olive oil in a large pan over medium heat. Cook the onion and celery until soft, then add the garlic for another minute.",
+      "Add the butter beans and broth and let it simmer for a few minutes.",
+      "Add the spinach and stir until it wilts, then add the chicken.",
+      "Turn the heat down and stir in the Greek yogurt and grated Parmesan. Finish with the lemon juice, salt and pepper.",
+      "Serve with toasted sourdough.",
+    ],
+  },
+
+  {
+    slug: "fresh-rolls-peanut-sauce",
+    title: "Fresh Rolls with Peanut Sauce",
+    posted: "2026-08-26",
+    reel: "DchIcR3pgsb",
+    photo: "fresh-rolls-peanut-sauce.jpg",
+    alt: "A shrimp fresh roll being dipped into a bowl of peanut sauce",
+    tags: ["Seafood", "No cook"],
+    intro:
+      "Rice paper rolls packed with crunchy vegetables, avocado and shrimp, with a peanut sauce you'll want to drink. The caption only gives amounts for the sauce, so fill the rolls with as much as you like.",
+    groups: [
+      {
+        name: "Rolls",
+        items: [
+          { t: "as needed", i: "rice paper" },
+          { t: "as needed", i: "cooked shrimp" },
+          { t: "as needed", i: "red cabbage", n: "thinly sliced" },
+          { t: "as needed", i: "cucumber", n: "cut into matchsticks" },
+          { t: "as needed", i: "red bell pepper", n: "cut into strips" },
+          { t: "as needed", i: "carrots", n: "peeled into ribbons" },
+          { t: "as needed", i: "avocado", n: "sliced" },
+          { t: "as needed", i: "cilantro" },
+          { t: "as needed", i: "green onion" },
+        ],
+      },
+      {
+        name: "Peanut sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 1, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, i: ["lime", "limes"], n: "juiced" },
+          { q: 1, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 1, u: "tbsp", i: "water" },
+          { q: 1, u: "clove", i: "garlic", n: "grated" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "sesame seeds" },
+          { t: "optional", i: "cilantro and green onion", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Prep the fillings: thinly slice the cabbage, cut the cucumber and bell pepper into thin strips, peel the carrot into ribbons, slice the avocado and pick the cilantro.",
+      "For the sauce, stir the peanut butter, lime juice, water, soy sauce, honey, grated garlic, sesame oil and sesame seeds together until smooth.",
+      "Dip a sheet of rice paper in water for a few seconds and lay it flat on a plate.",
+      "Lay a few shrimp in the middle, pile the vegetables, avocado and herbs on top, then fold in the sides and roll it up tightly.",
+      "Repeat with the rest and serve with the peanut sauce for dipping.",
+    ],
+  },
+
+  {
+    slug: "korean-bbq-beef-udon",
+    title: "High-Protein Korean BBQ Beef Udon",
+    posted: "2026-08-24",
+    reel: "DcbxBjhpSaW",
+    photo: "korean-bbq-beef-udon.jpg",
+    alt: "A bowl of Korean BBQ beef udon with shrimp, bok choy and boiled egg",
+    time: "10 min",
+    tags: ["Noodles", "High protein", "Quick"],
+    intro:
+      "A 10-minute meal prep built on a Pulmuone stir-fry udon kit. Shrimp, bok choy and boiled eggs turn it into a high-protein bowl.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "package", i: "Korean BBQ Style Beef Stir-Fry Udon", b: "Pulmuone" },
+          { q: 12, i: "large cooked shrimp" },
+          { q: 3, u: "head", i: "baby bok choy", n: "chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "sliced" },
+          { q: 2, i: ["boiled egg", "boiled eggs"], n: "halved" },
+          { t: "as desired", i: "sesame seeds" },
+          { t: "as desired", i: "chili oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the bok choy and slice the green onion.",
+      "Heat a large pan and add the udon noodles from the kit with the water the package calls for, loosening them as they warm up.",
+      "Add the sauce and the beef and vegetable pack from the kit and stir-fry for a couple of minutes.",
+      "Add the bok choy and cook until it just wilts, then add the shrimp to warm through.",
+      "Sprinkle over the kit's sesame topping and toss.",
+      "Serve topped with the boiled eggs, green onion, sesame seeds and chili oil, with kimchi on the side if you like.",
+    ],
+  },
+
+  {
+    slug: "spicy-honey-garlic-minced-tofu",
+    title: "Spicy Honey Garlic Minced Tofu",
+    posted: "2026-08-21",
+    reel: "DcTtuMCxvNK",
+    photo: "spicy-honey-garlic-minced-tofu.jpg",
+    alt: "A plate of honey garlic minced tofu with green onion and sesame seeds, next to rice",
+    tags: ["Tofu", "High protein", "Meal prep"],
+    intro:
+      "Firm tofu crumbled and pan-fried until golden, then tossed in a sticky honey garlic sauce with a little heat. Cheap, high in protein and great for meal prep over rice.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "block", i: "firm tofu", n: "drained" },
+          { t: "a drizzle", i: "cooking oil", n: "for the pan" },
+          { q: 0.5, u: "tbsp", i: "chili oil", n: "optional" },
+          { t: "as desired", i: "sesame seeds" },
+          { t: "as desired", i: "green onion", n: "sliced" },
+          { t: "for serving", i: "cooked rice" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.25, u: "cup", i: "soy sauce" },
+          { q: 5, u: "clove", i: "garlic", n: "minced" },
+          { q: 2, u: "tsp", i: "ginger", n: "grated" },
+          { q: 0.25, u: "cup", i: "honey" },
+          { q: 2, u: "tsp", i: "sesame oil" },
+          { q: 0.25, u: "cup", i: "water" },
+          { q: 1, u: "tbsp", i: "cornstarch" },
+          { q: 1, u: "tbsp", i: "jalapeño", n: "chopped, optional" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tofu and crumble it into small pieces with your hands.",
+      "Heat a drizzle of oil in a large nonstick pan over medium-high heat. Add the tofu and cook, stirring now and then, until it's golden and a little crispy.",
+      "Meanwhile, mix the sauce: soy sauce, garlic, ginger, honey, sesame oil, water, cornstarch, and the jalapeño if you're using it.",
+      "Pour the sauce over the tofu and stir until it thickens and coats every piece. Add the chili oil if you want more heat.",
+      "Top with green onion and sesame seeds and serve over rice.",
+    ],
+  },
+
+  {
+    slug: "hot-honey-chicken-salad",
+    title: "Hot Honey Chicken Salad",
+    posted: "2026-08-19",
+    reel: "DcPIwveJvPd",
+    photo: "hot-honey-chicken-salad.jpg",
+    alt: "James holding a glass bowl of hot honey chicken salad",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "Shredded chicken with crunchy celery, cucumber, carrot and pickles in a sweet and spicy Greek yogurt dressing. No mayo, lots of protein, and great on crackers.",
+    groups: [
+      {
+        items: [
+          { q: 2.5, u: "cup", i: "cooked chicken", n: "shredded" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "cup", i: "celery", n: "chopped" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "chopped" },
+          { q: 0.5, u: "cup", i: "carrot", n: "grated" },
+          { q: 0.25, u: "cup", i: "dill pickles", n: "chopped", b: "Good Girl Snacks" },
+          { t: "optional", i: "jalapeño", n: "chopped" },
+          { q: 0.25, u: "cup", i: "almonds", n: "crushed, optional" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 2, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 1, u: "tbsp", i: "sriracha", b: "Tabasco" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tbsp", i: "pickle juice" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Shred the chicken with two forks.",
+      "Chop the celery, cucumber, green onion and pickles, grate the carrot, and add it all to the chicken. Crush the almonds in a bag and add them too, with the jalapeño if you're using it.",
+      "For the sauce, stir the Greek yogurt, honey, sriracha, Dijon, pickle juice, salt and pepper together.",
+      "Pour the sauce over the chicken and mix until everything is coated.",
+      "Serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "bok-choy-kimchi",
+    title: "5-Minute Bok Choy Kimchi",
+    posted: "2026-08-17",
+    reel: "DcJ9s9npUGS",
+    photo: "bok-choy-kimchi.jpg",
+    alt: "A glass bowl of bok choy kimchi with chopsticks",
+    time: "5 min",
+    tags: ["Side", "Korean", "Quick"],
+    intro:
+      "The quickest kimchi there is: bok choy tossed in a garlicky gochugaru sauce and ready to eat right away, with no salting or waiting.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "bok choy", n: "cut into pieces" },
+          { q: 2, u: "tsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tsp", i: "fish sauce", b: "Red Boat" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 0.5, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 0.5, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Wash the bok choy and cut it into bite-size pieces.",
+      "In a bowl, mix the soy sauce, fish sauce, gochugaru, rice vinegar, honey, garlic, sesame oil and sesame seeds into a paste.",
+      "Put the bok choy in a large bowl, add the sauce and toss with your hands (gloves help) until every piece is coated.",
+      "Eat it right away or keep it in the fridge.",
+    ],
+  },
+
+  {
+    slug: "healthy-pizza-beans",
+    title: "Healthy Pizza Beans",
+    posted: "2026-08-13",
+    reel: "Db_qVanRBdT",
+    photo: "healthy-pizza-beans.jpg",
+    alt: "A pan of cheesy tomato pizza beans with kale, with James holding toast",
+    tags: ["High protein", "Meal prep"],
+    intro:
+      "White beans simmered in tomato sauce with onion, garlic and kale, then finished with melty mozzarella and Parmesan. All the flavor of pizza, with plenty of fiber and protein.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "can", i: "white kidney beans", n: "drained", b: "Eden" },
+          { q: 1.5, u: "cup", i: "tomato sauce", b: "Smash Kitchen" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 1, i: ["onion", "onions"], n: "diced" },
+          { q: 1, u: "cup", i: "kale", n: "chopped, or as much as you like" },
+          { q: 4, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "Italian seasoning", b: "The Spice House" },
+          { q: 0.25, u: "cup", i: "mozzarella cheese", b: "Organic Valley" },
+          { q: 2, u: "tbsp", i: "Parmesan cheese", n: "grated" },
+          { t: "to taste", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the onion and chop the kale.",
+      "Heat the olive oil in a large pan over medium heat and cook the onion until soft. Add the garlic and Italian seasoning and stir for a minute.",
+      "Add the beans and the tomato sauce and let it simmer for a few minutes.",
+      "Stir in the kale until it wilts, and season with salt.",
+      "Top with the mozzarella and grated Parmesan and let it melt. Eat it with toast.",
+    ],
+  },
+
+  {
+    slug: "creamy-crunchy-kale-salad",
+    title: "Creamy and Crunchy Kale Salad",
+    posted: "2026-08-11",
+    reel: "Db6hhukpaeN",
+    photo: "creamy-crunchy-kale-salad.jpg",
+    alt: "A glass bowl of kale salad with avocado, almonds and sliced chicken",
+    time: "5 min",
+    tags: ["Salad", "Quick", "No cook"],
+    intro:
+      "Finely chopped kale massaged with lemon and olive oil, then made creamy with mashed avocado and Parmesan. Ready in five minutes; add chicken to make it a full meal.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["small bunch of kale", "small bunches of kale"], n: "stems removed, finely chopped" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 2, i: ["avocado", "avocados"] },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 1, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 1, q2: 2, u: "tsp", i: "maple syrup", b: "Stonewall Kitchen" },
+          { q: 1, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a handful", i: "crunchy almonds", n: "added in the video" },
+          { t: "for serving", i: "sliced cooked chicken", n: "added in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Strip the kale leaves off the stems, chop them finely and put them in a large bowl.",
+      "Add the lemon juice, olive oil, maple syrup, garlic powder, salt and pepper, and massage the kale with your hands for a minute until it softens.",
+      "Chop the green onion and add it, then grate in the Parmesan.",
+      "Add the avocado and mix it in so it coats the kale and makes it creamy.",
+      "Top with almonds, and some chicken if you like.",
+    ],
+  },
+
+  {
+    slug: "creamy-butter-beans",
+    title: "Creamy Butter Beans with Kale",
+    posted: "2026-08-10",
+    reel: "Db38GWhpNN9",
+    photo: "creamy-butter-beans.jpg",
+    alt: "A pan of creamy butter beans with kale, with James holding a piece of toast",
+    tags: ["High protein", "Quick"],
+    intro:
+      "Two cans of butter beans simmered with onion, garlic, paprika and kale, then made creamy with Greek yogurt and Parmesan. Spoon it over sourdough toast.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "can", i: "butter beans", n: "drained", b: "Eden" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 1, i: ["medium onion", "medium onions"], n: "diced" },
+          { q: 1.5, u: "cup", i: "kale", n: "chopped" },
+          { q: 1, u: "cup", i: "bone broth", b: "Brodo" },
+          { q: 1 / 3, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 0.5, u: "tsp", i: "paprika", b: "Morton & Bassett" },
+          { q: 4, u: "clove", i: "garlic", n: "minced" },
+          { t: "to taste", i: "salt and pepper" },
+          { t: "for serving", i: "sourdough toast" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the onion.",
+      "Heat the olive oil in a large pan over medium heat and cook the onion until soft. Add the garlic and paprika and stir for a minute.",
+      "Add the butter beans and the broth and let it simmer for a few minutes.",
+      "Add the kale and stir until it wilts.",
+      "Take the pan off the heat and stir in the Greek yogurt, grated Parmesan and lemon juice. Season with salt and pepper.",
+      "Serve with toasted sourdough.",
+    ],
+  },
+
+  {
+    slug: "tiramisu-chia-pudding",
+    title: "Tiramisu Chia Pudding",
+    posted: "2026-08-06",
+    reel: "Dbto2wHJmS_",
+    photo: "tiramisu-chia-pudding.jpg",
+    alt: "A short glass of tiramisu chia pudding dusted with cacao",
+    serves: "1",
+    time: "30 min",
+    tags: ["Sweet", "High protein"],
+    intro:
+      "Five ingredients and ready in about 30 minutes: chia seeds soaked in a fresh shot of espresso, then stirred with Greek yogurt and dusted with cacao like a tiramisu.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["shot of espresso", "shots of espresso"], b: "Nespresso, Dolce" },
+          { q: 2, u: "tbsp", i: "chia seeds", b: "Mamma Chia" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, q2: 2, u: "tbsp", i: "maple syrup" },
+          { t: "as desired", i: "cacao powder", b: "Diaspora Co." },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a dash", i: "vanilla extract" },
+          { t: "a dash", i: "salt" },
+          { t: "for topping", i: "nut and chocolate mix", b: "Prana" },
+        ],
+      },
+    ],
+    steps: [
+      "Brew the espresso straight into a bowl and stir in the chia seeds.",
+      "Let it sit for a few minutes, stirring once or twice, until the chia swells and soaks up the coffee.",
+      "Add the Greek yogurt and maple syrup, plus the vanilla and salt if you're using them, and stir until smooth.",
+      "Spoon it into a glass and let it thicken for about 30 minutes.",
+      "Dust the top with cacao powder and add the nut and chocolate mix if you like.",
+    ],
+  },
+
+  {
+    slug: "high-protein-egg-salad",
+    title: "High-Protein Egg Salad",
+    posted: "2026-08-04",
+    reel: "Dbog0N9RFCq",
+    photo: "high-protein-egg-salad.jpg",
+    alt: "James holding a glass bowl of egg salad with green onion",
+    time: "10 min",
+    tags: ["High protein", "Quick", "No cook"],
+    intro:
+      "A lighter egg salad with no mayo: chopped boiled eggs, celery, green onion and pickle bound with cottage cheese and Dijon. Low in calories and high in protein.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["boiled egg", "boiled eggs"], n: "peeled", b: "Organic Valley" },
+          { q: 1, u: "stalk", i: "celery", n: "finely chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, i: ["dill pickle", "dill pickles"], n: "chopped" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Friendship Dairies" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tsp", i: "pickle juice" },
+          { q: 0.5, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "as desired", i: "salt and pepper" },
+          { t: "for serving", i: "crackers", b: "Firehook" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the boiled eggs, put them in a bowl and chop or mash them roughly.",
+      "Finely chop the celery, green onion and pickle and add them to the eggs.",
+      "Add the cottage cheese, Dijon, pickle juice, garlic powder, salt and pepper.",
+      "Mix everything together and eat it with crackers.",
+    ],
+  },
+
+  {
+    slug: "sesame-miso-chicken-salad",
+    title: "Sesame Miso Chicken Salad",
+    posted: "2026-08-03",
+    reel: "Dbl7Cl0x2Vj",
+    photo: "sesame-miso-chicken-salad.jpg",
+    alt: "A glass bowl of sesame miso chicken salad with apple and carrot",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "Shredded chicken with sweet apple, carrot, celery and pickle in a sesame miso dressing. The whole bowl has over 90 grams of protein, and it's great scooped up on crackers.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "cooked chicken", n: "shredded" },
+          { q: 1, i: ["carrot", "carrots"], n: "grated" },
+          { q: 0.5, u: "cup", i: "celery", n: "chopped" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 2, u: "tbsp", i: "green onion", n: "chopped" },
+          { q: 1, i: ["dill pickle", "dill pickles"], n: "chopped" },
+          { t: "optional", i: "almonds" },
+          { t: "for serving", i: "crackers", b: "Firehook" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "miso paste" },
+          { q: 1, u: "tbsp", i: "water" },
+          { q: 1, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 0.5, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Shred the chicken with two forks.",
+      "Grate the carrot, chop the celery, green onion and pickle, and peel and dice the apple. Add it all to the chicken.",
+      "For the sauce, whisk the miso with the water until smooth, then stir in the soy sauce, rice vinegar, honey, sesame oil, garlic and sesame seeds.",
+      "Pour the sauce over the salad and mix well. Add almonds if you like some crunch.",
+      "Serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "sticky-date-banana-bread",
+    title: "Sticky Date Banana Bread",
+    posted: "2026-07-27",
+    reel: "DbT41ivpLGa",
+    photo: "sticky-date-banana-bread.jpg",
+    alt: "A loaf of sticky date banana bread, sliced, on parchment paper",
+    time: "1 hr",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A banana bread with no refined sugar or oil, made with blended oats and Greek yogurt and studded with chopped dates. A quick date and yogurt topping makes it sticky.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"], b: "Organic Valley" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { q: 1.75, u: "cup", i: "oats", n: "blended into flour", b: "Bob's Red Mill" },
+          { q: 2, u: "tsp", i: "baking powder", b: "365 by Whole Foods Market" },
+          { q: 1, u: "tsp", i: "cinnamon", b: "Diaspora Co." },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { t: "a dash", i: "salt", n: "optional" },
+          { t: "optional", i: "walnuts" },
+        ],
+      },
+      {
+        name: "Sticky date topping",
+        items: [
+          { q: 4, i: ["date", "dates"], n: "pitted" },
+          { q: 2, u: "tbsp", i: "hot water" },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl, then mix in the eggs, Greek yogurt and vanilla.",
+      "Blend the oats into a flour, then mix in the baking powder, cinnamon and salt. Stir this into the banana mixture.",
+      "Fold in the chopped dates, and walnuts if you're using them, then pour the batter into the pan.",
+      "Bake for 45 minutes, until a toothpick comes out clean.",
+      "For the topping, blend the dates with the hot water and Greek yogurt until smooth. Spread it over the bread before slicing.",
+    ],
+  },
+
+  {
+    slug: "mango-sticky-rice-chia-pudding",
+    title: "Mango Sticky \"Rice\" Chia Pudding",
+    posted: "2026-07-20",
+    reel: "DbB4Ez5RSnr",
+    photo: "mango-sticky-rice-chia-pudding.jpg",
+    alt: "A glass of mango chia pudding layered with fresh mango",
+    tags: ["Sweet", "Meal prep", "High protein"],
+    intro:
+      "Mango sticky rice, made with chia seeds instead of rice. Coconut milk and Greek yogurt make it creamy and high in protein, with no refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["mango", "mangoes"], n: "diced" },
+          { q: 1.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 0.5, u: "cup", i: "coconut milk", b: "365 by Whole Foods Market" },
+          { q: 0.25, u: "cup", i: "water" },
+          { q: 0.5, u: "cup", i: "chia seeds", b: "Mamma Chia" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { q: 0.5, u: "tbsp", i: "maple syrup" },
+          { t: "a pinch", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the mangoes and put most of them in a large container, keeping some aside for layering.",
+      "Add the Greek yogurt, coconut milk, water and chia seeds, plus the vanilla, maple syrup and salt if you're using them.",
+      "Stir well until there are no clumps of chia left.",
+      "Cover and refrigerate until thick and set, ideally overnight.",
+      "Spoon into glasses, layering with the rest of the mango.",
+    ],
+  },
+
+  {
+    slug: "sweet-potato-blondies",
+    title: "Sweet Potato Blondies",
+    posted: "2026-07-14",
+    reel: "DayaCDZJAVV",
+    photo: "sweet-potato-blondies.jpg",
+    alt: "A tray of sweet potato blondies with chocolate chips on parchment paper",
+    time: "40 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Soft, fudgy blondies made with mashed sweet potato, peanut butter and almond flour. Gluten free, dairy free and made without oil.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "sweet potato", n: "cooked and mashed" },
+          { q: 2, i: ["egg", "eggs"], b: "Organic Valley" },
+          { q: 0.25, u: "cup", i: "peanut butter", b: "Trader Joe's" },
+          { q: 0.25, u: "cup", i: "maple syrup" },
+          { q: 2 / 3, u: "cup", i: "almond flour", b: "Kirkland Signature" },
+          { q: 1, u: "tsp", i: "baking powder", b: "365 by Whole Foods Market" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a dash", i: "cinnamon", b: "The Spice House" },
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { t: "a dash", i: "salt" },
+          { t: "as desired", i: "dark chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking pan with parchment paper.",
+      "Mash the cooked sweet potato in a bowl, then add the eggs, peanut butter and maple syrup and mix until smooth.",
+      "Add the almond flour and baking powder, plus the cinnamon, vanilla and salt if you're using them, and stir to a thick batter.",
+      "Fold in chocolate chips, pour into the pan and add a few more chips on top.",
+      "Bake for 30 minutes, then let it cool before slicing.",
+    ],
+  },
+
+  {
+    slug: "carrot-kimchi",
+    title: "Carrot Kimchi",
+    posted: "2026-07-07",
+    reel: "DagZxRRJmws",
+    photo: "carrot-kimchi.jpg",
+    alt: "A glass bowl of carrot ribbon kimchi with sesame seeds",
+    tags: ["Side", "Korean"],
+    intro:
+      "Carrot ribbons salted, rinsed and tossed in a garlicky gochugaru sauce with sliced onion. Crunchy, spicy and good for your gut.",
+    groups: [
+      {
+        items: [
+          { q: 5, i: ["large carrot", "large carrots"], n: "peeled into ribbons" },
+          { q: 0.5, u: "tbsp", i: "salt", b: "Osmo" },
+          { q: 0.5, i: ["onion", "onions"], n: "thinly sliced" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 0.5, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 0.5, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the carrots, then keep peeling them into long ribbons.",
+      "Toss the ribbons with the salt in a bowl and leave them for 30 minutes.",
+      "Rinse the carrots well and squeeze out the water.",
+      "Add the onion, gochugaru, soy sauce, honey, garlic, sesame oil and sesame seeds.",
+      "Mix with your hands until every ribbon is coated. Eat right away or keep it in the fridge.",
+    ],
+  },
+
+  {
+    slug: "celery-walnut-salad",
+    title: "Celery Walnut Salad",
+    posted: "2026-07-02",
+    reel: "DaTaoFPJoR0",
+    photo: "celery-walnut-salad.jpg",
+    alt: "A plate of celery salad with walnuts, dates and Parmesan",
+    time: "10 min",
+    tags: ["Salad", "Side", "No cook"],
+    intro:
+      "A crunchy summer salad of sliced celery, toasted walnuts and sweet dates, dressed simply with lemon, olive oil and plenty of Parmesan.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "celery", n: "sliced" },
+          { q: 3, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { q: 1 / 3, u: "cup", i: "walnuts", n: "chopped", b: "365 by Whole Foods Market" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped, optional" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the celery and put it in a bowl with the green onion.",
+      "Add the walnuts and the chopped dates.",
+      "Squeeze over the lemon and drizzle with the olive oil.",
+      "Grate in the Parmesan, season with salt and pepper, and toss.",
+    ],
+  },
 ];

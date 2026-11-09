@@ -182,6 +182,10 @@ button { font: inherit; color: inherit; }
 .card a:hover h3 { color: var(--accent); }
 .meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 10px; font-size: 14px; color: var(--ink-2); }
 .empty { grid-column: 1 / -1; padding: 40px 0; color: var(--ink-2); font-family: var(--serif); font-size: 18px; }
+.more { display: flex; justify-content: center; margin-top: 64px; }
+.more[hidden] { display: none; }
+.btn-line { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); cursor: pointer; font-family: inherit; }
+.btn-line:hover { background: var(--ink); color: var(--paper); }
 
 /* ---------- home: about ---------- */
 .about {

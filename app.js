@@ -15,7 +15,7 @@
     if (!whole && !best[1]) return "0";
     return (whole || "") + best[1];
   }
-  const PLURAL = { cup: "cups", can: "cans", clove: "cloves" };
+  const PLURAL = { cup: "cups", can: "cans", clove: "cloves", package: "packages", block: "blocks", head: "heads", slice: "slices", scoop: "scoops", stalk: "stalks", bunch: "bunches", sheet: "sheets", packet: "packets", bag: "bags", jar: "jars" };
   function qty(it, k) {
     if (it.q == null) return { text: it.t || "", soft: true };
     let a = it.q * k;
@@ -85,6 +85,12 @@
       `<option value="All">All recipes (${R.length})</option>` +
       tags.map((t) => `<option value="${esc(t)}">${esc(t)} (${counts[t]})</option>`).join("");
 
+    // The grid shows a page of recipes at a time; "Show more" adds the next page.
+    const PAGE = 24;
+    const moreWrap = $("#more-wrap");
+    const more = $("#more");
+    let limit = PAGE;
+
     function draw() {
       const q = search.value.trim().toLowerCase();
       const shown = R.filter((r) => {
@@ -96,11 +102,17 @@
 
       const filtered = tag !== "All" || q;
       count.textContent = filtered ? `${shown.length} of ${R.length} recipes` : `${R.length} recipes`;
+      const left = shown.length - limit;
+      if (moreWrap) {
+        moreWrap.hidden = left <= 0;
+        more.textContent = `Show more recipes (${left} more)`;
+      }
       if (!shown.length) {
         list.innerHTML = `<li class="empty">Nothing matches “${esc(search.value)}”. Try an ingredient, like salmon or gochujang.</li>`;
         return;
       }
       list.innerHTML = shown
+        .slice(0, limit)
         .map((r) => {
           const meta = [r.serves && `Serves ${r.serves}`, r.time].filter(Boolean);
           if (!meta.length) meta.push(date(r.posted));
@@ -132,9 +144,22 @@
 
     filter.addEventListener("change", () => {
       tag = filter.value;
+      limit = PAGE;
       draw();
     });
-    search.addEventListener("input", draw);
+    search.addEventListener("input", () => {
+      limit = PAGE;
+      draw();
+    });
+    if (more) {
+      more.addEventListener("click", () => {
+        limit += PAGE;
+        draw();
+        // Move keyboard focus to the first newly shown card.
+        const next = list.children[limit - PAGE];
+        if (next) next.querySelector("a")?.focus({ preventScroll: true });
+      });
+    }
     draw();
   }
 
