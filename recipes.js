@@ -3156,4 +3156,803 @@ window.RECIPES = [
       "Drizzle with the sesame oil and top with green onion and sesame seeds.",
     ],
   },
+
+  {
+    slug: "apple-banana-bread",
+    title: "Apple Banana Bread",
+    posted: "2026-01-29",
+    reel: "DUG_hABku31",
+    photo: "apple-banana-bread.jpg",
+    alt: "A loaf of apple banana bread topped with apple slices and cinnamon",
+    time: "50 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A vegan, gluten-free loaf with no refined sugar or oil: mashed banana and applesauce with oat flour, chunks of fresh apple and cinnamon, topped with more apple slices.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 0.75, u: "cup", i: "applesauce" },
+          { q: 1.5, u: "cup", i: "oat flour", n: "or oats blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and chopped, with some slices for the top" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a pinch", i: "salt" },
+          { q: 0.5, u: "tsp", i: "vanilla extract" },
+          { t: "as desired", i: "nuts or seeds", b: "Top Seedz" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a bowl and stir in the applesauce.",
+      "Blend oats into a flour if you don't have oat flour, then mix it in with the baking powder, plus the salt and vanilla if you're using them.",
+      "Peel and chop the apple, keeping a few thin slices for the top. Fold the chopped apple, cinnamon and nuts or seeds into the batter.",
+      "Pour it into the pan, lay the apple slices on top and dust with more cinnamon.",
+      "Bake for 40–45 minutes, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "asian-peanut-chicken-salad",
+    title: "Asian Peanut Chicken Salad",
+    posted: "2026-01-22",
+    reel: "DT09GHrkcHc",
+    photo: "asian-peanut-chicken-salad.jpg",
+    alt: "James holding a container of crunchy peanut chicken salad",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "Shredded cabbage, carrot, cucumber and apple with diced chicken in a lemony peanut and soy dressing. High in protein and fiber, and great for meal prep.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "cooked chicken", n: "diced" },
+          { q: 1, u: "cup", i: "cabbage", n: "shredded" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, i: ["carrot", "carrots"], n: "grated" },
+          { q: 1, i: ["apple", "apples"], n: "diced" },
+          { t: "optional", i: "nuts, seeds and sesame seeds", b: "Top Seedz" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 3, u: "tbsp", i: "peanut butter", b: "Once Again" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { q: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "rice vinegar" },
+        ],
+      },
+    ],
+    steps: [
+      "Finely shred the cabbage, dice the cucumber, grate the carrot and chop the green onion. Peel and dice the apple.",
+      "Dice the chicken.",
+      "In a large container, whisk the soy sauce, peanut butter, lemon juice, honey, garlic, sesame oil and rice vinegar.",
+      "Add the chicken and vegetables and mix until everything is coated.",
+      "Top with nuts, seeds and sesame seeds and eat with crackers.",
+    ],
+  },
+
+  {
+    slug: "korean-spinach-side-dish",
+    title: "Korean Spinach Side Dish (Sigeumchi Namul)",
+    posted: "2026-01-20",
+    reel: "DTv3vnIEYFn",
+    photo: "korean-spinach-side-dish.jpg",
+    alt: "James holding a bowl of seasoned Korean spinach",
+    time: "10 min",
+    tags: ["Side", "Korean", "Quick"],
+    intro:
+      "A classic Korean banchan: spinach blanched for seconds, squeezed dry and tossed with garlic, soy sauce, sesame oil and sesame seeds. Low in calories and full of flavor.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "bunch", i: "spinach", n: "about 8–9 oz" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tsp", i: "soy sauce", n: "or ¼ tsp salt", b: "Momofuku" },
+          { q: 1, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, q2: 2, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Trim the roots off the spinach and wash it well.",
+      "Bring a pot of water to a boil and blanch the spinach for 20–30 seconds, just until it wilts.",
+      "Drain it, rinse under cold water and squeeze out as much water as you can with your hands.",
+      "Put it in a bowl with the green onion, soy sauce, garlic, sesame oil and sesame seeds.",
+      "Mix it with your hands so the seasoning gets into every leaf.",
+    ],
+  },
+
+  {
+    slug: "healthy-blondies",
+    title: "7-Ingredient Healthy Blondies",
+    posted: "2026-01-18",
+    reel: "DTqm6RHEVCp",
+    photo: "healthy-blondies.jpg",
+    alt: "Sliced healthy blondies with pecans and dates on parchment paper",
+    time: "30 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Chewy, gluten-free blondies made with banana, peanut butter and blended oats, sweetened with a little maple syrup and chopped dates. Ready in about 20 minutes in the oven.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["ripe banana", "ripe bananas"] },
+          { q: 1, i: ["egg", "eggs"] },
+          { q: 0.25, u: "cup", i: "peanut butter", b: "Once Again" },
+          { q: 2, u: "tbsp", i: "maple syrup" },
+          { q: 3, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { q: 1, u: "cup", i: "oats", n: "blended into flour", b: "One Degree Organics" },
+          { q: 0.5, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "salt" },
+          { t: "as desired", i: "nuts", n: "chopped" },
+          { t: "as desired", i: "chocolate", n: "chopped, added in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a small baking pan with parchment paper.",
+      "Mash the banana in a bowl, then mix in the egg, peanut butter and maple syrup.",
+      "Chop the dates and stir them in.",
+      "Add the oat flour, baking powder and salt and mix to a thick batter. Fold in nuts and chocolate if you like.",
+      "Spread it in the pan and bake for 18–20 minutes, until golden. Let it cool a little before slicing.",
+    ],
+  },
+
+  {
+    slug: "celery-apple-salad",
+    title: "Creamy Celery Apple Salad",
+    posted: "2026-01-11",
+    reel: "DTYpmSOkYkp",
+    photo: "celery-apple-salad.jpg",
+    alt: "James holding up a container of celery apple salad topped with seeds",
+    tags: ["Salad", "Side", "No cook"],
+    intro:
+      "Celery, apple, cucumber and sweet dates in a light, creamy lemon, Parmesan and Greek yogurt dressing, topped with crunchy seeds.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "celery", n: "chopped" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 1, u: "cup", i: "cucumber", n: "diced" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped" },
+          { t: "as desired", i: "nuts or seeds", b: "Top Seedz" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 2, u: "tbsp", i: "Parmesan cheese", n: "grated" },
+          { q: 2, u: "tbsp", i: "Greek yogurt", b: "Fage" },
+          { q: 1, u: "clove", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "honey" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the celery, peel and dice the apple, dice the cucumber and chop the dates. Put it all in a container.",
+      "Add the olive oil, lemon juice, Parmesan, Greek yogurt, garlic, honey, salt and pepper.",
+      "Mix until everything is coated in the dressing.",
+      "Top with nuts or seeds.",
+    ],
+  },
+
+  {
+    slug: "roasted-burrata-bruschetta",
+    title: "Roasted Burrata Bruschetta",
+    posted: "2026-01-07",
+    reel: "DTOes2hEZV9",
+    photo: "roasted-burrata-bruschetta.jpg",
+    alt: "A dish of roasted cherry tomatoes with a whole burrata, basil and balsamic glaze",
+    tags: ["Snack", "Side"],
+    intro:
+      "James's most requested potluck dish: cherry tomatoes roasted with garlic and olive oil until jammy, topped with a whole burrata, fresh basil and a quick homemade balsamic glaze.",
+    groups: [
+      {
+        items: [
+          { q: 4, u: "cup", i: "cherry tomatoes" },
+          { q: 2, u: "tbsp", i: "olive oil", b: "Terra Delyssa" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, i: ["burrata", "burratas"] },
+          { t: "a handful", i: "basil", n: "sliced" },
+          { t: "as desired", i: "salt and pepper" },
+          { t: "for serving", i: "toasted bread or crackers" },
+        ],
+      },
+      {
+        name: "Balsamic glaze",
+        items: [
+          { q: 0.5, u: "cup", i: "balsamic vinegar" },
+          { q: 2, u: "tbsp", i: "brown sugar" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 400°F. Put the cherry tomatoes in a baking dish with the olive oil, garlic, salt and pepper and toss.",
+      "Roast for 12–15 minutes, until the tomatoes blister and start to burst.",
+      "Meanwhile, simmer the balsamic vinegar and brown sugar in a small pan until it reduces to a syrupy glaze.",
+      "Spoon the tomatoes onto a serving dish and set the burrata in the middle.",
+      "Scatter over the basil, drizzle with the balsamic glaze and serve with toasted bread or crackers.",
+    ],
+  },
+
+  {
+    slug: "korean-braised-tofu",
+    title: "Korean Braised Tofu (Dubu Jorim)",
+    posted: "2026-01-05",
+    reel: "DTJLEu_kQ6n",
+    photo: "korean-braised-tofu.jpg",
+    alt: "A plate of Korean braised tofu in a spicy soy glaze with green onion",
+    tags: ["Tofu", "Korean", "High protein"],
+    intro:
+      "Slices of firm tofu pan-fried until golden, then braised in a spicy, garlicky soy and gochugaru sauce until sticky.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "block", i: "firm tofu" },
+          { t: "for the pan", i: "olive oil" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 4, u: "tbsp", i: "water" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "stalk", i: "green onion", n: "chopped" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the tofu into thick squares and pat them dry with paper towels.",
+      "Mix the sauce: soy sauce, water, garlic, gochugaru, honey, sesame oil, green onion and sesame seeds.",
+      "Heat a little oil in a nonstick pan over medium-high heat and fry the tofu until golden on both sides.",
+      "Pour the sauce over the tofu and let it simmer, spooning the sauce over the top, until most of it has reduced into a sticky glaze.",
+    ],
+  },
+
+  {
+    slug: "five-ingredient-healthy-brownies",
+    title: "5-Ingredient Healthy Brownies",
+    posted: "2026-01-04",
+    reel: "DTGe7SiEdDe",
+    photo: "five-ingredient-healthy-brownies.jpg",
+    alt: "A glass dish of fudgy banana brownies topped with walnuts",
+    time: "35 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "The easiest brownies: banana, egg, peanut butter, honey and cocoa mixed in one dish and baked. No refined sugar and no flour.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 1, i: ["egg", "eggs"] },
+          { q: 0.5, u: "cup", i: "peanut butter" },
+          { q: 3, u: "tbsp", i: "honey or maple syrup" },
+          { q: 0.25, u: "cup", i: "cocoa powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "walnuts" },
+          { t: "a pinch", i: "salt", b: "Osmo" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a small baking dish with parchment paper.",
+      "Mash the bananas in a bowl until smooth.",
+      "Mix in the egg, peanut butter and honey, then stir in the cocoa powder.",
+      "Spread the batter in the dish and scatter walnuts and a pinch of salt on top.",
+      "Bake for 30 minutes and let it cool before cutting.",
+    ],
+  },
+
+  {
+    slug: "hosting-burrata-salad",
+    title: "Hosting Burrata Salad",
+    posted: "2026-01-02",
+    reel: "DTBV1CyCez7",
+    photo: "hosting-burrata-salad.jpg",
+    alt: "A large platter of salad with roasted red pepper, strawberries and burrata",
+    tags: ["Salad", "Side"],
+    intro:
+      "James's rule for a crowd-pleasing salad: three fruits, three vegetables and a base. Spring mix with roasted sweet potato, red pepper and burrata, finished with a honey balsamic dressing.",
+    groups: [
+      {
+        items: [
+          { t: "as needed", i: "spring mix" },
+          { t: "as needed", i: "red pepper", n: "sliced, roasted if you like" },
+          { t: "as needed", i: "sweet potato", n: "cubed and air-fried" },
+          { t: "as needed", i: "cucumber", n: "sliced" },
+          { t: "as needed", i: "cherry tomatoes", n: "halved" },
+          { t: "as needed", i: "apple", n: "diced" },
+          { t: "as needed", i: "strawberries", n: "sliced" },
+          { t: "as needed", i: "grapes", n: "halved" },
+          { t: "1 or more", i: "burrata" },
+          { t: "optional", i: "candied nuts or seeds" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.5, u: "cup", i: "olive oil" },
+          { q: 0.25, u: "cup", i: "balsamic vinegar" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Cube the sweet potato, toss it with a little oil and salt and air fry until golden. Roast or slice the red pepper.",
+      "Slice the cucumber, halve the tomatoes and grapes, dice the apple and slice the strawberries.",
+      "Spread the spring mix on a large platter and arrange everything on top, with the burrata in the middle.",
+      "Shake the dressing ingredients together in a jar and pour it over just before serving. Add candied nuts or seeds if you like.",
+    ],
+  },
+
+  {
+    slug: "blueberry-banana-bread",
+    title: "Blueberry Banana Bread",
+    posted: "2025-12-26",
+    reel: "DSvluo2EfWR",
+    photo: "blueberry-banana-bread.jpg",
+    alt: "James holding a slice of blueberry banana bread over the loaf",
+    time: "1 hr 10 min",
+    tags: ["Sweet", "Baking", "High protein"],
+    intro:
+      "A moist, high-protein banana bread made with almond flour and Greek yogurt and studded with wild blueberries. No oil or refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 3, u: "tbsp", i: "maple syrup" },
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "cup", i: "almond flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { q: 0.5, u: "cup", i: "frozen wild blueberries" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "cinnamon", b: "The Spice House" },
+          { t: "a pinch", i: "salt" },
+          { t: "as desired", i: "nuts or seeds", b: "Top Seedz" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a bowl, then mix in the eggs, maple syrup and Greek yogurt.",
+      "In another bowl, mix the almond flour, baking powder, cinnamon and salt, then stir it into the wet mixture.",
+      "Fold in the frozen blueberries and pour the batter into the pan. Top with nuts or seeds.",
+      "Bake for 50 minutes, then let it rest for 20 minutes before slicing.",
+    ],
+  },
+
+  {
+    slug: "korean-gochujang-broccoli",
+    title: "Korean Gochujang Broccoli",
+    posted: "2025-12-22",
+    reel: "DSlR0SzEWnQ",
+    photo: "korean-gochujang-broccoli.jpg",
+    alt: "A plate of crispy air-fried broccoli in a sweet and spicy gochujang glaze",
+    tags: ["Side", "Korean", "Air fryer"],
+    intro:
+      "A whole head of broccoli air-fried until crispy at the edges, then tossed in a quick sweet and spicy gochujang sauce.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "broccoli", n: "cut into florets" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Terra Delyssa" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tsp", i: "soy sauce", b: "Momofuku" },
+          { q: 0.5, u: "tsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the broccoli into florets, wash and dry well.",
+      "Toss with the olive oil and spread out in the air fryer.",
+      "Air fry until tender and crispy at the edges.",
+      "Meanwhile, stir the gochujang, soy sauce, honey and sesame oil together in a large bowl.",
+      "Add the hot broccoli to the bowl and toss until coated.",
+    ],
+  },
+
+  {
+    slug: "ssamjang-cucumber",
+    title: "Ssamjang Cucumber Salad",
+    posted: "2025-12-19",
+    reel: "DSc8Pn4CXwk",
+    photo: "ssamjang-cucumber.jpg",
+    alt: "A plate of cucumber rounds coated in a spicy ssamjang sauce",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "Cucumber rounds tossed in a homemade ssamjang (doenjang and gochujang) with onion, garlic and sesame oil. Savory, sweet, spicy and garlicky.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["mini cucumber", "mini cucumbers"], n: "sliced into rounds" },
+          { t: "optional", i: "salt", n: "for salting and rinsing" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 2, u: "tbsp", i: "doenjang" },
+          { q: 2, q2: 3, u: "tbsp", i: "red onion", n: "finely chopped" },
+          { q: 1, q2: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "honey" },
+          { q: 1, u: "tsp", i: "toasted sesame oil" },
+          { t: "optional", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the cucumbers into rounds. If you like, toss them with a little salt, leave them for 30 minutes and rinse.",
+      "In a bowl, mix the gochujang, doenjang, onion, garlic, honey and sesame oil into a thick sauce.",
+      "Drain the cucumbers well and add them to the sauce.",
+      "Toss until coated and top with sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "no-mayo-chicken-salad",
+    title: "10-Minute No-Mayo Chicken Salad",
+    posted: "2025-12-17",
+    reel: "DSYUvS_EUVp",
+    photo: "no-mayo-chicken-salad.jpg",
+    alt: "James holding a container of creamy chicken salad with apple and pickles",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "A crunchy chicken salad with red onion, celery, carrot, apple and pickles in a lemony Greek yogurt dressing. High in protein and fiber, low in calories.",
+    groups: [
+      {
+        items: [
+          { q: 2.5, u: "cup", i: "cooked chicken breast", n: "diced" },
+          { q: 0.25, u: "cup", i: "red onion", n: "diced" },
+          { q: 0.75, u: "cup", i: "celery", n: "diced" },
+          { q: 0.5, u: "cup", i: "carrot", n: "diced" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 0.5, u: "cup", i: "dill pickles", n: "chopped" },
+          { q: 5, i: "thin jalapeño slices", n: "optional" },
+          { q: 1, u: "tbsp", i: "dill", n: "chopped, optional" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.75, u: "cup", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { t: "as desired", i: "salt and pepper" },
+          { q: 1, u: "tsp", i: "honey", n: "optional, if you like it sweet" },
+          { t: "for serving", i: "crackers", b: "Top Seedz" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the chicken and put it in a large container.",
+      "Dice the red onion, celery, carrot and apple, and chop the pickles, jalapeño and dill. Add them to the chicken.",
+      "Add the Greek yogurt, Dijon, garlic, lemon juice, salt, pepper and honey.",
+      "Mix well and eat with crackers.",
+    ],
+  },
+
+  {
+    slug: "ummas-bibimbap",
+    title: "Umma's Bibimbap",
+    posted: "2025-12-08",
+    reel: "DSBGqLcEWTs",
+    photo: "ummas-bibimbap.jpg",
+    alt: "Bowls of bibimbap toppings: rice, fried eggs, zucchini, radish, sprouts, mushrooms and gochujang",
+    serves: "4",
+    tags: ["Korean", "Rice"],
+    intro:
+      "James's mom's comfort-food bibimbap, made with him for four: sautéed vegetables, spicy seasoned radish and bean sprouts over rice with a fried egg and gochujang.",
+    groups: [
+      {
+        name: "Vegetables",
+        items: [
+          { q: 1, i: ["large white onion", "large white onions"], n: "sliced" },
+          { q: 2, i: ["medium carrot", "medium carrots"], n: "julienned" },
+          { q: 2, u: "cup", i: "mushrooms", n: "sliced" },
+          { q: 2, i: ["zucchini", "zucchini"], n: "sliced" },
+          { q: 0.25, u: "tsp", i: "salt", n: "for the zucchini" },
+        ],
+      },
+      {
+        name: "Spicy radish",
+        items: [
+          { q: 1, i: ["Korean radish", "Korean radishes"], n: "julienned" },
+          { q: 0.5, u: "tbsp", i: "salt" },
+          { q: 2, u: "tbsp", i: "sugar" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 3, u: "tbsp", i: "gochugaru" },
+        ],
+      },
+      {
+        name: "Bean sprouts",
+        items: [
+          { t: "1 bag", i: "soybean sprouts" },
+          { q: 1, u: "tsp", i: "salt" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "fish sauce" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { q: 4, i: ["egg", "eggs"] },
+          { t: "4 bowls", i: "cooked rice" },
+          { t: "to taste", i: "gochujang sauce" },
+          { t: "a drizzle", i: "sesame oil" },
+          { t: "a sprinkle", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Toss the julienned radish with the salt, sugar, garlic and gochugaru and mix it with your hands (wear gloves). Set aside.",
+      "Blanch the bean sprouts in boiling water until just tender, drain, and season with the salt, garlic, fish sauce and sesame oil.",
+      "Sauté the onion, carrots and mushrooms separately in a little oil until soft. Sauté the zucchini with the ¼ tsp salt.",
+      "Fry the eggs sunny side up.",
+      "Fill bowls with rice, arrange the vegetables, radish and sprouts on top, and finish with a fried egg, a spoonful of gochujang sauce, a drizzle of sesame oil and sesame seeds. Mix everything together before eating.",
+    ],
+  },
+
+  {
+    slug: "sticky-date-oat-banana-bread",
+    title: "5-Ingredient Sticky Banana Bread",
+    posted: "2025-12-07",
+    reel: "DR-iN9lkbEA",
+    photo: "sticky-date-oat-banana-bread.jpg",
+    alt: "Sliced sticky banana bread with dates and seeds on parchment paper",
+    time: "45 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Five ingredients: bananas, eggs, blended oats, baking powder and plenty of chopped dates for sticky, caramel-like pockets. Gluten free with no refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 1.5, u: "cup", i: "oats", n: "blended into flour", b: "Quaker" },
+          { q: 1, u: "tsp", i: "baking powder", b: "E.D. Smith" },
+          { q: 8, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "cinnamon" },
+          { t: "as desired", i: "nuts or seeds" },
+          { t: "a pinch", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a bowl and whisk in the eggs.",
+      "Blend the oats into a flour and add them with the baking powder, plus cinnamon and salt if you're using them.",
+      "Chop the dates and fold them in.",
+      "Pour into the pan, top with nuts or seeds, and bake for 35–40 minutes.",
+    ],
+  },
+
+  {
+    slug: "spicy-crunchy-egg-salad",
+    title: "Crunchy Spicy Egg Salad",
+    posted: "2025-11-24",
+    reel: "DRdGw4ZkaIL",
+    photo: "spicy-crunchy-egg-salad.jpg",
+    alt: "A white bowl of crunchy egg salad with chili crisp and almonds",
+    tags: ["High protein", "Quick", "No cook"],
+    intro:
+      "Four boiled eggs with crunchy Persian cucumber, celery and onion in a Greek yogurt sauce with a spoonful of chili crisp, topped with almonds. Over 30 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 4, i: ["boiled egg", "boiled eggs"], n: "peeled" },
+          { q: 2, i: ["Persian cucumber", "Persian cucumbers"], n: "diced" },
+          { q: 1, u: "stalk", i: "celery", n: "diced" },
+          { q: 3, u: "tbsp", i: "onion", n: "minced" },
+          { q: 1 / 3, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tbsp", i: "chili crisp" },
+          { q: 0.25, u: "cup", i: "almonds", n: "chopped" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the eggs and roughly chop them into a container.",
+      "Dice the cucumbers and celery and mince the onion, and add them to the eggs.",
+      "Add the Greek yogurt, Dijon, chili crisp, salt and pepper and mix well.",
+      "Top with chopped almonds.",
+    ],
+  },
+
+  {
+    slug: "tuna-apple-salad",
+    title: "Easy Tuna Apple Salad",
+    posted: "2025-11-13",
+    reel: "DRAxq2FkT_h",
+    photo: "tuna-apple-salad.jpg",
+    alt: "James holding a bowl of tuna apple salad topped with walnuts and green onion",
+    time: "10 min",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Tuna, crisp apple, celery and onion with toasted walnuts in a simple Greek yogurt and Dijon dressing. Over 40 grams of protein with plenty of crunch.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1, u: "stalk", i: "celery", n: "diced" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 2, q2: 3, u: "tbsp", i: "onion", n: "minced" },
+          { q: 0.25, u: "cup", i: "walnuts", n: "chopped" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.25, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "olive oil" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna and flake it into a container.",
+      "Dice the celery, peel and dice the apple and mince the onion. Add them to the tuna with the walnuts.",
+      "Add the Greek yogurt, olive oil, Dijon, salt and pepper.",
+      "Mix everything together and serve with crackers or on toast.",
+    ],
+  },
+
+  {
+    slug: "green-goddess-egg-salad",
+    title: "Green Goddess Egg Salad",
+    posted: "2025-11-03",
+    reel: "DQnC0YVEUmT",
+    photo: "green-goddess-egg-salad.jpg",
+    alt: "A slice of toast piled with green goddess egg salad",
+    time: "10 min",
+    tags: ["High protein", "Quick", "No cook"],
+    intro:
+      "Egg yolks mashed with avocado and Greek yogurt into a creamy green dressing, then folded with chopped whites, celery, green onion and jalapeño. Great on toast.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["boiled egg", "boiled eggs"], n: "peeled, yolks and whites separated" },
+          { q: 0.5, i: ["avocado", "avocados"] },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.25, u: "tsp", i: "garlic powder" },
+          { q: 0.25, u: "tsp", i: "salt" },
+          { q: 0.25, u: "tsp", i: "pepper" },
+          { q: 1, u: "stalk", i: "celery", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tbsp", i: "jalapeño", n: "minced" },
+          { t: "for serving", i: "toast" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the eggs and separate the yolks from the whites.",
+      "Mash the yolks with the avocado, Greek yogurt, Dijon, garlic powder, salt and pepper until smooth and creamy.",
+      "Chop the whites and dice the celery, green onion and jalapeño.",
+      "Fold everything together and pile it onto toast.",
+    ],
+  },
+
+  {
+    slug: "high-protein-broccoli-salad",
+    title: "High-Protein Broccoli Salad",
+    posted: "2025-10-20",
+    reel: "DQDHflYko8h",
+    photo: "high-protein-broccoli-salad.jpg",
+    alt: "A glass container of creamy broccoli salad with apple, dates and walnuts",
+    tags: ["Salad", "Side", "High protein"],
+    intro:
+      "A no-mayo broccoli salad: raw florets with apple, dates and walnuts in a blended cottage cheese, Greek yogurt and honey dressing.",
+    groups: [
+      {
+        items: [
+          { q: 3, u: "cup", i: "broccoli florets", n: "chopped small" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped" },
+          { q: 1 / 3, u: "cup", i: "walnuts", n: "chopped" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1 / 3, u: "cup", i: "Greek yogurt" },
+          { q: 0.5, u: "cup", i: "cottage cheese" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the broccoli into small florets and put them in a large container with the green onion.",
+      "Peel and dice the apple, chop the dates and walnuts, and add them to the broccoli.",
+      "Blend the Greek yogurt, cottage cheese, honey, salt and pepper until smooth.",
+      "Pour the sauce over the salad and mix well.",
+    ],
+  },
+
+  {
+    slug: "iced-french-toast-latte",
+    title: "Iced French Toast Latte",
+    posted: "2025-10-17",
+    reel: "DP6mjiNkenl",
+    photo: "iced-french-toast-latte.jpg",
+    alt: "James holding an iced cinnamon latte topped with cold foam",
+    serves: "1",
+    time: "5 min",
+    tags: ["Drink", "Quick"],
+    intro:
+      "A cozy iced latte that tastes like French toast: espresso brewed over maple syrup and cinnamon, poured over ice and topped with vanilla-cinnamon frothed milk.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["coffee capsule", "coffee capsules"], b: "Nespresso, Samra Origins Togetherness Blend" },
+          { q: 1, u: "tbsp", i: "maple syrup" },
+          { q: 0.5, u: "tsp", i: "cinnamon", n: "divided" },
+          { t: "as desired", i: "ice" },
+          { q: 0.75, u: "cup", i: "milk of choice" },
+          { q: 0.5, u: "tsp", i: "vanilla extract" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the maple syrup and half the cinnamon in a glass.",
+      "Brew the coffee straight over it and stir.",
+      "Froth the milk with the vanilla and the rest of the cinnamon.",
+      "Add ice to the glass and pour the frothed milk over the top.",
+    ],
+  },
 ];
