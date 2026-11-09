@@ -1603,4 +1603,741 @@ window.RECIPES = [
       "Grate in the Parmesan, season with salt and pepper, and toss.",
     ],
   },
+
+  {
+    slug: "tuna-egg-salad",
+    title: "High-Protein Tuna Egg Salad",
+    posted: "2026-06-29",
+    reel: "DaL1ro8xJ9T",
+    photo: "tuna-egg-salad.jpg",
+    alt: "James holding a slice of toast piled with tuna egg salad",
+    time: "10 min",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Tuna and boiled eggs with crunchy celery and pickle, bound with a creamy Greek yogurt and egg yolk sauce instead of mayo. Over 50 grams of protein, great on toast.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["boiled egg", "boiled eggs"], b: "Organic Valley" },
+          { q: 1, u: "can", i: "tuna", n: "drained", b: "Wild Planet" },
+          { q: 1, u: "stalk", i: "celery", n: "chopped" },
+          { q: 2, u: "tbsp", i: "green onion", n: "chopped" },
+          { q: 1, i: ["dill pickle", "dill pickles"], n: "chopped", b: "Good Girl Snacks" },
+          { t: "for serving", i: "toast", n: "as in the video" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the eggs and split them, putting the yolks in one bowl and the whites in another.",
+      "Chop the egg whites and add the tuna, celery, green onion and pickle.",
+      "Mash the yolks with the Greek yogurt, Dijon, garlic powder, salt and pepper to make a creamy sauce.",
+      "Fold the sauce into the tuna mixture.",
+      "Pile it onto toast and eat.",
+    ],
+  },
+
+  {
+    slug: "air-fryer-korean-fried-chicken",
+    title: "Air Fryer Korean Fried Chicken",
+    posted: "2026-06-22",
+    reel: "DZ5QU9BJsj-",
+    photo: "air-fryer-korean-fried-chicken.jpg",
+    alt: "A plate of glazed Korean fried chicken topped with sesame seeds and green onion",
+    tags: ["Chicken", "Air fryer", "Korean"],
+    intro:
+      "Crispy chicken bites from the air fryer, tossed in a sticky, sweet and spicy gochujang glaze. Much easier than it looks, with no deep frying.",
+    groups: [
+      {
+        items: [
+          { q: 1.5, u: "lb", i: "chicken breast or thighs", n: "cut into bite-size pieces" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza Sizzle" },
+          { q: 0.5, u: "tsp", i: "salt" },
+          { q: 0.5, u: "tsp", i: "pepper" },
+          { q: 3, u: "tbsp", i: "cornstarch" },
+          { t: "to garnish", i: "sesame seeds and green onion" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "ketchup" },
+          { q: 2, u: "tbsp", i: "honey", n: "optional, if you like it sweet" },
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "water" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the chicken into bite-size pieces and season with the salt and pepper.",
+      "Add the cornstarch and olive oil and toss until every piece is coated.",
+      "Spread the chicken out in the air fryer basket and air fry at 400°F for 10 minutes. Flip and air fry for another 6–8 minutes, until golden.",
+      "Meanwhile, simmer the ketchup, honey, gochujang, garlic, soy sauce and water in a large pan until glossy and slightly thick.",
+      "Add the chicken to the pan and toss to coat. Finish with sesame seeds and green onion.",
+    ],
+  },
+
+  {
+    slug: "healthy-sardine-dip",
+    title: "Healthy Sardine Dip",
+    posted: "2026-06-18",
+    reel: "DZvQ35VPLe7",
+    photo: "healthy-sardine-dip.jpg",
+    alt: "A white bowl of creamy sardine dip on a wooden board",
+    time: "10 min",
+    tags: ["Seafood", "Snack", "High protein"],
+    intro:
+      "Mashed sardines with crunchy cucumber, pickle and green onion in a tangy Greek yogurt sauce. High in protein and omega-3s, and great with crackers.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "sardines", b: "Wild Planet" },
+          { q: 1, i: ["mini cucumber", "mini cucumbers"], n: "finely chopped", b: "Sunset" },
+          { q: 2, u: "tbsp", i: "green onion", n: "chopped" },
+          { q: 1, i: ["pickle", "pickles"], n: "chopped", b: "Good Girl Snacks" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1 / 3, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.25, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "as desired", i: "salt and pepper" },
+          { t: "a squeeze, optional", i: "lemon juice", n: "added in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the sardines in a bowl and mash them with a fork.",
+      "Finely chop the cucumber, pickle and green onion and add them to the bowl.",
+      "Add the Greek yogurt, Dijon, garlic powder, salt and pepper, plus a squeeze of lemon if you like.",
+      "Mix well and serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "asian-cucumber-salad",
+    title: "Asian Cucumber Salad",
+    posted: "2026-06-15",
+    reel: "DZnsxkdJ_Qx",
+    photo: "asian-cucumber-salad.jpg",
+    alt: "A glass bowl of sliced cucumbers in chili oil and sesame seeds",
+    tags: ["Side", "Salad", "Spicy"],
+    intro:
+      "Crunchy cucumber rounds, salted and rinsed, then tossed in a savory, tangy and spicy soy and chili oil dressing.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["mini cucumber", "mini cucumbers"], n: "sliced into rounds" },
+          { q: 0.5, u: "tbsp", i: "salt", b: "Osmo" },
+          { q: 1.5, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "chili oil", b: "Momofuku" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 0.5, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the cucumbers into rounds and toss them with the salt in a bowl. Leave them for 20–30 minutes to draw out the water.",
+      "Rinse the cucumbers well and pat them dry with a towel.",
+      "Put them in a bowl with the soy sauce, rice vinegar, garlic, chili oil, sesame oil and sesame seeds.",
+      "Toss everything together and serve.",
+    ],
+  },
+
+  {
+    slug: "korean-pickle-dip",
+    title: "Korean Pickle Dip",
+    posted: "2026-06-12",
+    reel: "DZf3m_iRgON",
+    photo: "korean-pickle-dip.jpg",
+    alt: "A glass bowl of creamy Korean pickle dip next to a jar of pickles",
+    time: "5 min",
+    tags: ["Snack", "No cook", "Korean"],
+    intro:
+      "The viral pickle dip with a Korean twist: chopped Jongga Korean-inspired pickles in cream cheese and Greek yogurt, with a little gochujang and sesame.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "Korean-inspired pickles", n: "finely chopped", b: "Jongga" },
+          { q: 4, u: "oz", i: "cream cheese" },
+          { q: 0.75, u: "cup", i: "plain Greek yogurt" },
+          { q: 1, u: "tsp", i: "gochujang" },
+          { q: 2, u: "tbsp", i: "green onions", n: "chopped" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Finely chop the pickles and put them in a bowl.",
+      "Add the cream cheese, Greek yogurt, gochujang and green onions.",
+      "Mix until smooth and creamy, then sprinkle with sesame seeds.",
+      "Serve with crackers or chips.",
+    ],
+  },
+
+  {
+    slug: "sweet-potato-pancakes",
+    title: "5-Ingredient Sweet Potato Pancakes",
+    posted: "2026-06-10",
+    reel: "DZa4NfwRTkn",
+    photo: "sweet-potato-pancakes.jpg",
+    alt: "A stack of sweet potato pancakes topped with yogurt and berries",
+    tags: ["Breakfast", "High protein"],
+    intro:
+      "Fluffy pancakes made from mashed sweet potato, Greek yogurt and blended oats. High in protein and fiber, with no refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "sweet potato", n: "cooked and mashed" },
+          { q: 1, i: ["egg", "eggs"], b: "Pete and Gerry's" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Fage" },
+          { q: 0.5, u: "cup", i: "oats", n: "blended into flour", b: "Quaker" },
+          { q: 1, u: "tsp", i: "baking powder", b: "365 by Whole Foods Market" },
+          { t: "for the pan", i: "butter", b: "Kerrygold" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a dash", i: "cinnamon", b: "The Spice House" },
+          { q: 0.5, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { t: "a dash", i: "salt" },
+          { t: "for topping", i: "Greek yogurt, berries and maple syrup", n: "as in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Mash the cooked sweet potato in a bowl.",
+      "Add the egg and Greek yogurt and mix well.",
+      "Blend the oats into a flour and add them with the baking powder, plus the cinnamon, vanilla and salt if you're using them. Stir to a thick batter.",
+      "Melt a little butter in a nonstick pan over medium-low heat. Spoon in the batter to make small pancakes and cook until golden on both sides.",
+      "Stack them up and top with Greek yogurt, berries and a drizzle of maple syrup.",
+    ],
+  },
+
+  {
+    slug: "caramel-date-chia-pudding",
+    title: "\"Caramel\" Date Chia Pudding",
+    posted: "2026-06-04",
+    reel: "DZLasfcRlkB",
+    photo: "caramel-date-chia-pudding.jpg",
+    alt: "A glass of date chia pudding topped with chopped almonds",
+    tags: ["Sweet", "Meal prep", "High protein"],
+    intro:
+      "Soft dates mashed into Greek yogurt and milk give this chia pudding a caramel flavor with no refined sugar. Five minutes of prep and over 60 grams of protein in the batch.",
+    groups: [
+      {
+        items: [
+          { q: 6, q2: 7, i: ["date", "dates"], n: "pitted", b: "Terra Delyssa" },
+          { t: "a splash", i: "hot water", n: "to soften the dates, as in the video" },
+          { q: 1.5, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 0.75, q2: 1, u: "cup", i: "milk", b: "Organic Valley" },
+          { q: 0.5, u: "cup", i: "chia seeds", b: "Mamma Chia" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a dash", i: "cinnamon", b: "The Spice House" },
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { t: "a dash", i: "salt" },
+          { t: "for topping", i: "almonds", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the dates in a large container and pour over a little hot water to soften them, then mash them into a paste.",
+      "Add the Greek yogurt, milk and chia seeds, plus the cinnamon, vanilla and salt if you're using them.",
+      "Stir well until there are no clumps of chia left.",
+      "Cover and refrigerate until thick and set, ideally overnight.",
+      "Spoon into glasses and top with chopped almonds.",
+    ],
+  },
+
+  {
+    slug: "zucchini-banana-bread",
+    title: "Zucchini Banana Bread",
+    posted: "2026-05-28",
+    reel: "DY5ZE4bxeny",
+    photo: "zucchini-banana-bread.jpg",
+    alt: "A loaf of zucchini banana bread with dates, sliced on parchment paper",
+    time: "50 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A moist loaf that hides a cup of zucchini, sweetened only with banana and dates. No oil, no refined sugar, and gluten free if you use gluten-free oats.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "zucchini", n: "shredded" },
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"], b: "Organic Valley" },
+          { q: 1.5, u: "cup", i: "oats", n: "blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "cinnamon", b: "The Spice House" },
+          { q: 1, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { q: 0.25, u: "cup", i: "nuts", n: "chopped" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Grate the zucchini into a large bowl. Add the bananas and eggs and mash and mix everything together.",
+      "Blend the oats into a flour and add them with the baking powder, plus the cinnamon and vanilla if you're using them.",
+      "Chop the dates and stir them in with the nuts and a dash of salt.",
+      "Pour the batter into the pan and bake for 40 minutes, until a toothpick comes out clean. Let it cool before slicing.",
+    ],
+  },
+
+  {
+    slug: "cucumber-kimchi",
+    title: "Easy Cucumber Kimchi",
+    posted: "2026-05-27",
+    reel: "DY2-CNTRNvC",
+    photo: "cucumber-kimchi.jpg",
+    alt: "A glass bowl of cucumber kimchi with carrot and onion",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "Mini cucumbers salted and rinsed so they stay crunchy, then tossed with onion, carrot and a sweet and spicy gochugaru sauce.",
+    groups: [
+      {
+        items: [
+          { q: 5, q2: 6, i: ["mini cucumber", "mini cucumbers"], n: "sliced" },
+          { q: 0.5, u: "tbsp", i: "salt", n: "rinsed off after 30 minutes" },
+          { q: 0.5, i: ["onion", "onions"], n: "thinly sliced" },
+          { q: 0.5, u: "cup", i: "carrot", n: "cut into matchsticks" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 0.5, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the cucumbers and toss them with the salt in a bowl. Leave them for 30 minutes.",
+      "Rinse the cucumbers well and drain them.",
+      "Slice the onion and cut the carrot into matchsticks, and add them to the cucumbers.",
+      "Add the gochugaru, soy sauce, honey, garlic, sesame oil and sesame seeds.",
+      "Mix well and eat right away, or keep it in the fridge.",
+    ],
+  },
+
+  {
+    slug: "honey-garlic-asian-chicken-salad",
+    title: "Honey Garlic Asian Chicken Salad",
+    posted: "2026-05-25",
+    reel: "DYxzSDHRZi7",
+    photo: "honey-garlic-asian-chicken-salad.jpg",
+    alt: "A glass bowl of chicken salad with diced cucumber and carrot",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "Shredded chicken with diced cucumber, carrot and green onion in a sweet and savory soy, honey and garlic dressing. Eat it with crackers.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "cooked chicken", n: "shredded" },
+          { q: 1, u: "cup", i: "cucumber", n: "diced", b: "Sunset" },
+          { q: 0.5, u: "cup", i: "carrots", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tbsp", i: "honey", b: "Manukora" },
+          { q: 2, u: "tsp", i: "rice vinegar", b: "Marukan" },
+          { q: 2, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the cucumber (scoop out the seeds first so it stays crunchy), dice the carrot and chop the green onion. Put them in a large bowl.",
+      "Shred the chicken with two forks and add it to the bowl.",
+      "Add the soy sauce, honey, rice vinegar, garlic, sesame oil and sesame seeds.",
+      "Mix well and eat it with crackers.",
+    ],
+  },
+
+  {
+    slug: "blueberry-greek-yogurt-pancakes",
+    title: "Blueberry Greek Yogurt Pancakes",
+    posted: "2026-05-19",
+    reel: "DYiVYPZRs7-",
+    photo: "blueberry-greek-yogurt-pancakes.jpg",
+    alt: "A tall stack of blueberry pancakes topped with yogurt and blueberries",
+    tags: ["Breakfast", "High protein"],
+    intro:
+      "Banana and Greek yogurt pancakes made with blended oats and studded with blueberries. No refined sugar or flour, and they stack up tall.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"], b: "Pete and Gerry's" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Siggi's" },
+          { q: 1, u: "cup", i: "oats", n: "blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { q: 2 / 3, u: "cup", i: "blueberries" },
+          { t: "for the pan", i: "butter" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+          { t: "a dash", i: "salt" },
+          { t: "for topping", i: "Greek yogurt, blueberries and maple syrup", n: "as in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Mash the bananas in a bowl, then whisk in the eggs and Greek yogurt.",
+      "Blend the oats into a flour and stir them in with the baking powder, plus the cinnamon, vanilla and salt if you're using them.",
+      "Fold in the blueberries.",
+      "Melt a little butter in a nonstick pan over medium-low heat. Spoon in the batter and cook the pancakes until golden on both sides.",
+      "Stack them up and top with Greek yogurt, more blueberries and maple syrup.",
+    ],
+  },
+
+  {
+    slug: "grape-chicken-salad",
+    title: "Grape Chicken Salad",
+    posted: "2026-05-17",
+    reel: "DYdJziixGMe",
+    photo: "grape-chicken-salad.jpg",
+    alt: "A glass bowl of creamy chicken salad with grapes, celery and almonds",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "A sweet and savory chicken salad with juicy grapes, crunchy celery and almonds in a Greek yogurt and dill dressing. High protein, no mayo.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "cooked chicken", n: "shredded" },
+          { q: 0.5, u: "cup", i: "celery", n: "chopped" },
+          { q: 2, u: "tbsp", i: "carrots", n: "finely chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "cup", i: "grapes", n: "halved" },
+          { q: 0.25, u: "cup", i: "almonds", n: "chopped" },
+          { t: "for serving", i: "crackers", b: "Firehook" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2 / 3, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tbsp", i: "dill", n: "chopped" },
+          { q: 0.5, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the celery, carrot and green onion, and halve the grapes.",
+      "Shred the chicken with two forks and put it in a bowl with the vegetables, grapes and almonds.",
+      "Add the Greek yogurt, dill, garlic powder, salt and pepper.",
+      "Mix well and serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "healthy-banana-bread",
+    title: "4-Ingredient Healthy Banana Bread",
+    posted: "2026-05-13",
+    reel: "DYSy1mcx7UY",
+    photo: "healthy-banana-bread.jpg",
+    alt: "A sliced loaf of banana bread with dates and walnuts",
+    time: "50 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Only four ingredients are essential: bananas, eggs, blended oats and baking powder. No refined sugar, oil, gluten or dairy, with dates and nuts if you want them.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"], b: "Organic Valley" },
+          { q: 1.5, u: "cup", i: "oats", n: "blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "cinnamon", b: "The Spice House" },
+          { q: 0.5, u: "tsp", i: "vanilla extract", b: "Frontier Co-op" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { t: "as desired", i: "nuts", n: "chopped" },
+          { t: "a pinch", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl, then mix in the eggs.",
+      "Blend the oats into a flour and stir them in with the baking powder, plus the cinnamon, vanilla and salt if you're using them.",
+      "Fold in the chopped dates and nuts.",
+      "Pour into the pan and bake for 40 minutes, until a toothpick comes out clean. Let it cool before slicing.",
+    ],
+  },
+
+  {
+    slug: "asian-avocado-broccoli",
+    title: "Asian Avocado Broccoli",
+    posted: "2026-05-08",
+    reel: "DYFvtQtxJna",
+    photo: "asian-avocado-broccoli.jpg",
+    alt: "A glass bowl of broccoli tossed with avocado and sesame seeds",
+    time: "15 min",
+    tags: ["Side", "Quick"],
+    intro:
+      "The easiest way to finish a whole head of broccoli: blanched florets tossed with creamy avocado in a garlicky soy and sesame dressing.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "broccoli", n: "cut into florets" },
+          { q: 1, i: ["avocado", "avocados"] },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 0.5, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 1, u: "clove", i: "garlic", n: "minced (or 1 tsp)" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the broccoli into florets.",
+      "Blanch them in a pot of boiling water for a minute or two, until bright green and just tender, then drain well.",
+      "Mash the avocado in a large bowl and add the broccoli and green onion.",
+      "Add the soy sauce, rice vinegar, garlic, sesame oil and sesame seeds, and toss until the broccoli is coated.",
+    ],
+  },
+
+  {
+    slug: "sesame-tuna-salad",
+    title: "5-Minute Sesame Tuna Salad",
+    posted: "2026-05-04",
+    reel: "DX7eTj7xdtP",
+    photo: "sesame-tuna-salad.jpg",
+    alt: "A glass bowl of crunchy sesame tuna salad with cabbage and almonds",
+    time: "5 min",
+    tags: ["Seafood", "Salad", "Quick"],
+    intro:
+      "A five-minute lunch: canned tuna with crunchy cabbage, carrot, celery and apple, tossed in Kewpie's deep-roasted sesame dressing and topped with almonds.",
+    groups: [
+      {
+        items: [
+          { q: 4, u: "tbsp", i: "deep roasted sesame dressing", b: "Kewpie" },
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 0.5, u: "cup", i: "cabbage", n: "finely shredded" },
+          { q: 0.25, u: "cup", i: "carrots", n: "chopped" },
+          { q: 1, u: "stalk", i: "celery", n: "chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1 / 3, u: "cup", i: "apple", n: "diced" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+          { q: 0.25, u: "cup", i: "almonds" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna and flake it into a bowl.",
+      "Finely shred the cabbage and chop the carrot, celery, green onion and apple. Add them to the tuna.",
+      "Pour over the sesame dressing and add the sesame seeds.",
+      "Mix well and top with the almonds.",
+    ],
+  },
+
+  {
+    slug: "chicken-corn-salad",
+    title: "High-Protein Chicken Corn Salad",
+    posted: "2026-05-03",
+    reel: "DX4XljAxxEb",
+    photo: "chicken-corn-salad.jpg",
+    alt: "A glass bowl of chicken salad with golden sautéed corn, cucumber, basil and Parmesan",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "A summer salad of chicken, sweet sautéed corn, cucumber, pine nuts and basil in a lemony Greek yogurt dressing, finished with Parmesan.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, u: "cup", i: "corn", n: "sautéed until golden" },
+          { q: 2, i: ["cooked chicken breast", "cooked chicken breasts"], n: "chopped" },
+          { q: 0.25, u: "cup", i: "pine nuts" },
+          { t: "as desired", i: "basil", n: "chopped" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 1 / 3, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "tbsp", i: "olive oil" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Sauté the corn in a pan until golden, then let it cool.",
+      "Dice the cucumber and chop the chicken. Put them in a large bowl with the corn, pine nuts and basil.",
+      "For the dressing, whisk the Greek yogurt, olive oil, lemon juice, salt and pepper together.",
+      "Pour the dressing over the salad, grate over the Parmesan and toss.",
+    ],
+  },
+
+  {
+    slug: "chili-crunch-sushi-dip",
+    title: "5-Minute Chili Crunch Sushi Dip",
+    posted: "2026-05-01",
+    reel: "DXzKBx5Rtwt",
+    photo: "chili-crunch-sushi-dip.jpg",
+    alt: "A plate of spicy tuna rice with avocado slices and sheets of nori",
+    time: "5 min",
+    tags: ["Seafood", "Rice", "Quick"],
+    intro:
+      "A spicy tuna rice you scoop into nori like a hand roll, made from pantry staples and a spoonful of Momofuku chili crunch.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked white rice" },
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1, i: ["green onion", "green onions"], n: "sliced" },
+          { q: 1, q2: 2, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, u: "tsp", i: "soy sauce" },
+          { q: 1, q2: 1.5, u: "tbsp", i: "chili crunch", b: "Momofuku" },
+          { t: "as desired", i: "nori sheets" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "cucumber", n: "cut into strips" },
+          { t: "as desired", i: "avocado", n: "sliced" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the warm rice in a bowl and add the tuna, green onion, mayo, soy sauce and chili crunch.",
+      "Mix everything together well.",
+      "Spoon some onto a sheet of nori, add cucumber and avocado if you like, and roll it up like a hand roll. Or just scoop it up with pieces of nori.",
+    ],
+  },
+
+  {
+    slug: "grape-tomato-salad",
+    title: "Grape and Tomato Salad",
+    posted: "2026-04-29",
+    reel: "DXuvG7VEaBa",
+    photo: "grape-tomato-salad.jpg",
+    alt: "James holding a glass bowl of grape and tomato salad topped with almonds and Parmesan",
+    time: "10 min",
+    tags: ["Salad", "Side", "No cook"],
+    intro:
+      "A bright, gut-friendly salad of grapes, cherry tomatoes, cucumber and red pepper with a simple lemon, olive oil and Parmesan dressing and crunchy almonds.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "grapes", n: "halved" },
+          { q: 1, u: "cup", i: "cherry tomatoes", n: "halved" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "cup", i: "red pepper", n: "diced" },
+          { q: 0.25, u: "cup", i: "almonds" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { q: 0.5, u: "tsp", i: "garlic powder" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Halve the grapes and cherry tomatoes, and dice the red pepper and cucumber. Chop the green onion.",
+      "Put everything in a large bowl.",
+      "Drizzle with the olive oil and lemon juice, add the Parmesan, garlic powder, salt and pepper, and toss.",
+      "Top with the almonds. It's great scooped up with crackers too.",
+    ],
+  },
+
+  {
+    slug: "cottage-cheese-egg-salad-toast",
+    title: "Cottage Cheese Egg Salad Toast",
+    posted: "2026-04-28",
+    reel: "DXsFIlkERsJ",
+    photo: "cottage-cheese-egg-salad-toast.jpg",
+    alt: "A thick slice of toast piled high with egg salad",
+    tags: ["High protein", "Quick"],
+    intro:
+      "Four eggs, crunchy vegetables and cottage cheese instead of mayo, piled onto toast. Over 50 grams of protein and plenty of fiber.",
+    groups: [
+      {
+        items: [
+          { q: 4, i: ["egg", "eggs"], n: "hard-boiled", b: "Organic Valley" },
+          { q: 1, u: "stalk", i: "celery", n: "finely chopped" },
+          { q: 2, u: "tbsp", i: "carrots", n: "finely chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { t: "optional", i: "fresh dill", n: "chopped, added in the video" },
+          { t: "for serving", i: "toasted bread", b: "One Mighty Mill" },
+          { t: "on the side", i: "dill pickles", b: "Grillo's" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Friendship Dairies" },
+          { q: 0.5, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Hard-boil the eggs, then cool and peel them.",
+      "Finely chop the celery, carrot, green onion and dill.",
+      "Chop the eggs and put them in a bowl with the vegetables.",
+      "Add the cottage cheese, Dijon, garlic powder, salt and pepper and mix well.",
+      "Toast the bread, pile the egg salad on top and serve with pickles.",
+    ],
+  },
 ];

@@ -169,7 +169,7 @@
     if (!box) return;
     const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
     // Only proper meals go in the plan: no drinks, snacks, sides or sweets.
-    const SKIP = ["Drink", "Snack", "Side", "Sweet"];
+    const SKIP = ["Drink", "Snack", "Side", "Sweet", "Breakfast"];
     const pool = R.filter((r) => !r.tags.some((t) => SKIP.includes(t)));
     const KEY = "jb-meal-plan";
 
