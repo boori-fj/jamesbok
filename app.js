@@ -1,0 +1,262 @@
+(function () {
+  const R = window.RECIPES || [];
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) =>
+    String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+  /* ---------- formatting ---------- */
+  const FRACS = [[0, ""], [1 / 8, "⅛"], [1 / 4, "¼"], [1 / 3, "⅓"], [1 / 2, "½"], [2 / 3, "⅔"], [3 / 4, "¾"], [1, ""]];
+  function frac(n) {
+    let whole = Math.floor(n + 1e-9);
+    const rest = n - whole;
+    let best = FRACS[0];
+    for (const f of FRACS) if (Math.abs(f[0] - rest) < Math.abs(best[0] - rest)) best = f;
+    if (best[0] === 1) { whole += 1; best = FRACS[0]; }
+    if (!whole && !best[1]) return "0";
+    return (whole || "") + best[1];
+  }
+  const PLURAL = { cup: "cups", can: "cans", clove: "cloves" };
+  function qty(it, k) {
+    if (it.q == null) return { text: it.t || "", soft: true };
+    let a = it.q * k;
+    let b = it.q2 != null ? it.q2 * k : null;
+    let u = it.u;
+    // When scaled, keep amounts in a sensible unit: 6 tsp → 2 tbsp, ⅛ cup → 2 tbsp, ¼ tbsp → ¾ tsp.
+    if (k !== 1) {
+      if (u === "tsp" && a >= 3 && Number.isInteger((a / 3) * 4)) { a /= 3; b = b && b / 3; u = "tbsp"; }
+      else if (u === "cup" && a < 0.25) { a *= 16; b = b && b * 16; u = "tbsp"; }
+      else if (u === "tbsp" && a < 0.5) { a *= 3; b = b && b * 3; u = "tsp"; }
+    }
+    let text = frac(a) + (b != null ? "–" + frac(b) : "");
+    if (u) text += " " + ((b || a) > 1 && PLURAL[u] ? PLURAL[u] : u);
+    return { text, soft: false };
+  }
+  function name(it, k) {
+    if (Array.isArray(it.i)) return it.q != null && it.q * k <= 1 ? it.i[0] : it.i[1];
+    return it.i;
+  }
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function date(iso) {
+    const [y, m, d] = iso.split("-").map(Number);
+    return `${MONTHS[m - 1]} ${d}, ${y}`;
+  }
+  const reelUrl = (id) => `https://www.instagram.com/reel/${id}/`;
+  const allItems = (r) => r.groups.flatMap((g) => g.items);
+
+  function toast(msg) {
+    let t = $(".toast");
+    if (!t) { t = document.createElement("div"); t.className = "toast"; t.setAttribute("role", "status"); document.body.appendChild(t); }
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(toast._t);
+    toast._t = setTimeout(() => t.classList.remove("show"), 1800);
+  }
+
+  /* ---------- index ---------- */
+  function renderIndex() {
+    const list = $("#list");
+    const chips = $("#chips");
+    const search = $("#search");
+    const count = $("#count");
+    let tag = "All";
+
+    const tags = ["All", ...new Set(R.flatMap((r) => r.tags))];
+    chips.innerHTML = tags
+      .map((t) => `<button class="chip" type="button" aria-pressed="${t === tag}" data-tag="${esc(t)}">${esc(t)}</button>`)
+      .join("");
+
+    function draw() {
+      const q = search.value.trim().toLowerCase();
+      const shown = R.filter((r) => {
+        if (tag !== "All" && !r.tags.includes(tag)) return false;
+        if (!q) return true;
+        const hay = [r.title, r.intro, ...r.tags, ...allItems(r).map((it) => [].concat(it.i).join(" "))].join(" ").toLowerCase();
+        return hay.includes(q);
+      });
+
+      const filtered = tag !== "All" || q;
+      count.textContent = filtered ? `${shown.length} of ${R.length} recipes` : `${R.length} recipes`;
+      if (!shown.length) {
+        list.innerHTML = `<li class="empty">Nothing matches “${esc(search.value)}”. Try an ingredient, like salmon or gochujang.</li>`;
+        return;
+      }
+      list.innerHTML = shown
+        .map((r) => {
+          const meta = [r.serves && `Serves ${r.serves}`, r.time].filter(Boolean);
+          if (!meta.length) meta.push(date(r.posted));
+          return `<li class="card"><a href="recipe.html?r=${encodeURIComponent(r.slug)}">
+            <div class="card-photo">${r.photo ? `<img src="${esc(r.photo)}" alt="" width="1080" height="1350" loading="lazy">` : ""}</div>
+            <p class="label">${r.tags.slice(0, 2).map(esc).join(" · ")}</p>
+            <h3>${esc(r.title)}</h3>
+            <div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
+          </a></li>`;
+        })
+        .join("");
+    }
+
+    // Newest recipe, featured in the hero.
+    const feature = $("#feature");
+    const latest = R[0];
+    if (feature && latest) {
+      const meta = [latest.serves && `Serves ${latest.serves}`, latest.time].filter(Boolean);
+      feature.innerHTML = `<a class="feature" href="recipe.html?r=${encodeURIComponent(latest.slug)}">
+        <div class="feature-photo">${latest.photo ? `<img src="${esc(latest.photo)}" alt="${esc(latest.alt || latest.title)}" width="1080" height="1350">` : ""}</div>
+        <div class="feature-cap">
+          <p class="label">Newest · ${date(latest.posted)}</p>
+          <h2>${esc(latest.title)}</h2>
+          <span class="go">Get the recipe</span>
+          ${meta.length ? `<div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>` : ""}
+        </div>
+      </a>`;
+    }
+
+    chips.addEventListener("click", (e) => {
+      const b = e.target.closest(".chip");
+      if (!b) return;
+      tag = b.dataset.tag;
+      chips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c.dataset.tag === tag));
+      draw();
+    });
+    search.addEventListener("input", draw);
+    draw();
+  }
+
+  /* ---------- recipe ---------- */
+  function renderRecipe() {
+    const slug = new URLSearchParams(location.search).get("r");
+    const i = R.findIndex((r) => r.slug === slug);
+    const main = $("#recipe");
+    if (i < 0) {
+      main.innerHTML = `<div class="r-head"><div><h1>Recipe not found</h1><p class="r-intro"><a href="index.html">See all recipes</a></p></div></div>`;
+      return;
+    }
+    const r = R[i];
+    let k = 1;
+    document.title = `${r.title} · James Bok Recipes`;
+    const desc = document.querySelector('meta[name="description"]');
+    if (desc) desc.content = r.intro;
+
+    const facts = [
+      r.serves && ["Serves", r.serves],
+      r.time && ["Time", r.time],
+      ["Posted", date(r.posted)],
+    ].filter(Boolean);
+
+    const newer = R[i - 1], older = R[i + 1];
+
+    main.innerHTML = `
+      <header class="r-head">
+        <div class="r-head-text">
+          <div class="tags">${r.tags.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+          <h1>${esc(r.title)}</h1>
+          <p class="r-intro">${esc(r.intro)}</p>
+          <dl class="facts">${facts.map(([a, b]) => `<div><dt>${a}</dt><dd>${esc(b)}</dd></div>`).join("")}</dl>
+        </div>
+        ${r.photo ? `<figure class="r-photo"><img src="${esc(r.photo)}" alt="${esc(r.alt || r.title)}" width="1080" height="1350"></figure>` : ""}
+      </header>
+
+      <div class="r-body">
+        <aside class="ingredients">
+          <div class="panel">
+            <div class="panel-head">
+              <h3 class="label">Ingredients</h3>
+              <div class="scale" role="group" aria-label="Scale recipe">
+                ${[0.5, 1, 2, 3].map((m) => `<button type="button" data-k="${m}" aria-pressed="${m === 1}">${m === 0.5 ? "½" : m}×</button>`).join("")}
+              </div>
+            </div>
+            <div id="groups"></div>
+            <div class="panel-foot">
+              <button type="button" class="textbtn" id="copy">Copy shopping list</button>
+              <button type="button" class="textbtn" id="reset">Clear ticks</button>
+            </div>
+          </div>
+        </aside>
+
+        <section class="method">
+          <h3 class="label">Method</h3>
+          <ol class="steps">${r.steps.map((s) => `<li>${esc(s)}</li>`).join("")}</ol>
+          <p class="hint">Tap a step to mark it done.</p>
+
+          <div class="video">
+            <h3 class="label">Watch it</h3>
+            <div class="video-grid">
+              <div>
+                <blockquote class="instagram-media" data-instgrm-permalink="${reelUrl(r.reel)}" data-instgrm-version="14">
+                  <a class="embed-fallback" href="${reelUrl(r.reel)}" target="_blank" rel="noopener">Watch the video on Instagram ↗</a>
+                </blockquote>
+              </div>
+              <p>Posted ${date(r.posted)} · <a href="${reelUrl(r.reel)}" target="_blank" rel="noopener">Open in Instagram ↗</a></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <nav class="pager" aria-label="More recipes">
+        ${older ? `<a class="prev" href="recipe.html?r=${older.slug}"><small class="label">Older</small><span>${esc(older.title)}</span></a>` : "<i></i>"}
+        ${newer ? `<a class="next" href="recipe.html?r=${newer.slug}"><small class="label">Newer</small><span>${esc(newer.title)}</span></a>` : "<i></i>"}
+      </nav>`;
+
+    const groupsEl = $("#groups");
+    const ticked = new Set();
+    function drawIngredients() {
+      groupsEl.innerHTML = r.groups
+        .map((g, gi) => `<div class="group">
+          ${g.name ? `<h4>${esc(g.name)}</h4>` : ""}
+          <ul class="ing">${g.items
+            .map((it, ii) => {
+              const id = `${gi}-${ii}`;
+              const q = qty(it, k);
+              return `<li><label>
+                <input type="checkbox" data-id="${id}" ${ticked.has(id) ? "checked" : ""}>
+                <span class="q${q.soft ? " soft" : ""}">${esc(q.text)}</span>
+                <span>${esc(name(it, k))}${it.n ? `<span class="n">, ${esc(it.n)}</span>` : ""}${it.b ? `<span class="b">${esc(it.b)}</span>` : ""}</span>
+              </label></li>`;
+            })
+            .join("")}</ul>
+        </div>`)
+        .join("");
+    }
+    drawIngredients();
+
+    groupsEl.addEventListener("change", (e) => {
+      const id = e.target.dataset.id;
+      if (!id) return;
+      e.target.checked ? ticked.add(id) : ticked.delete(id);
+    });
+    $(".scale").addEventListener("click", (e) => {
+      const b = e.target.closest("button");
+      if (!b) return;
+      k = Number(b.dataset.k);
+      $(".scale").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+      drawIngredients();
+    });
+    $("#reset").addEventListener("click", () => { ticked.clear(); drawIngredients(); });
+    $("#copy").addEventListener("click", async () => {
+      const lines = [r.title + (k !== 1 ? ` (${k === 0.5 ? "½" : k}×)` : ""), ""];
+      r.groups.forEach((g) => {
+        if (g.name) lines.push(g.name.toUpperCase());
+        g.items.forEach((it) => {
+          const q = qty(it, k);
+          lines.push(`- ${q.soft ? name(it, k) + ", " + q.text : q.text + " " + name(it, k)}${it.n ? ", " + it.n : ""}`);
+        });
+        lines.push("");
+      });
+      try { await navigator.clipboard.writeText(lines.join("\n").trim()); toast("Shopping list copied"); }
+      catch { toast("Couldn't copy. Try selecting the list instead."); }
+    });
+    $(".steps").addEventListener("click", (e) => {
+      const li = e.target.closest("li");
+      if (li) li.classList.toggle("done");
+    });
+
+    // Instagram's official embed script turns the blockquote into the reel player.
+    const s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.instagram.com/embed.js";
+    s.onload = () => window.instgrm && window.instgrm.Embeds.process();
+    document.body.appendChild(s);
+  }
+
+  if ($("#list")) renderIndex();
+  if ($("#recipe")) renderRecipe();
+})();
