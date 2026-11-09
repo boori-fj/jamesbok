@@ -3955,4 +3955,765 @@ window.RECIPES = [
       "Add ice to the glass and pour the frothed milk over the top.",
     ],
   },
+
+  {
+    slug: "butternut-squash-mac-and-cheese",
+    title: "High-Protein Butternut Squash Mac and Cheese",
+    posted: "2025-10-12",
+    reel: "DPt8Pqokcgr",
+    photo: "butternut-squash-mac-and-cheese.jpg",
+    alt: "James holding a plate of creamy butternut squash mac and cheese",
+    tags: ["Pasta", "High protein", "Baking"],
+    intro:
+      "A creamy Thanksgiving-ready mac and cheese with a sauce of roasted butternut squash, onion and garlic blended with cottage cheese, milk and nutritional yeast, then baked with a cheesy top.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["medium butternut squash", "medium butternut squashes"], n: "peeled and cubed" },
+          { q: 1, i: ["medium white onion", "medium white onions"], n: "peeled" },
+          { q: 5, u: "clove", i: "garlic" },
+          { q: 1, u: "tbsp", i: "olive oil" },
+          { q: 1.5, u: "cup", i: "cottage cheese" },
+          { q: 0.75, u: "cup", i: "skim milk" },
+          { q: 0.5, u: "cup", i: "nutritional yeast" },
+          { q: 1, u: "cup", i: "reduced-fat shredded cheese", n: "plus 1 cup for the top" },
+          { t: "to taste", i: "salt and pepper" },
+          { q: 16, u: "oz", i: "high-protein pasta" },
+          { q: 0.5, u: "cup", i: "pasta water" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 400°F. Put the squash and onion in a roasting pan, wrap the garlic in foil with a drizzle of olive oil and add it to the pan. Roast until the squash is soft and golden.",
+      "Add the cottage cheese, milk, nutritional yeast, 1 cup of the shredded cheese, salt and pepper to the pan and blend everything with an immersion blender until smooth.",
+      "Cook the pasta, saving ½ cup of the water. Add the pasta and pasta water to the sauce and stir.",
+      "Top with the remaining cup of cheese and bake until bubbly and golden.",
+    ],
+  },
+
+  {
+    slug: "high-protein-butternut-squash-soup",
+    title: "High-Protein Butternut Squash Soup",
+    posted: "2025-10-08",
+    reel: "DPj9Mi-EY8x",
+    photo: "high-protein-butternut-squash-soup.jpg",
+    alt: "James holding a spoonful of creamy butternut squash soup over the bowl",
+    tags: ["Soup", "High protein"],
+    intro:
+      "Roasted butternut squash, carrots, red onion and garlic blended with milk and cottage cheese into a velvety fall soup with over 25 grams of protein per serving.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["medium butternut squash", "medium butternut squashes"], n: "halved and seeded" },
+          { q: 2, i: ["carrot", "carrots"], n: "peeled" },
+          { q: 1, i: ["small bulb of garlic", "small bulbs of garlic"], n: "wrapped in foil" },
+          { q: 1, i: ["small red onion", "small red onions"], n: "halved" },
+          { q: 0.5, u: "cup", i: "milk" },
+          { q: 1, u: "cup", i: "cottage cheese" },
+          { q: 2, u: "cup", i: "vegetable broth" },
+          { t: "to taste", i: "olive oil, salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 400°F. Put the squash, carrots, onion and foil-wrapped garlic on a tray, drizzle with olive oil and season with salt and pepper.",
+      "Roast until everything is soft and caramelized, about 45 minutes.",
+      "Scoop the squash out of its skin into a pot and add the carrots, onion and squeezed-out garlic.",
+      "Add the broth, milk and cottage cheese and blend with an immersion blender until smooth.",
+      "Warm through and season to taste.",
+    ],
+  },
+
+  {
+    slug: "sticky-spicy-peanut-tofu",
+    title: "Sticky Spicy Peanut Tofu",
+    posted: "2025-10-06",
+    reel: "DPe75hpkQjA",
+    photo: "sticky-spicy-peanut-tofu.jpg",
+    alt: "A pan of crispy tofu tossed in sticky spicy peanut sauce",
+    tags: ["Tofu", "Air fryer", "Spicy"],
+    intro:
+      "Cubes of extra-firm tofu air-fried until crisp, then tossed in a no-cook peanut, gochujang and honey sauce. Vegan if you swap the honey for maple syrup.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "block", i: "extra-firm tofu", n: "pressed and cubed" },
+          { q: 2, u: "tbsp", i: "olive oil" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tsp", i: "garlic powder" },
+          { t: "as desired", i: "pepper" },
+          { q: 1, u: "tbsp", i: "cornstarch" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1 / 3, u: "cup", i: "peanut butter" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "gochujang", n: "or any hot sauce" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 1, u: "tbsp", i: "rice vinegar" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "water", n: "or more to loosen" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { t: "optional", i: "jalapeños and sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Press the tofu in a towel to soak up the water, then cut it into cubes.",
+      "Toss the cubes with the olive oil, soy sauce, garlic powder, pepper and cornstarch.",
+      "Air fry at 350°F for 12 minutes, until crispy.",
+      "Stir all the sauce ingredients together. Don't cook the sauce or it will thicken too quickly; add more water if it gets too thick.",
+      "Toss the hot tofu in the sauce and top with jalapeños and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "roasted-cauliflower-dates",
+    title: "Roasted Cauliflower with Dates",
+    posted: "2025-10-02",
+    reel: "DPUj4AvEZhu",
+    photo: "roasted-cauliflower-dates.jpg",
+    alt: "James holding a plate of roasted cauliflower with dates",
+    tags: ["Side", "Baking"],
+    intro:
+      "Four main ingredients: cauliflower roasted with olive oil and spices until golden, tossed with sweet chopped dates and a lemon zest dressing.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["cauliflower", "cauliflowers"], n: "cut into florets" },
+          { q: 3, u: "tbsp", i: "olive oil", n: "for the cauliflower" },
+          { t: "to season", i: "garlic powder, salt, pepper and chili flakes" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped" },
+          { t: "optional", i: "sunflower seeds" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 1, u: "tbsp", i: "olive oil" },
+          { q: 1, i: ["medium lemon", "medium lemons"], n: "zested and juiced" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 425°F. Cut the cauliflower into florets and toss with 3 tbsp olive oil, garlic powder, salt, pepper and chili flakes.",
+      "Spread on a lined tray and roast until golden and tender, about 25–30 minutes.",
+      "Whisk the dressing: olive oil, lemon zest and juice, garlic, salt and pepper.",
+      "Toss the roasted cauliflower with the dates and dressing, and top with sunflower seeds.",
+    ],
+  },
+
+  {
+    slug: "kimchi-seafood-pancake",
+    title: "Umma's Kimchi Seafood Pancake",
+    posted: "2025-09-30",
+    reel: "DPPaYdVkXfn",
+    photo: "kimchi-seafood-pancake.jpg",
+    alt: "A crispy golden kimchi seafood pancake in a pan",
+    tags: ["Korean", "Seafood"],
+    intro:
+      "James's mom's kimchi pancake: a simple pancake batter loaded with kimchi, seafood, potato and green onion, fried until crispy at the edges.",
+    groups: [
+      {
+        items: [
+          { q: 0.5, u: "cup", i: "buchimgaru (Korean pancake mix) or all-purpose flour" },
+          { q: 200, u: "ml", i: "water" },
+          { q: 1, u: "cup", i: "kimchi", n: "chopped" },
+          { q: 1, u: "cup", i: "seafood", n: "chopped" },
+          { q: 1, i: ["potato", "potatoes"], n: "diced small" },
+          { q: 1, u: "tbsp", i: "kimchi juice" },
+          { q: 5, u: "stalk", i: "green onions", n: "cut into pieces" },
+          { t: "for frying", i: "cooking oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the pancake mix and water in a bowl to a smooth batter.",
+      "Add the kimchi, kimchi juice, seafood, potato and green onions and stir to combine.",
+      "Heat a generous layer of oil in a large nonstick pan over medium-high heat and spread the batter into a thin, even pancake.",
+      "Fry about 2 minutes on each side, until the edges are golden and crispy.",
+      "Slide onto a plate, cut into pieces and serve with a soy dipping sauce.",
+    ],
+  },
+
+  {
+    slug: "korean-spicy-tuna-salad",
+    title: "5-Ingredient Korean Spicy Tuna Salad",
+    posted: "2025-09-24",
+    reel: "DO_-HU0kc_P",
+    photo: "korean-spicy-tuna-salad.jpg",
+    alt: "A glass bowl of spicy tuna salad topped with crumbled seaweed",
+    time: "5 min",
+    tags: ["Seafood", "High protein", "Spicy"],
+    intro:
+      "Tuna mixed with green onion, gochujang, Greek yogurt and sesame oil, topped with crumbled seaweed. High protein, no mayo, and ready in five minutes.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tbsp", i: "gochujang", n: "or sriracha" },
+          { q: 0.25, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "tsp", i: "sesame oil" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tsp", i: "honey" },
+          { t: "as desired", i: "dried seaweed", n: "crumbled" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the tuna in a bowl and break it up.",
+      "Add the green onion, gochujang, Greek yogurt and sesame oil, plus honey if you like it a little sweet.",
+      "Mix well and top with crumbled seaweed and sesame seeds.",
+      "Serve with crackers or rice.",
+    ],
+  },
+
+  {
+    slug: "boursin-avocado-dip",
+    title: "Boursin Avocado Dip",
+    posted: "2025-09-22",
+    reel: "DO60OTlkUv5",
+    photo: "boursin-avocado-dip.jpg",
+    alt: "A glass dish of layered Boursin dip with avocado, tomatoes, bacon, dates and walnuts",
+    time: "15 min",
+    tags: ["Snack", "No cook"],
+    intro:
+      "A six-ingredient party dip: soft Boursin spread on a platter, topped with smashed avocado and cherry tomatoes, then bacon bits, chopped dates and walnuts.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "package", i: "Boursin cheese", b: "Boursin" },
+          { q: 2, i: ["avocado", "avocados"] },
+          { q: 1, q2: 2, u: "cup", i: "cherry tomatoes", n: "quartered" },
+          { q: 0.5, u: "cup", i: "bacon bits" },
+          { q: 0.5, u: "cup", i: "dates", n: "pitted and chopped" },
+          { q: 0.5, u: "cup", i: "walnuts", n: "chopped" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a squeeze", i: "lime juice" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Break up the Boursin and spread it over the bottom of a serving dish.",
+      "Mash the avocados with a little lime juice, salt and pepper and spread it over the cheese.",
+      "Quarter the cherry tomatoes and scatter them on top.",
+      "Finish with the bacon bits, chopped dates and walnuts. Serve with crackers or chips.",
+    ],
+  },
+
+  {
+    slug: "ummas-fresh-kimchi",
+    title: "Umma's 30-Minute Fresh Kimchi (Geotjeori)",
+    posted: "2025-09-16",
+    reel: "DOrW_r2EX27",
+    photo: "ummas-fresh-kimchi.jpg",
+    alt: "James and his mom with a plate of fresh napa cabbage kimchi",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "James's most requested recipe: his mom's geotjeori, a fresh, unfermented kimchi. Crisp, savory, sweet and spicy, and best eaten within a day or two.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["medium napa cabbage", "medium napa cabbages"], n: "leaves separated and torn" },
+          { q: 6, i: ["green onion", "green onions"], n: "cut into pieces" },
+          { q: 0.25, u: "cup", i: "salt", n: "with ½ cup water, for salting" },
+        ],
+      },
+      {
+        name: "Seasoning",
+        items: [
+          { q: 6, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "salted shrimp paste" },
+          { q: 3, u: "tbsp", i: "fish sauce" },
+          { q: 2, u: "tbsp", i: "plum extract", n: "or 1 tbsp sugar" },
+          { q: 1, u: "tbsp", i: "sugar" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 2, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Separate the cabbage leaves, wash them and cut or tear them into strips.",
+      "Dissolve the salt in the water, pour it over the cabbage and toss. Leave it for about 20 minutes, turning once, until the leaves soften.",
+      "Meanwhile, mix the gochugaru, garlic, shrimp paste, fish sauce, plum extract and sugar into a paste.",
+      "Rinse the cabbage well and drain it, squeezing out the water.",
+      "Wearing gloves, toss the cabbage and green onions with the seasoning until every leaf is coated. Finish with the sesame oil and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "sesame-miso-tuna-salad",
+    title: "Sesame Miso Tuna Salad",
+    posted: "2025-09-12",
+    reel: "DOg_hgdkQTd",
+    photo: "sesame-miso-tuna-salad.jpg",
+    alt: "James holding a glass bowl of sesame miso tuna salad with carrots and cucumber",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Tuna with crunchy cucumber, celery and carrot in a miso, lime and sesame dressing, sprinkled with furikake. High in protein and fiber and full of flavor.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 0.5, u: "cup", i: "celery", n: "diced" },
+          { q: 0.5, u: "cup", i: "carrots", n: "shredded" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "miso paste" },
+          { q: 1, u: "tbsp", i: "rice vinegar" },
+          { q: 0.5, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "lime juice" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+          { t: "optional", i: "chili flakes" },
+          { t: "as desired", i: "sesame seeds" },
+          { t: "as desired", i: "furikake or dried seaweed" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna and put it in a bowl.",
+      "Dice the cucumber and celery, shred the carrot and chop the green onion, and pile them on top.",
+      "In a small bowl, whisk the miso, rice vinegar, honey, garlic, lime juice, sesame oil and chili flakes.",
+      "Pour the sauce over the salad, mix well, and finish with sesame seeds and furikake. Eat it on crackers.",
+    ],
+  },
+
+  {
+    slug: "sriracha-egg-salad",
+    title: "Healthy Spicy Egg Salad",
+    posted: "2025-09-10",
+    reel: "DOb8QuwiVKU",
+    photo: "sriracha-egg-salad.jpg",
+    alt: "James holding a glass bowl of spicy egg salad with diced vegetables",
+    tags: ["High protein", "Quick", "No cook"],
+    intro:
+      "Boiled eggs and crunchy diced vegetables in a sriracha and Greek yogurt sauce made creamy with the yolks. High in protein and fiber, low in calories, no mayo.",
+    groups: [
+      {
+        items: [
+          { q: 4, i: ["boiled egg", "boiled eggs"], n: "peeled, yolks and whites separated" },
+          { q: 0.75, u: "cup", i: "diced vegetables", n: "celery, carrot, green onion and cucumber" },
+          { q: 1, q2: 2, i: ["slice of jalapeño", "slices of jalapeño"], n: "minced" },
+          { q: 1 / 3, u: "cup", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tbsp", i: "sriracha", b: "Tabasco" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the eggs and separate the yolks from the whites. Chop the whites.",
+      "Dice the celery, carrot, green onion, cucumber and jalapeño.",
+      "Mash the yolks with the Greek yogurt, Dijon, sriracha, salt and pepper until smooth.",
+      "Fold in the egg whites and vegetables, and eat it on toast or crackers.",
+    ],
+  },
+
+  {
+    slug: "ground-beef-bulgogi",
+    title: "10-Minute Ground Beef Bulgogi",
+    posted: "2025-09-03",
+    reel: "DOJ76G1kYqp",
+    photo: "ground-beef-bulgogi.jpg",
+    alt: "James holding a plate of ground beef bulgogi topped with green onion",
+    time: "10 min",
+    tags: ["Korean", "High protein", "Quick"],
+    intro:
+      "All the flavor of bulgogi in ten minutes: ground beef browned with onion in a sweet soy, honey and garlic sauce. Wrap it in lettuce or eat it over rice.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "ground beef" },
+          { q: 0.5, i: ["large onion", "large onions"], n: "diced" },
+          { q: 2, i: ["green onion", "green onions"], n: "sliced" },
+          { t: "for serving", i: "lettuce leaves or rice" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 4, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the onion and slice the green onion.",
+      "Mix the soy sauce, honey, garlic, sesame oil and sesame seeds in a bowl.",
+      "Cook the onion in a large pan over medium-high heat until soft, then add the ground beef and break it up as it browns.",
+      "Pour in the sauce and stir until the beef is coated and the sauce has mostly cooked off.",
+      "Top with green onion and eat it wrapped in lettuce or over rice.",
+    ],
+  },
+
+  {
+    slug: "banana-carrot-cake",
+    title: "Healthy Banana Carrot Cake",
+    posted: "2025-09-01",
+    reel: "DOEzD2GERII",
+    photo: "banana-carrot-cake.jpg",
+    alt: "A loaf of banana carrot cake, sliced on parchment paper",
+    time: "55 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A cross between banana bread and carrot cake, made with oat flour and Greek yogurt and sweetened with banana, maple syrup and dates. No oil, gluten free.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"], n: "mashed" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Kirkland Signature" },
+          { q: 3, u: "tbsp", i: "maple syrup" },
+          { q: 2, u: "cup", i: "oat flour", n: "or oats blended into flour" },
+          { q: 2, u: "tsp", i: "baking powder" },
+          { q: 1, u: "cup", i: "carrots", n: "shredded" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped" },
+          { q: 0.75, u: "cup", i: "nuts", n: "chopped" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas, then whisk in the eggs, Greek yogurt and maple syrup.",
+      "Blend oats into a flour if needed and stir it in with the baking powder.",
+      "Fold in the shredded carrots, plus the dates, nuts, cinnamon and salt if you're using them.",
+      "Pour into the pan and bake for 45 minutes, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "korean-spicy-pork-jeyuk",
+    title: "Korean Spicy Pork (Jeyuk-Bokkeum)",
+    posted: "2025-08-28",
+    reel: "DN5rv7nkf4K",
+    photo: "korean-spicy-pork-jeyuk.jpg",
+    alt: "A plate of spicy Korean pork with onions, topped with green onion",
+    tags: ["Korean", "Spicy", "High protein"],
+    intro:
+      "Thinly sliced pork belly marinated in a spicy-sweet gochujang sauce, then stir-fried with onion. James cooks it on the barbecue for a smoky flavor; a frying pan works too.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "lb", i: "thinly sliced pork belly" },
+          { q: 0.5, i: ["onion", "onions"], n: "sliced" },
+          { q: 3, i: ["green onion", "green onions"], n: "sliced" },
+          { t: "for serving", i: "lettuce, rice" },
+        ],
+      },
+      {
+        name: "Marinade",
+        items: [
+          { q: 6, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "mirin" },
+          { q: 3, u: "tbsp", i: "brown sugar" },
+          { q: 2, u: "tbsp", i: "sesame oil" },
+          { q: 2, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "ginger", n: "grated" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the marinade ingredients in a bowl.",
+      "Put the pork, onion and green onion in a large bowl, add the marinade and mix it in with your hands (wear gloves).",
+      "Cover and marinate in the fridge for at least 30 minutes.",
+      "Cook in a very hot pan or on a grill pan over the barbecue, stirring, until the pork is cooked through and slightly charred.",
+      "Top with more green onion and serve with lettuce for wraps and rice.",
+    ],
+  },
+
+  {
+    slug: "banana-bread-protein-balls",
+    title: "No-Bake Banana Bread Protein Balls",
+    posted: "2025-08-26",
+    reel: "DN1UR4J4iTP",
+    photo: "banana-bread-protein-balls.jpg",
+    alt: "A plate of banana bread protein balls with chocolate chips",
+    time: "20 min",
+    tags: ["Snack", "High protein", "Sweet"],
+    intro:
+      "A no-bake snack that tastes like banana bread: mashed banana, peanut butter, almond and oat flour and a scoop of protein powder, rolled into balls and chilled.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["large banana", "large bananas"] },
+          { q: 3, u: "tbsp", i: "peanut butter" },
+          { q: 1, u: "cup", i: "almond flour" },
+          { q: 2 / 3, u: "cup", i: "oat flour" },
+          { q: 1, u: "scoop", i: "protein powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a pinch", i: "salt" },
+          { t: "a dash", i: "cinnamon" },
+          { t: "as desired", i: "chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Mash the banana in a bowl and stir in the peanut butter.",
+      "Add the almond flour, oat flour and protein powder, plus salt and cinnamon if you like.",
+      "Mix into a thick dough, then fold in chocolate chips.",
+      "Roll into balls and refrigerate for 15 minutes to firm up.",
+    ],
+  },
+
+  {
+    slug: "sweet-potato-brownies",
+    title: "Healthy Sweet Potato Brownies",
+    posted: "2025-08-22",
+    reel: "DNq_kznYkkr",
+    photo: "sweet-potato-brownies.jpg",
+    alt: "James holding a fudgy sweet potato brownie over the tray",
+    time: "40 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Fudgy, gluten-free and dairy-free brownies made with mashed sweet potato, cocoa and almond flour, sweetened with maple syrup.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "sweet potato", n: "cooked and mashed" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 1 / 3, u: "cup", i: "cocoa powder" },
+          { q: 1 / 3, u: "cup", i: "almond flour" },
+          { q: 1 / 3, u: "cup", i: "maple syrup" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a pinch", i: "salt" },
+          { t: "a splash", i: "vanilla extract" },
+          { t: "as desired", i: "chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking dish with parchment paper.",
+      "Mash the cooked sweet potato in a large bowl and mix in the eggs and peanut butter.",
+      "Add the cocoa powder, almond flour, maple syrup and baking powder, plus salt and vanilla if you're using them, and stir to a thick batter.",
+      "Fold in chocolate chips, spread in the dish and add a few more on top.",
+      "Bake for 30 minutes and let it cool before cutting.",
+    ],
+  },
+
+  {
+    slug: "korean-sesame-broccoli",
+    title: "5-Ingredient Korean Sesame Broccoli",
+    posted: "2025-08-20",
+    reel: "DNl_DC7RGd_",
+    photo: "korean-sesame-broccoli.jpg",
+    alt: "A glass bowl of blanched broccoli tossed with sesame oil and sesame seeds",
+    time: "10 min",
+    tags: ["Side", "Korean", "Quick"],
+    intro:
+      "James's favorite way to eat broccoli: blanched for a minute, chilled in ice water so it stays bright and crunchy, then tossed with garlic, sesame oil and sesame seeds.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["medium head of broccoli", "medium heads of broccoli"], n: "cut into florets" },
+          { q: 0.5, u: "tsp", i: "salt" },
+          { q: 0.5, u: "tsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the broccoli into bite-size florets.",
+      "Blanch in a pot of boiling water for about a minute, until bright green.",
+      "Drain and plunge into a bowl of ice water to stop the cooking, then drain well.",
+      "Toss with the salt, garlic, sesame oil and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "apple-date-chicken-salad",
+    title: "Apple Date Chicken Salad",
+    posted: "2025-08-18",
+    reel: "DNgtNB4xARi",
+    photo: "apple-date-chicken-salad.jpg",
+    alt: "James holding a glass bowl of creamy chicken salad with apple and dates",
+    tags: ["Chicken", "Salad", "High protein"],
+    intro:
+      "James's favorite chicken salad: shredded chicken with crunchy vegetables, pickles, sweet apple and dates in a Greek yogurt and olive oil dressing.",
+    groups: [
+      {
+        items: [
+          { q: 2.5, u: "cup", i: "cooked chicken", n: "shredded" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "cup", i: "carrots", n: "diced" },
+          { q: 1, u: "cup", i: "celery", n: "diced" },
+          { q: 0.25, u: "cup", i: "dill pickles", n: "chopped" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.75, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "tbsp", i: "olive oil" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Shred the chicken into a large bowl.",
+      "Dice the carrots and celery, chop the green onion and pickles, and add them to the chicken.",
+      "Peel and dice the apple, chop the dates and add them too.",
+      "Add the Greek yogurt, olive oil, Dijon, garlic, salt and pepper and mix well.",
+    ],
+  },
+
+  {
+    slug: "korean-soy-marinated-eggs",
+    title: "Korean Soy Marinated Eggs (Mayak Eggs)",
+    posted: "2025-08-13",
+    reel: "DNTFGNrRgyj",
+    photo: "korean-soy-marinated-eggs.jpg",
+    alt: "A bowl of rice topped with jammy soy-marinated eggs",
+    tags: ["Korean", "High protein", "Meal prep"],
+    intro:
+      "Jammy soft-boiled eggs soaked in a sweet soy, honey and garlic marinade with onion and jalapeño. Spoon them over rice with some of the marinade.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["egg", "eggs"], n: "boiled for 6½ minutes" },
+        ],
+      },
+      {
+        name: "Marinade",
+        items: [
+          { q: 0.5, u: "cup", i: "soy sauce" },
+          { q: 0.5, u: "cup", i: "water" },
+          { q: 0.25, u: "cup", i: "honey" },
+          { q: 2, u: "tbsp", i: "mirin" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+          { t: "optional", i: "white onion, green onion and jalapeño", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Boil the eggs for 6½ minutes, then move them straight into ice water.",
+      "Peel the eggs once they're cool.",
+      "In a container, mix the soy sauce, water, honey, mirin, garlic, sesame oil and sesame seeds, and add the chopped onion, green onion and jalapeño.",
+      "Put the eggs in the marinade, cover with a paper towel so they stay submerged, and refrigerate for at least a few hours or overnight.",
+      "Serve over rice with a spoonful of the marinade.",
+    ],
+  },
+
+  {
+    slug: "celery-date-salad",
+    title: "Celery Date Salad",
+    posted: "2025-08-11",
+    reel: "DNOsgFVxiqN",
+    photo: "celery-date-salad.jpg",
+    alt: "James holding a glass bowl of celery date salad topped with pumpkin seeds",
+    time: "10 min",
+    tags: ["Salad", "Side", "No cook"],
+    intro:
+      "James's best salad of 2025: celery, cucumber and apple with sweet dates and seeds in a bright lemon, Parmesan and olive oil dressing.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "celery", n: "diced" },
+          { q: 1, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+          { q: 6, i: ["date", "dates"], n: "pitted and chopped" },
+          { t: "as desired", i: "nuts or seeds" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced, or ¼ cup lemon juice" },
+          { q: 2, u: "tbsp", i: "Parmesan cheese", n: "grated" },
+          { q: 2, u: "tbsp", i: "olive oil" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the celery, cucumber and apple and put them in a bowl.",
+      "Chop the dates and add them.",
+      "Whisk the lemon juice, Parmesan, olive oil, garlic, salt and pepper together.",
+      "Pour over the salad, toss, and top with nuts or seeds.",
+    ],
+  },
+
+  {
+    slug: "iced-peanut-butter-latte",
+    title: "Iced Peanut Butter Latte",
+    posted: "2025-08-07",
+    reel: "DNDniBsxktX",
+    photo: "iced-peanut-butter-latte.jpg",
+    alt: "James sipping an iced peanut butter latte",
+    serves: "1",
+    time: "5 min",
+    tags: ["Drink", "Quick"],
+    intro:
+      "A nutty iced latte made in an almost-empty peanut butter jar: espresso shaken with the last of the peanut butter, honey and vanilla, then poured over iced milk.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "tbsp", i: "peanut butter", n: "or the scrapings of an almost-empty jar" },
+          { q: 1, i: ["espresso shot", "espresso shots"], b: "Nespresso" },
+          { q: 1, u: "tsp", i: "honey" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+          { t: "a dash", i: "cinnamon" },
+          { t: "to fill the glass", i: "milk of choice", b: "Natrel" },
+          { t: "as desired", i: "ice" },
+        ],
+      },
+    ],
+    steps: [
+      "Brew the espresso straight into a nearly empty peanut butter jar (or a jar with a spoonful of peanut butter).",
+      "Add the honey, vanilla and cinnamon, close the lid and shake until the peanut butter melts into the coffee.",
+      "Fill a glass with ice and milk.",
+      "Pour the peanut butter espresso over the top and stir.",
+    ],
+  },
 ];
