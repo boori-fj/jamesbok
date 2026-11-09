@@ -2340,4 +2340,820 @@ window.RECIPES = [
       "Toast the bread, pile the egg salad on top and serve with pickles.",
     ],
   },
+
+  {
+    slug: "caramel-smores-dip",
+    title: "Caramel S'mores Dip",
+    posted: "2026-04-25",
+    reel: "DXjuHMgkbbJ",
+    photo: "caramel-smores-dip.jpg",
+    alt: "A tray of s'mores dip with golden toasted marshmallows",
+    tags: ["Sweet", "Snack"],
+    intro:
+      "A crowd-pleasing s'mores dip for a barbecue: a creamy vanilla base topped with Hershey's caramel-filled chocolate and mini marshmallows, toasted until gooey, then finished with strawberries.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "block", i: "cream cheese", n: "softened" },
+          { t: "½ container", i: "whipped topping" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+          { t: "a pinch", i: "salt", n: "added in the video" },
+          { t: "as desired", i: "milk chocolate with caramel bars", b: "Hershey's" },
+          { q: 2, u: "cup", i: "mini marshmallows" },
+          { q: 0.5, u: "cup", i: "strawberries", n: "chopped" },
+          { t: "for dipping", i: "graham crackers" },
+        ],
+      },
+    ],
+    steps: [
+      "Beat the cream cheese, whipped topping, vanilla and a pinch of salt together until smooth.",
+      "Spread it evenly in a foil tray or baking dish.",
+      "Break the chocolate caramel bars over the top, then cover everything with mini marshmallows.",
+      "Toast it on the grill with the lid closed (or under the broiler, watching closely) until the marshmallows are golden and the chocolate melts.",
+      "Scatter over the strawberries and serve with graham crackers for dipping.",
+    ],
+  },
+
+  {
+    slug: "crispy-corn-salad",
+    title: "Crispy Corn Salad",
+    posted: "2026-04-22",
+    reel: "DXcsu__EYcd",
+    photo: "crispy-corn-salad.jpg",
+    alt: "James holding up a glass bowl of creamy crispy corn salad topped with almonds",
+    tags: ["Salad", "Air fryer", "Side"],
+    intro:
+      "Canned corn air-fried until crispy and golden, then tossed with cucumber and bell pepper in a lime, Parmesan and Greek yogurt dressing. Great with crackers.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "corn", n: "drained and patted dry" },
+          { t: "a drizzle", i: "olive oil", n: "for the corn, as in the video" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 0.5, u: "cup", i: "bell pepper", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { t: "optional", i: "almonds" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 1 / 3, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tbsp", i: "olive oil", b: "Terra Delyssa" },
+          { q: 0.5, i: ["lime", "limes"], n: "juiced" },
+          { q: 1, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { q: 1, u: "tsp", i: "dill", n: "optional" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the corn and pat it dry with paper towels. Toss it with a drizzle of olive oil.",
+      "Spread it out in the air fryer on parchment and air fry at 375°F for 15 minutes, until golden and crispy.",
+      "Meanwhile, dice the cucumber and bell pepper and chop the green onion.",
+      "Put the corn and vegetables in a bowl and add the Greek yogurt, olive oil, lime juice, garlic powder, dill, Parmesan, salt and pepper.",
+      "Mix well, top with almonds and eat with crackers.",
+    ],
+  },
+
+  {
+    slug: "cottage-cheese-tuna-salad",
+    title: "Cottage Cheese Tuna Salad",
+    posted: "2026-04-13",
+    reel: "DXFirgxEY5Q",
+    photo: "cottage-cheese-tuna-salad.jpg",
+    alt: "A white bowl of crunchy tuna salad",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Cottage cheese blended smooth with lemon and Dijon makes a creamy, mayo-free base for tuna and lots of crunchy vegetables and apple. Over 30 grams of protein.",
+    groups: [
+      {
+        name: "Sauce",
+        items: [
+          { q: 1 / 3, u: "cup", i: "cottage cheese", b: "Organic Valley" },
+          { q: 1, u: "tbsp", i: "lemon juice" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+      {
+        name: "Salad",
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained", b: "Fishwife" },
+          { q: 0.5, u: "cup", i: "celery", n: "chopped" },
+          { q: 3, u: "tbsp", i: "carrots", n: "chopped" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, i: ["dill pickle", "dill pickles"], n: "chopped", b: "Mt. Olive" },
+          { q: 0.25, u: "cup", i: "cucumber", n: "chopped" },
+          { q: 1 / 3, u: "cup", i: "apple", n: "chopped" },
+          { t: "for serving", i: "crackers", b: "Mary's Gone Crackers" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the cottage cheese, lemon juice, Dijon, garlic powder, salt and pepper in a bowl and blend with an immersion blender until smooth.",
+      "Add the tuna and mix it in.",
+      "Chop the celery, carrot, green onion, pickle, cucumber and apple and add them to the bowl.",
+      "Mix everything together and serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "celery-pistachio-salad",
+    title: "Celery Pistachio Salad",
+    posted: "2026-04-12",
+    reel: "DXC7YmYEf8G",
+    photo: "celery-pistachio-salad.jpg",
+    alt: "A plate of celery salad with apple, dates, pistachios and Parmesan",
+    time: "10 min",
+    tags: ["Salad", "Side", "No cook"],
+    intro:
+      "Crunchy celery, cucumber and apple with sweet dates and pistachios, dressed with lemon, olive oil and plenty of grated Parmesan.",
+    groups: [
+      {
+        items: [
+          { q: 1.5, u: "cup", i: "celery", n: "chopped" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "chopped" },
+          { q: 0.5, i: ["apple", "apples"], n: "or 1 small, diced" },
+          { q: 4, i: ["date", "dates"], n: "pitted and chopped", b: "Terra Delyssa" },
+          { q: 0.25, u: "cup", i: "pistachios", b: "Wonderful" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { q: 2, u: "tbsp", i: "olive oil", b: "Graza" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the celery and cucumber, dice the apple and chop the dates.",
+      "Put everything in a bowl with the pistachios.",
+      "Squeeze over the lemon, drizzle with the olive oil and grate in the Parmesan.",
+      "Season with salt and pepper, toss and serve.",
+    ],
+  },
+
+  {
+    slug: "honey-garlic-enoki-mushrooms",
+    title: "Honey Garlic Enoki Mushrooms",
+    posted: "2026-04-05",
+    reel: "DWw7FlFkYGO",
+    photo: "honey-garlic-enoki-mushrooms.jpg",
+    alt: "A pan of golden enoki mushrooms in a glossy honey garlic sauce with sesame seeds",
+    time: "5 min",
+    tags: ["Side", "Quick"],
+    intro:
+      "Enoki mushrooms seared until golden, then simmered in a quick honey garlic soy sauce. Ready in about five minutes.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "package", i: "enoki mushrooms" },
+          { q: 1, u: "tsp", i: "oil", b: "Graza" },
+          { q: 1, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "honey" },
+          { q: 3, u: "tbsp", i: "water" },
+          { q: 0.5, u: "tsp", i: "sesame oil" },
+          { t: "optional", i: "jalapeños", n: "chopped" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Trim the root end off the enoki and pull them apart into small clusters.",
+      "Heat the oil in a pan over medium-high heat and lay the mushrooms in. Sear until golden on both sides.",
+      "Meanwhile, stir together the soy sauce, garlic, honey, water, sesame oil and jalapeños.",
+      "Pour the sauce over the mushrooms and let it bubble for a minute or two until glossy.",
+      "Sprinkle with sesame seeds and serve.",
+    ],
+  },
+
+  {
+    slug: "crunchy-crispy-tuna-salad",
+    title: "Crunchy and Crispy Tuna Salad",
+    posted: "2026-04-01",
+    reel: "DWmnXuykXNg",
+    photo: "crunchy-crispy-tuna-salad.jpg",
+    alt: "A cracker topped with crunchy tuna salad and chili crisp",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Tuna with celery, carrot, apple and pickle in a Greek yogurt and Dijon sauce, with chili crisp for heat and almonds for crunch. 45 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained", b: "Wild Planet" },
+          { q: 1, u: "stalk", i: "celery", n: "chopped" },
+          { q: 2, u: "tbsp", i: "carrots", n: "chopped" },
+          { q: 0.5, i: ["apple", "apples"], n: "chopped" },
+          { q: 1, i: ["pickle", "pickles"], n: "chopped", b: "Mt. Olive" },
+          { q: 2, u: "tbsp", i: "green onion", n: "chopped" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.25, u: "cup", i: "Greek yogurt", b: "Chobani" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tbsp", i: "chili crisp", b: "Jamesy World" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+      {
+        name: "To finish",
+        items: [
+          { q: 0.25, u: "cup", i: "almonds", n: "chopped" },
+          { t: "for serving", i: "crackers", b: "Firehook" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the tuna in a bowl and break it up with a fork.",
+      "Chop the celery, carrot, apple, pickle and green onion and add them to the tuna.",
+      "Add the Greek yogurt, Dijon, chili crisp, salt and pepper and mix well.",
+      "Top with chopped almonds and serve on crackers.",
+    ],
+  },
+
+  {
+    slug: "soy-garlic-tofu",
+    title: "Soy Garlic Tofu",
+    posted: "2026-03-31",
+    reel: "DWkA5t-kRC9",
+    photo: "soy-garlic-tofu.jpg",
+    alt: "A plate of crispy tofu slabs glazed in soy garlic sauce with green onion and sesame",
+    tags: ["Tofu", "High protein"],
+    intro:
+      "Slabs of firm tofu dredged in cornstarch, pan-fried until golden and crispy, then glazed in a sticky honey, soy and garlic sauce.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "block", i: "firm tofu" },
+          { q: 0.25, u: "cup", i: "cornstarch" },
+          { t: "for the pan", i: "cooking oil" },
+          { t: "to garnish", i: "green onion and sesame seeds", n: "as in the video" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 3, u: "clove", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 3, u: "tbsp", i: "water" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, u: "tsp", i: "cornstarch" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the tofu into thick slabs and press them between paper towels to soak up the water.",
+      "Dredge each piece in the cornstarch.",
+      "Heat a little oil in a nonstick pan over medium-high heat and fry the tofu until golden and crispy on both sides.",
+      "Mix the sauce: soy sauce, garlic, honey, water, sesame oil and cornstarch.",
+      "Pour the sauce into the pan and let it bubble until thick and glossy, turning the tofu to coat.",
+      "Top with green onion and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "korean-rolled-omelette",
+    title: "Korean Rolled Omelette (Gyeran-mari)",
+    posted: "2026-03-27",
+    reel: "DWZGVcikeXt",
+    photo: "korean-rolled-omelette.jpg",
+    alt: "A plate of sliced Korean rolled omelette with flecks of green onion, carrot and ham",
+    tags: ["Side", "Korean", "Quick"],
+    intro:
+      "One of Korea's most popular side dishes: eggs with green onion, carrot and ham, cooked in thin layers and rolled up, then sliced into rounds.",
+    groups: [
+      {
+        items: [
+          { q: 4, i: ["large egg", "large eggs"] },
+          { q: 1, i: ["small green onion", "small green onions"], n: "finely chopped" },
+          { q: 2, u: "tbsp", i: "carrots", n: "minced" },
+          { q: 2, u: "slice", i: "ham", n: "minced" },
+          { t: "as desired", i: "salt and pepper" },
+          { t: "as needed", i: "cooking oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Beat the eggs in a bowl and season with salt and pepper.",
+      "Mince the carrot and ham and finely chop the green onion. Stir them into the eggs.",
+      "Heat a little oil in a rectangular egg pan (or a small nonstick pan) over medium-low heat. Pour in a thin layer of egg.",
+      "When it's almost set, roll it up from one end. Push the roll to the side, pour in more egg so it joins the roll, and keep rolling. Repeat until all the egg is used.",
+      "Let it rest for a minute, then slice into rounds. Serve with ketchup if you like.",
+    ],
+  },
+
+  {
+    slug: "healthy-chocolate-banana-bread",
+    title: "Healthy Chocolate Banana Bread",
+    posted: "2026-03-22",
+    reel: "DWMIFYZEal0",
+    photo: "healthy-chocolate-banana-bread.jpg",
+    alt: "James holding a thick slice of chocolate banana bread over the loaf",
+    time: "1 hr",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A rich chocolate banana bread made with almond flour and cacao, sweetened with banana and a little maple syrup. Top it with chocolate chips, walnuts and flaky salt.",
+    groups: [
+      {
+        name: "Wet",
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 3, i: ["egg", "eggs"], b: "Pete and Gerry's" },
+          { q: 0.25, u: "cup", i: "maple syrup" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+        ],
+      },
+      {
+        name: "Dry",
+        items: [
+          { q: 2.5, u: "cup", i: "almond flour" },
+          { q: 0.5, u: "cup", i: "cacao powder", b: "Diaspora Co." },
+          { q: 1, u: "tsp", i: "baking soda" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "chocolate chips" },
+          { t: "as desired", i: "walnuts" },
+          { t: "a pinch", i: "flaky sea salt", b: "Osmo" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a bowl, then mix in the eggs, maple syrup and vanilla.",
+      "In another bowl, mix the almond flour, cacao powder and baking soda.",
+      "Stir the dry ingredients into the wet until combined, then pour the batter into the pan.",
+      "Top with chocolate chips, walnuts and a pinch of flaky salt.",
+      "Bake for 50 minutes to an hour, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "orange-sesame-chicken",
+    title: "Orange Sesame Chicken",
+    posted: "2026-03-19",
+    reel: "DWEdghZkcJZ",
+    photo: "orange-sesame-chicken.jpg",
+    alt: "A plate of orange sesame chicken topped with green onion, with a glass of orange juice",
+    tags: ["Chicken", "High protein"],
+    intro:
+      "Pan-fried chicken in a glossy orange sauce made with a full cup of fresh-squeezed orange juice, honey, garlic and ginger. No deep frying.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "chicken breast", n: "cut into bite-size pieces" },
+          { q: 1, i: ["egg white", "egg whites"] },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 0.25, u: "cup", i: "cornstarch" },
+          { t: "for the pan", i: "cooking oil" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "cup", i: "fresh orange juice", b: "Florida Orange Juice" },
+          { q: 2, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "rice vinegar" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 3, u: "clove", i: "garlic", n: "minced" },
+          { q: 2, u: "tsp", i: "ginger", n: "grated" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "jalapeño", n: "chopped" },
+        ],
+      },
+      {
+        name: "To finish",
+        items: [
+          { q: 1, u: "tsp", i: "cornstarch", n: "mixed with 1 tbsp water" },
+          { t: "to garnish", i: "sesame seeds and green onions" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the chicken into bite-size pieces and toss with the egg white and soy sauce.",
+      "Coat each piece in the cornstarch.",
+      "Heat a little oil in a large pan over medium-high heat and pan-fry the chicken until golden and cooked through. Set it aside.",
+      "Mix the orange juice, soy sauce, rice vinegar, honey, garlic, ginger, sesame oil and jalapeño, and pour into the pan.",
+      "Bring to a simmer, stir in the cornstarch slurry and cook until thick and glossy.",
+      "Add the chicken back and toss to coat. Finish with sesame seeds and green onions.",
+    ],
+  },
+
+  {
+    slug: "tuna-kimchi-stew",
+    title: "Easy Tuna Kimchi Stew",
+    posted: "2026-03-12",
+    reel: "DVzHVYSkacI",
+    photo: "tuna-kimchi-stew.jpg",
+    alt: "A white bowl of tuna kimchi stew with tofu",
+    tags: ["Soup", "Korean", "High protein"],
+    intro:
+      "The easiest kimchi jjigae: well-fermented kimchi simmered with onion, canned tuna and an anchovy broth tablet, finished with soft tofu and green onion.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna" },
+          { q: 1, u: "cup", i: "fermented kimchi", n: "chopped" },
+          { q: 0.5, i: ["medium onion", "medium onions"], n: "sliced" },
+          { q: 1.5, u: "cup", i: "water" },
+          { q: 2, u: "tbsp", i: "kimchi juice" },
+          { q: 1, i: ["anchovy broth tablet", "anchovy broth tablets"] },
+          { q: 1, u: "tsp", i: "fish sauce" },
+          { q: 0.5, u: "block", i: "tofu", n: "sliced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tsp", i: "sugar" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the kimchi and onion in a pot over medium heat and cook for a few minutes until the onion softens.",
+      "Add the water, kimchi juice, anchovy broth tablet and fish sauce, plus the gochugaru and sugar if you're using them. Bring it to a boil.",
+      "Add the tuna, with its oil if you like it richer, and let it simmer for about 10 minutes.",
+      "Slide in the tofu and let it heat through.",
+      "Top with green onion and serve hot, with rice.",
+    ],
+  },
+
+  {
+    slug: "sardine-melt",
+    title: "Sardine Melt",
+    posted: "2026-03-04",
+    reel: "DVex7MZkSjt",
+    photo: "sardine-melt.jpg",
+    alt: "James holding a golden grilled sardine melt sandwich",
+    tags: ["Seafood", "High protein"],
+    intro:
+      "A tuna melt, but with sardines: mashed with celery, pickle and a tangy yogurt and Dijon dressing, then grilled between buttered bread with sharp cheddar. Over 40 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "sardines", b: "Fishwife" },
+          { q: 0.5, u: "stalk", i: "celery", n: "finely chopped" },
+          { q: 1, u: "tbsp", i: "green onion", n: "chopped" },
+          { q: 2, i: ["small dill pickle", "small dill pickles"], n: "chopped", b: "Mt. Olive" },
+          { q: 2, u: "tbsp", i: "Greek yogurt", b: "Fage" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.25, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { q: 1, u: "tsp", i: "pickle juice" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+      {
+        name: "For the sandwich",
+        items: [
+          { q: 2, u: "slice", i: "bread", b: "Dave's Killer Bread" },
+          { t: "for the pan", i: "butter", b: "Kerrygold" },
+          { t: "enough to cover", i: "sharp cheddar", n: "sliced" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the sardines in a bowl and mash them with a fork.",
+      "Add the celery, green onion, pickles, Greek yogurt, Dijon, garlic powder, pickle juice, salt and pepper, and mix well.",
+      "Butter the outside of two slices of bread. Lay cheddar on the inside of both slices and spread the sardine mixture between them.",
+      "Cook in a pan over medium-low heat until the bread is golden and the cheese has melted, flipping once.",
+      "Slice in half and eat while it's hot.",
+    ],
+  },
+
+  {
+    slug: "chickpea-banana-blondies",
+    title: "Chickpea Banana Blondies",
+    posted: "2026-02-27",
+    reel: "DVRrsDCkdgz",
+    photo: "chickpea-banana-blondies.jpg",
+    alt: "James holding a chickpea banana blondie over the tray",
+    time: "45 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A sneaky healthy treat: chickpeas, banana and peanut butter blended into a soft, chewy blondie, studded with dates and topped with pecans.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 1, u: "can", i: "chickpeas", n: "15 oz, drained and rinsed" },
+          { q: 0.5, u: "cup", i: "peanut butter", b: "Once Again" },
+          { q: 1, u: "tsp", i: "baking powder", b: "365 by Whole Foods Market" },
+          { q: 8, i: ["date", "dates"], n: "pitted and chopped" },
+          { q: 0.5, u: "tsp", i: "vanilla extract" },
+          { t: "a dash", i: "salt" },
+          { t: "as desired", i: "pecans" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking pan with parchment paper.",
+      "Mash the bananas in a bowl. Blend the chickpeas until smooth and add them.",
+      "Add the peanut butter, baking powder, vanilla and salt and mix well.",
+      "Stir in the chopped dates, then spread the batter in the pan and top with pecans.",
+      "Bake for 35–40 minutes, until golden brown. Let it sit for 10 minutes before slicing.",
+    ],
+  },
+
+  {
+    slug: "shrimp-vermicelli-fresh-rolls",
+    title: "Shrimp Vermicelli Fresh Rolls",
+    posted: "2026-02-22",
+    reel: "DVE31-Nkd4n",
+    photo: "shrimp-vermicelli-fresh-rolls.jpg",
+    alt: "A platter of sliced vegetables, herbs and lime wedges for fresh rolls",
+    tags: ["Seafood", "No cook"],
+    intro:
+      "Rice paper rolls packed with shrimp, vermicelli noodles, crunchy vegetables, avocado and plenty of herbs, with a bigger batch of peanut sauce for dipping.",
+    groups: [
+      {
+        name: "Rolls",
+        items: [
+          { t: "as needed", i: "rice paper" },
+          { t: "as needed", i: "cooked shrimp" },
+          { t: "as needed", i: "vermicelli noodles", n: "cooked" },
+          { t: "as needed", i: "cabbage", n: "shredded" },
+          { t: "as needed", i: "cucumber", n: "cut into strips" },
+          { t: "as needed", i: "bell peppers", n: "cut into strips" },
+          { t: "as needed", i: "carrots", n: "shredded" },
+          { t: "as needed", i: "avocado", n: "sliced" },
+          { t: "as needed", i: "cilantro, mint and green onions" },
+        ],
+      },
+      {
+        name: "Peanut sauce",
+        items: [
+          { q: 4, u: "tbsp", i: "peanut butter", b: "Once Again" },
+          { q: 2, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 1, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 2, u: "tsp", i: "garlic", n: "minced (or 2 cloves)" },
+          { q: 1, q2: 2, u: "tsp", i: "lime juice" },
+          { q: 3, u: "tbsp", i: "water" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the cucumber and peppers into thin strips, shred the cabbage and carrots, slice the avocado and pick the herbs.",
+      "Cook the vermicelli according to the package, then rinse under cold water and drain.",
+      "Whisk the peanut butter, soy sauce, rice vinegar, honey, garlic, lime juice, water, sesame oil and sesame seeds until smooth.",
+      "Dip a sheet of rice paper in water for a few seconds and lay it flat. Add shrimp, a little vermicelli, vegetables, avocado and herbs, then fold in the sides and roll it up tightly.",
+      "Repeat with the rest and serve with the peanut sauce.",
+    ],
+  },
+
+  {
+    slug: "crispy-cheesy-broccoli",
+    title: "Crispy Cheesy Air Fryer Broccoli",
+    posted: "2026-02-20",
+    reel: "DU_rHjckRpI",
+    photo: "crispy-cheesy-broccoli.jpg",
+    alt: "A tray of crispy broccoli with golden Parmesan crisps",
+    tags: ["Side", "Air fryer"],
+    intro:
+      "Broccoli tossed in a garlicky olive oil and nutritional yeast dressing, then air-fried on a layer of Parmesan until the cheese turns into a golden, lacy crisp.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["small broccoli crown", "small broccoli crowns"], n: "cut into florets" },
+          { q: 1, u: "cup", i: "Parmesan cheese", n: "grated, or as desired" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 3, q2: 4, u: "tbsp", i: "olive oil", b: "Terra Delyssa" },
+          { q: 1, u: "tsp", i: "garlic powder", b: "Diaspora Co." },
+          { q: 1, q2: 2, u: "tbsp", i: "nutritional yeast", b: "Bob's Red Mill" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the broccoli into florets.",
+      "Whisk the olive oil, garlic powder, nutritional yeast, salt and pepper together, then toss the broccoli in it until coated.",
+      "Line the air fryer tray with parchment and grate an even layer of Parmesan over it.",
+      "Spread the broccoli on top, pressing it into the cheese, and grate more Parmesan over the top.",
+      "Air fry at 400°F until the broccoli is tender and the cheese is golden and crispy. Break it up and serve.",
+    ],
+  },
+
+  {
+    slug: "kongbul-bean-sprout-bulgogi",
+    title: "Kongbul (Bean Sprout Bulgogi)",
+    posted: "2026-02-13",
+    reel: "DUtk_rxkem-",
+    photo: "kongbul-bean-sprout-bulgogi.jpg",
+    alt: "A large pan of spicy bean sprout bulgogi with green onion and sesame seeds",
+    tags: ["Korean", "High protein", "Spicy"],
+    intro:
+      "Thinly sliced beef or pork steamed on a big pile of bean sprouts, cabbage, onion and sweet potato, then tossed in a spicy gochujang sauce. Packed with protein and fiber.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "thinly sliced beef or pork" },
+          { q: 340, u: "g", i: "bean sprouts", n: "washed" },
+          { q: 1, i: ["medium onion", "medium onions"], n: "sliced" },
+          { q: 1 / 3, u: "cup", i: "cabbage", n: "chopped" },
+          { q: 1, i: ["small sweet potato", "small sweet potatoes"], n: "thinly sliced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "tbsp", i: "sesame seeds" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "gochujang" },
+          { q: 2, u: "tbsp", i: "gochugaru" },
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 3, u: "clove", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 2, q2: 3, u: "tbsp", i: "water", n: "only if your bean sprouts are dry" },
+        ],
+      },
+    ],
+    steps: [
+      "Wash the bean sprouts and slice the onion, cabbage and sweet potato.",
+      "Mix the sauce: gochujang, gochugaru, soy sauce, garlic, honey and sesame oil (plus water if your sprouts are dry). For a saltier sauce to eat with rice, add an extra tablespoon each of gochujang and soy sauce.",
+      "Lay the sweet potato slices in a large pan, then pile the cabbage, onion and bean sprouts on top.",
+      "Spread the meat over the vegetables and spoon the sauce over everything.",
+      "Cover and cook over medium heat until the sprouts wilt and the meat is cooked, then stir everything together.",
+      "Finish with green onion and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "freezer-korean-soup",
+    title: "Freezer Korean Doenjang Soup",
+    posted: "2026-02-10",
+    reel: "DUmEEYpEQ6K",
+    photo: "freezer-korean-soup.jpg",
+    alt: "James eating spoonfuls of soup from a small pot",
+    tags: ["Soup", "Korean", "Meal prep"],
+    intro:
+      "A cozy soup you can make from freezer bags: zucchini, tofu, enoki and frozen dumplings in an anchovy and doenjang broth. Prep the bags ahead, then just add water.",
+    groups: [
+      {
+        items: [
+          { q: 1.5, u: "cup", i: "water" },
+          { q: 0.5, u: "cup", i: "zucchini", n: "sliced" },
+          { q: 1 / 3, u: "cup", i: "tofu", n: "cubed, or as desired" },
+          { q: 1, i: ["anchovy broth tablet", "anchovy broth tablets"] },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as desired", i: "frozen dumplings", b: "Mila" },
+          { q: 0.5, u: "tbsp", i: "doenjang", n: "fermented soybean paste" },
+          { q: 0.25, u: "cup", i: "kimchi", n: "optional" },
+          { t: "a small handful", i: "enoki mushrooms" },
+          { q: 2, u: "tbsp", i: "green onions", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "To prep ahead, freeze the chopped zucchini, tofu, enoki and green onions in bags.",
+      "Bring the water to a boil in a small pot.",
+      "Add the zucchini, anchovy broth tablet and garlic, then stir in the doenjang until it dissolves.",
+      "Add the kimchi if you're using it, then the dumplings, and cook until the dumplings are heated through.",
+      "Add the tofu, enoki and green onions and simmer for another minute or two.",
+    ],
+  },
+
+  {
+    slug: "healthy-shrimp-salad",
+    title: "Healthy Shrimp Salad",
+    posted: "2026-02-08",
+    reel: "DUgild_EcKD",
+    photo: "healthy-shrimp-salad.jpg",
+    alt: "James holding a glass bowl of creamy shrimp salad",
+    tags: ["Seafood", "Salad", "High protein"],
+    intro:
+      "Shrimp with crunchy celery, cucumber and apple in a blended cottage cheese, Greek yogurt and honey Dijon sauce. No mayo and over 55 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked shrimp", n: "chopped" },
+          { q: 0.75, u: "cup", i: "celery", n: "diced" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, i: ["apple", "apples"], n: "diced" },
+          { q: 1, q2: 2, u: "tbsp", i: "onion", n: "minced" },
+          { q: 2, i: ["pickle", "pickles"], n: "chopped", b: "Mt. Olive" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Good Culture" },
+          { q: 0.25, u: "cup", i: "Greek yogurt", b: "Fage" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "clove", i: "garlic" },
+          { q: 2, u: "tsp", i: "honey" },
+          { t: "to taste", i: "salt and pepper" },
+          { q: 1, u: "tsp", i: "pickle juice", n: "optional" },
+          { t: "for serving", i: "crackers", b: "Top Seedz" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the celery, cucumber and apple, and mince the onion.",
+      "Chop the shrimp and pickles and add them to a bowl with the vegetables.",
+      "Blend the cottage cheese, Greek yogurt, Dijon, garlic, honey, salt, pepper and pickle juice until smooth.",
+      "Pour the sauce over the salad, mix well and serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "soondubu-korean-tofu-soup",
+    title: "Korean Tofu Soup (Soondubu)",
+    posted: "2026-02-06",
+    reel: "DUbFaLrEY3M",
+    photo: "soondubu-korean-tofu-soup.jpg",
+    alt: "A bowl of spicy Korean soft tofu soup",
+    tags: ["Soup", "Korean", "Spicy"],
+    intro:
+      "A hearty, spicy soft tofu stew: a quick chili oil base with onion and garlic, simmered with zucchini, mushrooms and seafood, then finished with silken tofu and an egg.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 0.25, u: "cup", i: "onions", n: "diced" },
+          { q: 1, u: "clove", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "fish sauce" },
+          { q: 1.5, u: "cup", i: "water" },
+          { q: 1, i: ["anchovy broth tablet", "anchovy broth tablets"] },
+          { q: 0.5, u: "cup", i: "zucchini", n: "diced" },
+          { q: 0.25, u: "cup", i: "mushrooms", n: "sliced" },
+          { q: 1 / 3, u: "cup", i: "shrimp or seafood mix" },
+          { q: 1, u: "package", i: "silken tofu" },
+          { q: 1, i: ["egg", "eggs"] },
+          { t: "to garnish", i: "green onion", n: "added in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the sesame oil and gochugaru in a small pot over low heat until it turns into a red chili oil.",
+      "Add the onion and garlic and stir until soft, then add the soy sauce and fish sauce.",
+      "Pour in the water, add the anchovy broth tablet and bring to a boil.",
+      "Add the zucchini, mushrooms and seafood and simmer for a few minutes.",
+      "Spoon in the silken tofu in big chunks, crack in the egg and let it cook gently.",
+      "Top with green onion and serve bubbling hot.",
+    ],
+  },
+
+  {
+    slug: "honey-garlic-tofu",
+    title: "10-Minute Honey Garlic Tofu",
+    posted: "2026-02-03",
+    reel: "DUT3-OfkVhB",
+    photo: "honey-garlic-tofu.jpg",
+    alt: "A plate of golden tofu cubes in honey garlic sauce with green onion and sesame",
+    time: "10 min",
+    tags: ["Tofu", "High protein", "Quick"],
+    intro:
+      "Seven ingredients and ten minutes: tofu cubes pan-fried until golden and coated in a sweet and savory honey garlic sauce.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "block", i: "firm tofu" },
+          { t: "for the pan", i: "olive oil", b: "Graza" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce", b: "Momofuku" },
+          { q: 3, q2: 4, u: "clove", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 3, u: "tbsp", i: "water" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the tofu into cubes and press them between paper towels to soak up the water.",
+      "Mix the sauce: soy sauce, garlic, honey and water.",
+      "Heat a little oil in a nonstick pan over medium-high heat and fry the tofu, turning, until golden on all sides.",
+      "Pour in the sauce and let it bubble until it thickens and coats the tofu.",
+      "Drizzle with the sesame oil and top with green onion and sesame seeds.",
+    ],
+  },
 ];
