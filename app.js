@@ -60,7 +60,10 @@
     const count = $("#count");
     let tag = "All";
 
-    const tags = ["All", ...new Set(R.flatMap((r) => r.tags))];
+    // Most-used tags first.
+    const counts = {};
+    R.forEach((r) => r.tags.forEach((t) => (counts[t] = (counts[t] || 0) + 1)));
+    const tags = ["All", ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
     chips.innerHTML = tags
       .map((t) => `<button class="chip" type="button" aria-pressed="${t === tag}" data-tag="${esc(t)}">${esc(t)}</button>`)
       .join("");
@@ -237,7 +240,7 @@
         if (g.name) lines.push(g.name.toUpperCase());
         g.items.forEach((it) => {
           const q = qty(it, k);
-          lines.push(`- ${q.soft ? name(it, k) + ", " + q.text : q.text + " " + name(it, k)}${it.n ? ", " + it.n : ""}`);
+          lines.push(`- ${q.soft ? name(it, k) + (q.text ? ", " + q.text : "") : q.text + " " + name(it, k)}${it.n ? ", " + it.n : ""}`);
         });
         lines.push("");
       });
