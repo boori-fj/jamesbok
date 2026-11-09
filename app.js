@@ -52,21 +52,38 @@
     toast._t = setTimeout(() => t.classList.remove("show"), 1800);
   }
 
+  // One shopping-list line per ingredient, e.g. "- 2 cups cooked rice, chilled".
+  function listLines(r, k) {
+    const lines = [];
+    r.groups.forEach((g) => {
+      if (g.name) lines.push(g.name.toUpperCase());
+      g.items.forEach((it) => {
+        const q = qty(it, k);
+        lines.push(`- ${q.soft ? name(it, k) + (q.text ? ", " + q.text : "") : q.text + " " + name(it, k)}${it.n ? ", " + it.n : ""}`);
+      });
+    });
+    return lines;
+  }
+  async function copyText(text, done) {
+    try { await navigator.clipboard.writeText(text); toast(done); }
+    catch { toast("Couldn't copy. Try selecting the text instead."); }
+  }
+
   /* ---------- index ---------- */
   function renderIndex() {
     const list = $("#list");
-    const chips = $("#chips");
+    const filter = $("#filter");
     const search = $("#search");
     const count = $("#count");
     let tag = "All";
 
-    // Most-used tags first.
+    // Dropdown of tags, most-used first, with how many recipes each has.
     const counts = {};
     R.forEach((r) => r.tags.forEach((t) => (counts[t] = (counts[t] || 0) + 1)));
-    const tags = ["All", ...Object.keys(counts).sort((a, b) => counts[b] - counts[a])];
-    chips.innerHTML = tags
-      .map((t) => `<button class="chip" type="button" aria-pressed="${t === tag}" data-tag="${esc(t)}">${esc(t)}</button>`)
-      .join("");
+    const tags = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+    filter.innerHTML =
+      `<option value="All">All recipes (${R.length})</option>` +
+      tags.map((t) => `<option value="${esc(t)}">${esc(t)} (${counts[t]})</option>`).join("");
 
     function draw() {
       const q = search.value.trim().toLowerCase();
@@ -113,14 +130,79 @@
       </a>`;
     }
 
-    chips.addEventListener("click", (e) => {
-      const b = e.target.closest(".chip");
-      if (!b) return;
-      tag = b.dataset.tag;
-      chips.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c.dataset.tag === tag));
+    filter.addEventListener("change", () => {
+      tag = filter.value;
       draw();
     });
     search.addEventListener("input", draw);
+    draw();
+  }
+
+  /* ---------- meal plan for the week ---------- */
+  function renderPlan() {
+    const box = $("#plan-list");
+    if (!box) return;
+    const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+    // Only proper meals go in the plan: no drinks, snacks, sides or sweets.
+    const SKIP = ["Drink", "Snack", "Side", "Sweet"];
+    const pool = R.filter((r) => !r.tags.some((t) => SKIP.includes(t)));
+    const KEY = "jb-meal-plan";
+
+    function shuffle(prev) {
+      for (let tries = 0; tries < 8; tries++) {
+        const a = pool.map((r) => r.slug);
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        const pick = a.slice(0, DAYS.length);
+        if (!prev || pick.join() !== prev.join()) return pick;
+      }
+    }
+
+    // Keep this viewer's plan between visits until they shuffle again.
+    let plan = null;
+    try { plan = JSON.parse(localStorage.getItem(KEY)); } catch {}
+    const valid = Array.isArray(plan) && plan.length === DAYS.length && plan.every((s) => pool.some((r) => r.slug === s));
+    if (!valid) plan = shuffle();
+    const save = () => { try { localStorage.setItem(KEY, JSON.stringify(plan)); } catch {} };
+    save();
+
+    function draw(fresh) {
+      box.innerHTML = plan
+        .map((slug, i) => {
+          const r = R.find((x) => x.slug === slug);
+          const meta = [r.serves && `Serves ${r.serves}`, r.time].filter(Boolean);
+          return `<li class="day"><a href="recipe.html?r=${encodeURIComponent(r.slug)}">
+            <span class="day-name">${DAYS[i]}</span>
+            <div class="day-photo">${r.photo ? `<img src="${esc(r.photo)}" alt="" width="1080" height="1350" loading="lazy">` : ""}</div>
+            <div class="day-text">
+              <h3>${esc(r.title)}</h3>
+              ${meta.length ? `<div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>` : ""}
+            </div>
+          </a></li>`;
+        })
+        .join("");
+      if (fresh) {
+        box.classList.remove("fresh");
+        void box.offsetWidth; // restart the animation
+        box.classList.add("fresh");
+      }
+    }
+
+    $("#shuffle").addEventListener("click", () => {
+      plan = shuffle(plan);
+      save();
+      draw(true);
+    });
+    $("#plan-copy").addEventListener("click", () => {
+      const lines = ["Meal plan for the week", ""];
+      plan.forEach((slug, i) => {
+        const r = R.find((x) => x.slug === slug);
+        lines.push(`${DAYS[i].toUpperCase()}: ${r.title}`, ...listLines(r, 1), "");
+      });
+      copyText(lines.join("\n").trim(), "Shopping list for the week copied");
+    });
     draw();
   }
 
@@ -235,17 +317,8 @@
     });
     $("#reset").addEventListener("click", () => { ticked.clear(); drawIngredients(); });
     $("#copy").addEventListener("click", async () => {
-      const lines = [r.title + (k !== 1 ? ` (${k === 0.5 ? "½" : k}×)` : ""), ""];
-      r.groups.forEach((g) => {
-        if (g.name) lines.push(g.name.toUpperCase());
-        g.items.forEach((it) => {
-          const q = qty(it, k);
-          lines.push(`- ${q.soft ? name(it, k) + (q.text ? ", " + q.text : "") : q.text + " " + name(it, k)}${it.n ? ", " + it.n : ""}`);
-        });
-        lines.push("");
-      });
-      try { await navigator.clipboard.writeText(lines.join("\n").trim()); toast("Shopping list copied"); }
-      catch { toast("Couldn't copy. Try selecting the list instead."); }
+      const lines = [r.title + (k !== 1 ? ` (${k === 0.5 ? "½" : k}×)` : ""), "", ...listLines(r, k)];
+      copyText(lines.join("\n").trim(), "Shopping list copied");
     });
     $(".steps").addEventListener("click", (e) => {
       const li = e.target.closest("li");
@@ -261,5 +334,6 @@
   }
 
   if ($("#list")) renderIndex();
+  if ($("#plan-list")) renderPlan();
   if ($("#recipe")) renderRecipe();
 })();
