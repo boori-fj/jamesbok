@@ -4716,4 +4716,401 @@ window.RECIPES = [
       "Pour the peanut butter espresso over the top and stir.",
     ],
   },
+
+  {
+    slug: "date-walnut-banana-bread",
+    title: "Date and Walnut Banana Bread",
+    posted: "2025-08-06",
+    reel: "DNBCHU8xG8d",
+    photo: "date-walnut-banana-bread.jpg",
+    alt: "James holding a thick slice of date and walnut banana bread",
+    time: "55 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "James's favorite banana bread: no oil or refined sugar, with applesauce and maple syrup for sweetness, and lots of chopped dates and walnuts.",
+    groups: [
+      {
+        name: "Wet",
+        items: [
+          { q: 1, u: "cup", i: "bananas", n: "mashed" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 0.5, u: "cup", i: "applesauce", b: "Mott's" },
+          { q: 3, u: "tbsp", i: "maple syrup or honey" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+        ],
+      },
+      {
+        name: "Dry",
+        items: [
+          { q: 1, u: "cup", i: "oat flour", n: "or oats blended into flour" },
+          { q: 0.5, u: "cup", i: "almond flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { q: 0.75, u: "cup", i: "walnuts", n: "chopped" },
+          { q: 0.75, u: "cup", i: "dates", n: "pitted and chopped", b: "Terra Delyssa" },
+          { q: 0.25, u: "tsp", i: "salt" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl, then mix in the eggs, applesauce, maple syrup and vanilla.",
+      "Add the oat flour, almond flour, baking powder, salt and cinnamon and stir until combined.",
+      "Fold in the chopped walnuts and dates.",
+      "Pour into the pan and bake for 45 minutes.",
+    ],
+  },
+
+  {
+    slug: "chocolate-protein-granola-bars",
+    title: "High-Protein Chocolate Granola Bars",
+    posted: "2025-08-01",
+    reel: "DM0MlG_Ri1p",
+    photo: "chocolate-protein-granola-bars.jpg",
+    alt: "A tray of chocolate oat granola bars cut into strips",
+    time: "30 min",
+    tags: ["Snack", "High protein", "Baking"],
+    intro:
+      "Cheaper than store-bought and gluten free: oats, nuts and pumpkin seeds bound with a chocolate applesauce, protein powder and honey mixture, baked and cut into bars.",
+    groups: [
+      {
+        name: "Wet",
+        items: [
+          { q: 200, u: "ml", i: "applesauce" },
+          { q: 0.75, u: "cup", i: "protein powder" },
+          { q: 2, u: "tbsp", i: "coconut oil" },
+          { q: 2, u: "tbsp", i: "cocoa powder" },
+          { q: 3, u: "tbsp", i: "honey", n: "or as much as you like" },
+        ],
+      },
+      {
+        name: "Dry",
+        items: [
+          { q: 2, u: "cup", i: "oats" },
+          { q: 1, u: "cup", i: "nuts", n: "chopped" },
+          { q: 0.5, u: "cup", i: "pumpkin seeds" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking sheet with parchment paper.",
+      "In a large bowl, mix the applesauce, protein powder, coconut oil, cocoa powder and honey until smooth.",
+      "Add the oats, chopped nuts, pumpkin seeds, cinnamon and salt and stir until everything is coated.",
+      "Spread it out evenly on the sheet and press it down firmly.",
+      "Bake for 20 minutes, score into bars while warm, and let it cool before breaking apart.",
+    ],
+  },
+
+  {
+    slug: "protein-cookie-dough",
+    title: "High-Protein Cookie Dough",
+    posted: "2025-07-29",
+    reel: "DMsdJ0oRzha",
+    photo: "protein-cookie-dough.jpg",
+    alt: "James holding a bowl of protein cookie dough scoops with chocolate chips",
+    time: "5 min",
+    tags: ["Sweet", "High protein", "No cook"],
+    intro:
+      "Five ingredients, no baking: Greek yogurt, peanut butter, almond flour and protein powder stirred into a thick, edible cookie dough with chocolate chips.",
+    groups: [
+      {
+        items: [
+          { q: 0.25, u: "cup", i: "Greek yogurt", b: "Skotidakis" },
+          { q: 1, u: "tbsp", i: "almond flour" },
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 1, u: "scoop", i: "protein powder" },
+          { t: "as desired", i: "chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the Greek yogurt and peanut butter in a bowl.",
+      "Add the almond flour and protein powder.",
+      "Mix until it comes together into a thick dough.",
+      "Fold in chocolate chips and eat it with a spoon.",
+    ],
+  },
+
+  {
+    slug: "kimchi-tuna-salad",
+    title: "Kimchi Tuna Salad",
+    posted: "2025-07-25",
+    reel: "DMiImg_xUC2",
+    photo: "kimchi-tuna-salad.jpg",
+    alt: "James holding up a cracker topped with kimchi tuna salad",
+    tags: ["Seafood", "Korean", "High protein"],
+    intro:
+      "Tuna with chopped kimchi, carrot, celery and green onion in a light soy, sesame and Greek yogurt sauce. No mayo, good for your gut, and about 35 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 2, u: "tbsp", i: "carrots", n: "diced" },
+          { q: 1, u: "stalk", i: "celery", n: "diced" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.25, u: "cup", i: "kimchi", n: "chopped" },
+          { t: "as desired", i: "furikake or dried seaweed" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "tbsp", i: "olive oil" },
+          { q: 0.5, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna and put it in a bowl.",
+      "Dice the carrot and celery, chop the green onion and add them.",
+      "Chop the kimchi and add it.",
+      "Add the olive oil, soy sauce, Greek yogurt and sesame oil and mix well.",
+      "Top with furikake and eat on crackers.",
+    ],
+  },
+
+  {
+    slug: "healthy-egg-salad-dip",
+    title: "Healthy Egg Salad Dip",
+    posted: "2025-07-21",
+    reel: "DMX1GtYR_6V",
+    photo: "healthy-egg-salad-dip.jpg",
+    alt: "A glass bowl of creamy egg salad dip",
+    tags: ["High protein", "Snack", "No cook"],
+    intro:
+      "A creamy egg salad blended with cottage cheese, Greek yogurt and the yolks, with crunchy celery, cucumber and red onion. Use 6 eggs for a dip or 8 for a classic egg salad.",
+    groups: [
+      {
+        items: [
+          { q: 6, q2: 8, i: ["boiled egg", "boiled eggs"], n: "6 for a dip, 8 for classic" },
+          { q: 1, u: "cup", i: "celery, cucumber and red onion", n: "diced" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese" },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+          { q: 0.5, u: "tsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { t: "optional", i: "dill" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the eggs and separate the yolks from the whites. Chop the whites into a bowl.",
+      "Dice the celery, cucumber and red onion and add them to the whites.",
+      "Blend the cottage cheese, Greek yogurt, garlic, Dijon, dill, salt, pepper and the yolks with an immersion blender until smooth.",
+      "Fold the sauce into the eggs and vegetables. Serve with crackers.",
+    ],
+  },
+
+  {
+    slug: "korean-street-toast",
+    title: "Korean Street Toast (Gilgeori Toast)",
+    posted: "2025-07-14",
+    reel: "DMFzzsbRBSd",
+    photo: "korean-street-toast.jpg",
+    alt: "James holding up a thick Korean street toast sandwich with egg, cabbage, ham and cheese",
+    time: "15 min",
+    tags: ["Breakfast", "Korean", "Quick"],
+    intro:
+      "The most underrated breakfast sandwich: a cabbage, carrot and green onion omelette with ham and cheese between buttery toasted milk bread, finished with honey, Kewpie mayo and ketchup.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["large egg", "large eggs"] },
+          { q: 1, u: "cup", i: "cabbage", n: "finely shredded" },
+          { q: 2, u: "stalk", i: "green onions", n: "chopped" },
+          { q: 0.5, u: "cup", i: "carrots", n: "shredded" },
+          { t: "optional", i: "cheese slice" },
+          { q: 2, u: "slice", i: "thin ham" },
+          { q: 2, u: "slice", i: "milk bread" },
+        ],
+      },
+      {
+        name: "Other",
+        items: [
+          { q: 1, u: "tbsp", i: "butter" },
+          { q: 1, u: "tbsp", i: "honey or sugar" },
+          { q: 1, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, u: "tbsp", i: "ketchup" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Finely shred the cabbage and carrot and chop the green onion. Beat them into the eggs with salt and pepper.",
+      "Melt half the butter in a pan, pour in the egg mixture and shape it into a square about the size of the bread. Cook until set on both sides.",
+      "In the same pan, toast the bread in the rest of the butter until golden.",
+      "Drizzle honey on the toast, then stack the omelette, ham and cheese on top.",
+      "Add Kewpie mayo and ketchup, close the sandwich and cut it in half.",
+    ],
+  },
+
+  {
+    slug: "cottage-cheese-protein-brownie",
+    title: "5-Minute Cottage Cheese Protein Brownie",
+    posted: "2025-07-10",
+    reel: "DL7fyT2xRcW",
+    photo: "cottage-cheese-protein-brownie.jpg",
+    alt: "James holding a dish of fudgy microwave brownie",
+    serves: "1",
+    time: "5 min",
+    tags: ["Sweet", "High protein", "Quick"],
+    intro:
+      "A single-serving brownie made in the microwave: cottage cheese, cocoa, an egg and honey blended smooth, topped with chocolate chips. About 20 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese" },
+          { q: 3, u: "tbsp", i: "cocoa powder" },
+          { q: 1, i: ["egg", "eggs"] },
+          { q: 2, u: "tbsp", i: "honey or sweetener" },
+          { t: "optional", i: "chocolate chips" },
+          { t: "optional", i: "Greek yogurt", n: "for topping, as in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the cottage cheese, cocoa powder, egg and honey in a measuring jug and blend with an immersion blender until smooth.",
+      "Pour it into a microwave-safe dish and scatter chocolate chips on top.",
+      "Microwave for about 3 minutes, until set.",
+      "Let it cool for a minute and eat it with a dollop of Greek yogurt if you like.",
+    ],
+  },
+
+  {
+    slug: "tuna-celery-salad",
+    title: "Healthy Tuna Celery Salad",
+    posted: "2025-07-07",
+    reel: "DLzyuTxRaMR",
+    photo: "tuna-celery-salad.jpg",
+    alt: "James holding a glass bowl of creamy tuna celery salad",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "Tuna with crunchy celery, cucumber and apple in a blended cottage cheese and Greek yogurt dressing. About 50 grams of protein with no mayo.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1, u: "cup", i: "celery", n: "diced" },
+          { q: 0.5, u: "cup", i: "cucumber", n: "diced" },
+          { q: 1, i: ["apple", "apples"], n: "peeled and diced" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese" },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as desired", i: "salt and pepper" },
+          { t: "optional", i: "dill" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna into a bowl.",
+      "Dice the celery and cucumber, peel and dice the apple, and add them to the tuna.",
+      "Blend the cottage cheese, Greek yogurt, Dijon, garlic, dill, salt and pepper until smooth.",
+      "Pour the sauce over the salad and mix well.",
+    ],
+  },
+
+  {
+    slug: "rice-paper-spanakopita",
+    title: "Rice Paper Spanakopita",
+    posted: "2025-07-02",
+    reel: "DLm7Apfxezc",
+    photo: "rice-paper-spanakopita.jpg",
+    alt: "James holding a forkful of rice paper spanakopita over the plate",
+    time: "20 min",
+    tags: ["Air fryer", "Snack"],
+    intro:
+      "A shortcut spanakopita: wilted spinach, herbs and feta wrapped in egg-dipped rice paper, coiled up and air-fried until golden and crisp.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 2, u: "tbsp", i: "parsley", n: "chopped" },
+          { q: 2, u: "tbsp", i: "dill", n: "chopped" },
+          { q: 2, u: "cup", i: "spinach", n: "uncooked" },
+          { q: 3, u: "sheet", i: "rice paper" },
+          { q: 1, i: ["egg", "eggs"], n: "beaten" },
+          { q: 80, u: "g", i: "feta", n: "crumbled" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the green onion, parsley and dill.",
+      "Wilt the spinach in a dry pan, then squeeze out as much water as you can and chop it.",
+      "Mix the spinach, herbs and feta in a bowl.",
+      "Beat the egg on a plate. Dip a sheet of rice paper in the egg until soft, lay it flat, spoon a line of filling along one edge and roll it up. Repeat and coil the rolls into a spiral.",
+      "Air fry at 350°F for 5–7 minutes, until golden.",
+    ],
+  },
+
+  {
+    slug: "kimbap",
+    title: "Easy Kimbap",
+    posted: "2025-06-30",
+    reel: "DLh7UgrRF_R",
+    photo: "kimbap.jpg",
+    alt: "A plate of sliced kimbap rolls",
+    tags: ["Korean", "Rice"],
+    intro:
+      "James's favorite childhood food: seasoned rice rolled in seaweed with carrots, pickled radish, braised fish cake, crab sticks, spinach and egg. Great for a potluck.",
+    groups: [
+      {
+        name: "Rice",
+        items: [
+          { q: 2, u: "cup", i: "cooked rice" },
+          { q: 0.5, u: "tsp", i: "salt" },
+          { q: 1, u: "tsp", i: "sugar" },
+          { q: 1, u: "tbsp", i: "rice vinegar" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+        ],
+      },
+      {
+        name: "Fillings",
+        items: [
+          { t: "as needed", i: "carrots", n: "shredded and sautéed" },
+          { t: "as needed", i: "pickled radish (danmuji)", n: "cut into strips" },
+          { t: "as needed", i: "fish cakes", n: "cut into strips" },
+          { q: 2, u: "tbsp", i: "soy sauce", n: "for the fish cakes" },
+          { q: 1, u: "tbsp", i: "brown sugar", n: "for the fish cakes" },
+          { q: 1, u: "tsp", i: "garlic", n: "for the fish cakes" },
+          { t: "as needed", i: "imitation crab sticks" },
+          { t: "1 bunch", i: "spinach" },
+          { q: 0.5, u: "tsp", i: "salt", n: "for the spinach" },
+          { q: 1, u: "tsp", i: "garlic", n: "for the spinach" },
+          { q: 1, u: "tsp", i: "sesame oil", n: "for the spinach" },
+          { q: 3, i: ["large egg", "large eggs"] },
+        ],
+      },
+      {
+        name: "To roll",
+        items: [
+          { t: "as needed", i: "seaweed sheets (gim)" },
+          { t: "to brush", i: "sesame oil" },
+          { t: "to sprinkle", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Season the warm rice with the salt, sugar, rice vinegar and sesame oil.",
+      "Sauté the shredded carrots. Simmer the fish cake strips with the soy sauce, brown sugar and garlic until glossy.",
+      "Blanch the spinach, squeeze it dry and season with salt, garlic and sesame oil.",
+      "Beat the eggs, cook them into a thin omelette and cut it into long strips. Split the crab sticks lengthwise.",
+      "Spread a thin layer of rice over a sheet of seaweed, line up the fillings near one edge and roll it up tightly using a bamboo mat.",
+      "Brush the rolls with sesame oil, sprinkle with sesame seeds and slice into rounds.",
+    ],
+  },
 ];
