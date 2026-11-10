@@ -40,7 +40,7 @@
     const [y, m, d] = iso.split("-").map(Number);
     return `${MONTHS[m - 1]} ${d}, ${y}`;
   }
-  const reelUrl = (id) => `https://www.instagram.com/reel/${id}/`;
+  const reelUrl = (id) => `https://www.instagram.com/p/${id}/`;
   const allItems = (r) => r.groups.flatMap((g) => g.items);
 
   function toast(msg) {
@@ -169,7 +169,7 @@
     if (!box) return;
     const DAYS = ["Mon", "Tue", "Wed", "Thu", "Fri"];
     // Only proper meals go in the plan: no drinks, snacks, sides or sweets.
-    const SKIP = ["Drink", "Snack", "Side", "Sweet", "Breakfast"];
+    const SKIP = ["Drink", "Snack", "Side", "Sweet", "Breakfast", "Sauce"];
     const pool = R.filter((r) => !r.tags.some((t) => SKIP.includes(t)));
     const KEY = "jb-meal-plan";
 

@@ -5113,4 +5113,1268 @@ window.RECIPES = [
       "Brush the rolls with sesame oil, sprinkle with sesame seeds and slice into rounds.",
     ],
   },
+
+  {
+    slug: "banana-protein-granola-bars",
+    title: "High-Protein Banana Granola Bars",
+    posted: "2025-06-23",
+    reel: "DLPvehERvDw",
+    photo: "banana-protein-granola-bars.jpg",
+    alt: "A tray of golden oat and nut granola bars cut into strips",
+    time: "30 min",
+    tags: ["Snack", "High protein", "Baking"],
+    intro:
+      "Gluten-free granola bars held together with mashed banana and protein powder instead of sugar syrup, packed with oats, almonds and pumpkin seeds.",
+    groups: [
+      {
+        name: "Wet",
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 0.75, u: "cup", i: "protein powder" },
+          { q: 2, u: "tbsp", i: "coconut oil" },
+          { t: "a dash", i: "vanilla extract" },
+        ],
+      },
+      {
+        name: "Dry",
+        items: [
+          { q: 2, u: "cup", i: "oats" },
+          { q: 1, u: "cup", i: "almonds", n: "chopped" },
+          { q: 0.5, u: "cup", i: "pumpkin seeds" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking sheet with parchment paper.",
+      "Mash the bananas in a large bowl, then stir in the protein powder, coconut oil and vanilla.",
+      "Add the oats, chopped almonds, pumpkin seeds, cinnamon and salt and mix until everything is coated.",
+      "Spread it out on the sheet, press it down firmly and score it into bars.",
+      "Bake for 20 minutes and let it cool before breaking into bars.",
+    ],
+  },
+
+  {
+    slug: "boursin-tomato-bruschetta-dip",
+    title: "5-Minute Boursin Bruschetta Dip",
+    posted: "2025-06-18",
+    reel: "DLC3IV5xN_g",
+    photo: "boursin-tomato-bruschetta-dip.jpg",
+    alt: "A glass dish of Boursin topped with bruschetta tomatoes, basil and balsamic glaze",
+    time: "15 min",
+    tags: ["Snack", "No cook"],
+    intro:
+      "James's most requested appetizer: soft Boursin spread in a dish and topped with a quick tomato bruschetta and a homemade balsamic glaze. Serve with crackers or toasted bread.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "package", i: "Boursin cheese", b: "Boursin" },
+          { q: 3, u: "cup", i: "cherry tomatoes", n: "quartered" },
+          { q: 2, u: "tbsp", i: "red onion", n: "finely chopped" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "olive oil" },
+          { q: 1, q2: 2, u: "tbsp", i: "balsamic glaze" },
+          { t: "to taste", i: "salt and pepper" },
+          { t: "to garnish", i: "basil", n: "added in the video" },
+        ],
+      },
+      {
+        name: "Balsamic glaze",
+        items: [
+          { q: 0.5, u: "cup", i: "balsamic vinegar" },
+          { q: 2, u: "tbsp", i: "brown sugar" },
+        ],
+      },
+    ],
+    steps: [
+      "For the glaze, bring the balsamic vinegar and brown sugar to a boil in a small pot, let it bubble until it thickens, then turn off the heat.",
+      "Break up the Boursin and spread it over the bottom of a serving dish.",
+      "Quarter the cherry tomatoes and finely chop the red onion. Toss them with the garlic, olive oil, salt and pepper.",
+      "Spoon the tomatoes over the Boursin, drizzle with the balsamic glaze and top with torn basil.",
+    ],
+  },
+
+  {
+    slug: "fig-balsamic-cottage-cheese-salad",
+    title: "Fig Balsamic Cottage Cheese Salad",
+    posted: "2025-06-16",
+    reel: "DK9tfA5RflT",
+    photo: "fig-balsamic-cottage-cheese-salad.jpg",
+    alt: "A plate of cottage cheese topped with a chopped cucumber, tomato and apple salad",
+    time: "10 min",
+    tags: ["Salad", "High protein", "No cook"],
+    intro:
+      "A protein-packed spring salad: a bed of cottage cheese topped with cucumber, cherry tomatoes, red onion and apple tossed in Pure J.L. Kraft fig balsamic dressing.",
+    groups: [
+      {
+        items: [
+          { q: 3, u: "tbsp", i: "fig balsamic dressing", b: "Pure J.L. Kraft" },
+          { q: 1, u: "cup", i: "cottage cheese" },
+          { q: 0.75, u: "cup", i: "cucumbers", n: "diced" },
+          { q: 0.75, u: "cup", i: "cherry tomatoes", n: "chopped" },
+          { q: 0.25, u: "cup", i: "red onion", n: "diced" },
+          { q: 0.5, u: "cup", i: "apple", n: "diced" },
+          { t: "as desired", i: "fresh herbs", n: "such as basil" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the cucumber, apple and red onion and chop the cherry tomatoes.",
+      "Toss them in a bowl with the fig balsamic dressing, salt and pepper.",
+      "Spread the cottage cheese on a plate and spoon the salad over the top.",
+      "Finish with fresh herbs.",
+    ],
+  },
+
+  {
+    slug: "healthy-lemon-loaf",
+    title: "Healthy Lemon Loaf Cake",
+    posted: "2025-06-13",
+    reel: "DK2NzrOxX8V",
+    photo: "healthy-lemon-loaf.jpg",
+    alt: "A golden lemon loaf cake, sliced, on parchment paper",
+    time: "45 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A gluten-free lemon loaf made with blended oats and sweetened with honey, with fresh lemon zest and juice for a bright flavor.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["lemon", "lemons"], n: "zest and juice" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 0.25, u: "cup", i: "coconut oil", n: "melted" },
+          { q: 0.5, u: "cup", i: "milk of choice" },
+          { q: 0.5, u: "cup", i: "honey", n: "or to taste" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+          { q: 2, u: "cup", i: "oats", n: "blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Zest the lemon into a bowl and squeeze in the juice.",
+      "Whisk in the eggs, melted coconut oil, milk, honey and vanilla.",
+      "Blend the oats into a flour and stir them in with the baking powder and salt.",
+      "Pour into the pan and bake for about 30–35 minutes, until golden and a toothpick comes out clean. Let it cool before slicing.",
+    ],
+  },
+
+  {
+    slug: "peanut-butter-chocolate-granola",
+    title: "Peanut Butter Chocolate Granola",
+    posted: "2025-06-10",
+    reel: "DKvTGpyx4T5",
+    photo: "peanut-butter-chocolate-granola.jpg",
+    alt: "James with a bowl of Greek yogurt topped with chocolate granola and fruit",
+    time: "25 min",
+    tags: ["Breakfast", "Snack", "Baking"],
+    intro:
+      "Crunchy chocolate granola with almonds and pumpkin seeds, bound with honey, coconut oil and peanut butter. Gluten free with no refined sugar; great over yogurt and fruit.",
+    groups: [
+      {
+        name: "Dry",
+        items: [
+          { q: 2, u: "cup", i: "oats" },
+          { q: 0.25, u: "cup", i: "cocoa powder" },
+          { q: 1, u: "cup", i: "almonds", n: "chopped" },
+          { q: 0.5, u: "cup", i: "pumpkin seeds" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+      {
+        name: "Wet",
+        items: [
+          { q: 0.5, u: "cup", i: "honey", n: "or ¼ cup for less sweet" },
+          { q: 0.25, u: "cup", i: "coconut oil" },
+          { q: 3, u: "tbsp", i: "peanut butter", n: "or 2 tbsp powdered peanut butter + 1 tbsp peanut butter" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking sheet with parchment paper.",
+      "Mix the oats, cocoa powder, almonds, pumpkin seeds, cinnamon and salt in a large bowl.",
+      "Warm the honey, coconut oil and peanut butter together until runny, then stir in the vanilla.",
+      "Pour the wet mixture over the dry ingredients and mix until everything is coated.",
+      "Spread it out on the sheet and bake for 15–20 minutes. Let it cool completely so it crisps up, then break it into clusters.",
+    ],
+  },
+
+  {
+    slug: "healthy-spinach-cheese-dip",
+    title: "Healthy Spinach and Cheese Dip",
+    posted: "2025-06-04",
+    reel: "DKe6Hj2RgJO",
+    photo: "healthy-spinach-cheese-dip.jpg",
+    alt: "James with a bowl of baked spinach dip topped with melted cheddar",
+    time: "15 min",
+    tags: ["Snack", "High protein", "Air fryer"],
+    intro:
+      "A warm, cheesy spinach dip with over 35 grams of protein: blended cottage cheese and Greek yogurt with fresh spinach and garlic, topped with cheddar and baked until bubbly.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cottage cheese" },
+          { q: 2, u: "tbsp", i: "Greek yogurt" },
+          { q: 0.25, u: "cup", i: "cheddar cheese", n: "shredded" },
+          { q: 1, u: "cup", i: "spinach", n: "chopped" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as desired", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Blend the cottage cheese until completely smooth.",
+      "Add the Greek yogurt, chopped spinach, garlic, salt and pepper and stir (or pulse) to combine.",
+      "Spoon it into a small oven-safe dish and cover the top with shredded cheddar.",
+      "Air fry or bake until the cheese is melted and golden. Serve warm with crackers.",
+    ],
+  },
+
+  {
+    slug: "double-chocolate-banana-bread",
+    title: "Healthy Double Chocolate Banana Bread",
+    posted: "2025-06-02",
+    reel: "DKZqrMIxfic",
+    photo: "double-chocolate-banana-bread.jpg",
+    alt: "James holding a piece of double chocolate banana bread over the sliced loaf",
+    time: "50 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "A rich chocolate banana bread made with oat flour, cocoa and Greek yogurt, studded with walnuts and chocolate chips.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["ripe banana", "ripe bananas"] },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 0.25, u: "cup", i: "Greek yogurt" },
+          { q: 1.5, u: "cup", i: "oat flour" },
+          { q: 0.5, u: "cup", i: "cocoa powder" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "walnuts", n: "chopped" },
+          { t: "as desired", i: "honey" },
+          { t: "as desired", i: "chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl, then mix in the eggs and Greek yogurt.",
+      "Add the oat flour, cocoa powder and baking powder, plus honey if you like it sweeter, and stir until combined.",
+      "Fold in chopped walnuts and chocolate chips, pour into the pan and add more chips on top.",
+      "Bake for 40 minutes, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "banana-cream-pudding",
+    title: "3-Ingredient Banana Cream Pudding",
+    posted: "2025-05-26",
+    reel: "DKHpZd9RIG4",
+    photo: "banana-cream-pudding.jpg",
+    alt: "A bowl of creamy banana pudding topped with banana slices and granola",
+    time: "5 min",
+    tags: ["Sweet", "High protein", "No cook"],
+    intro:
+      "A five-minute high-protein treat: banana, cottage cheese and honey blended into a smooth pudding, topped with banana slices and granola.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["banana", "bananas"], n: "plus extra slices for topping" },
+          { q: 1, u: "cup", i: "cottage cheese" },
+          { t: "as desired", i: "honey" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 0.5, u: "tsp", i: "cinnamon" },
+          { q: 1, u: "tbsp", i: "Greek yogurt" },
+          { t: "a dash", i: "vanilla extract" },
+          { t: "for topping", i: "granola or graham crackers" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the banana, cottage cheese and honey in a blender, plus the cinnamon, Greek yogurt and vanilla if you're using them.",
+      "Blend until completely smooth.",
+      "Pour into a bowl and top with banana slices and granola or crushed graham crackers.",
+    ],
+  },
+
+  {
+    slug: "air-fryer-protein-granola",
+    title: "Air Fryer High-Protein Granola",
+    posted: "2025-05-21",
+    reel: "DJ6xEDfxb6p",
+    photo: "air-fryer-protein-granola.jpg",
+    alt: "A close-up of golden clusters of oat, almond and pumpkin seed granola",
+    time: "20 min",
+    tags: ["Breakfast", "High protein", "Air fryer"],
+    intro:
+      "Crunchy granola with protein powder, almonds and pumpkin seeds, bound with honey, coconut oil and peanut butter and crisped in the air fryer. Great over Greek yogurt with fruit.",
+    groups: [
+      {
+        name: "Dry",
+        items: [
+          { q: 2, u: "cup", i: "rolled oats" },
+          { q: 0.5, u: "cup", i: "protein powder" },
+          { q: 1, u: "cup", i: "nuts or almonds" },
+          { q: 0.5, u: "cup", i: "pumpkin seeds" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { t: "a dash", i: "salt" },
+        ],
+      },
+      {
+        name: "Wet",
+        items: [
+          { q: 0.25, u: "cup", i: "honey" },
+          { q: 0.25, u: "cup", i: "coconut oil" },
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 1, u: "tsp", i: "vanilla extract" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the oats, protein powder, nuts, pumpkin seeds, cinnamon and salt in a large bowl.",
+      "Warm the honey, coconut oil and peanut butter together until runny, then stir in the vanilla.",
+      "Pour the wet mixture over the dry ingredients and mix until everything is coated.",
+      "Spread it in a parchment-lined air fryer basket and air fry at 300°F for about 12 minutes, until golden and crisp. You can also bake it in the oven.",
+      "Let it cool completely, then break it into clusters. Serve over Greek yogurt with strawberries.",
+    ],
+  },
+
+  {
+    slug: "miso-lime-asian-tuna-salad",
+    title: "5-Minute Miso Lime Asian Tuna Salad",
+    posted: "2025-05-19",
+    reel: "DJ1nU5RRnU-",
+    photo: "miso-lime-asian-tuna-salad.jpg",
+    alt: "James holding a glass bowl of Asian tuna salad with seaweed and carrots",
+    time: "5 min",
+    tags: ["Seafood", "Quick", "No cook"],
+    intro:
+      "A five-minute lunch: tuna with finely chopped carrot, celery, green onion and pickles in Pure J.L. Kraft's miso lime ginger dressing, finished with crumbled seaweed, sesame and chili flakes.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 2, u: "tbsp", i: "miso lime ginger dressing", b: "Pure J.L. Kraft" },
+          { q: 1, u: "tbsp", i: "carrots", n: "finely chopped" },
+          { q: 1, u: "tbsp", i: "celery", n: "finely chopped" },
+          { q: 1, u: "tbsp", i: "green onions", n: "chopped" },
+          { q: 2, i: ["dill pickle", "dill pickles"], n: "finely chopped" },
+          { t: "as desired", i: "roasted seaweed", n: "crumbled" },
+          { t: "as desired", i: "sesame seeds" },
+          { t: "as desired", i: "chili flakes" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna and put it in a bowl.",
+      "Finely chop the carrot, celery, green onion and pickles and add them.",
+      "Pour over the miso lime ginger dressing and mix well.",
+      "Top with crumbled roasted seaweed, sesame seeds and chili flakes, and eat with crackers.",
+    ],
+  },
+
+  {
+    slug: "cottage-cheese-banana-bread",
+    title: "High-Protein Cottage Cheese Banana Bread",
+    posted: "2025-05-12",
+    reel: "DJjmBwgxJ-u",
+    photo: "cottage-cheese-banana-bread.jpg",
+    alt: "James holding a slice of banana bread over the loaf",
+    time: "1 hr",
+    tags: ["Sweet", "Baking", "High protein"],
+    intro:
+      "A five-ingredient banana bread that gets its protein from blended cottage cheese instead of protein powder, made with almond flour and topped with trail mix.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["ripe banana", "ripe bananas"] },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 0.5, u: "cup", i: "cottage cheese", n: "blended smooth" },
+          { q: 2, u: "cup", i: "almond flour", b: "Kirkland Signature" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "cinnamon" },
+          { t: "as desired", i: "honey" },
+          { t: "as desired", i: "trail mix" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl and mix in the eggs.",
+      "Blend the cottage cheese until smooth and stir it in.",
+      "Add the almond flour and baking powder, plus cinnamon and honey if you like, and mix well. Fold in some trail mix.",
+      "Pour into the pan, top with more trail mix and bake for 50 minutes.",
+    ],
+  },
+
+  {
+    slug: "ummas-japchae",
+    title: "Umma's Japchae",
+    posted: "2025-05-07",
+    reel: "DJWtrPiItDL",
+    photo: "ummas-japchae.jpg",
+    alt: "A platter of japchae glass noodles topped with egg strips and spinach",
+    tags: ["Korean", "Noodles"],
+    intro:
+      "James's mom's favorite noodle dish: chewy Korean glass noodles tossed in a sweet soy and garlic sauce with sautéed vegetables, mushrooms, spinach and egg. This recipe makes a big platter.",
+    groups: [
+      {
+        items: [
+          { q: 500, u: "g", i: "Korean glass noodles (dangmyeon)" },
+          { q: 1, i: ["carrot", "carrots"], n: "cut into matchsticks" },
+          { q: 1, i: ["onion", "onions"], n: "sliced" },
+          { q: 1, i: ["bell pepper", "bell peppers"], n: "sliced" },
+          { t: "as desired", i: "mushrooms", n: "sliced (wood ear in the video)" },
+          { q: 1, u: "bunch", i: "spinach" },
+          { q: 1, i: ["egg", "eggs"] },
+          { t: "for the pan", i: "cooking oil" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 12, u: "tbsp", i: "soy sauce" },
+          { q: 8, u: "tbsp", i: "brown sugar" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "vegetable oil" },
+        ],
+      },
+      {
+        name: "To finish",
+        items: [
+          { q: 2, u: "tbsp", i: "sesame oil" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the onion and bell pepper and cut the carrot into matchsticks. Sauté each vegetable and the mushrooms separately in a little oil until just tender.",
+      "Blanch the spinach, squeeze it dry, and cook the egg into a thin omelette, then slice it into strips.",
+      "Boil the glass noodles according to the package, then rinse under cold water and drain.",
+      "In a large pan, warm the soy sauce, brown sugar, garlic and vegetable oil. Add the noodles and toss until they soak up the sauce.",
+      "Move everything to a large bowl, add the vegetables, sesame oil and sesame seeds and mix well. Top with the egg strips and spinach.",
+    ],
+  },
+
+  {
+    slug: "high-protein-tzatziki",
+    title: "5-Minute High-Protein Tzatziki",
+    posted: "2025-05-02",
+    reel: "DJJ1hG7IU9Y",
+    photo: "high-protein-tzatziki.jpg",
+    alt: "James dipping a cracker into a bowl of creamy tzatziki",
+    time: "5 min",
+    tags: ["Snack", "High protein", "No cook"],
+    intro:
+      "The dip of all dips: Greek yogurt and cottage cheese with grated cucumber squeezed dry, lemon, garlic and lots of dill, finished with olive oil.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "plain Greek yogurt", b: "Kirkland Signature" },
+          { q: 0.5, u: "cup", i: "cottage cheese" },
+          { q: 0.5, i: ["cucumber", "cucumbers"], n: "grated and squeezed dry" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "juiced" },
+          { t: "a dash", i: "salt" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { t: "as much as you like", i: "dill", n: "chopped" },
+          { q: 0.5, u: "tbsp", i: "olive oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Grate the cucumber, then squeeze out as much water as you can with your hands.",
+      "Put the Greek yogurt and cottage cheese in a bowl and add the cucumber.",
+      "Add the lemon juice, salt, garlic and plenty of chopped dill and mix well.",
+      "Drizzle with olive oil and serve with crackers, pita or vegetables.",
+    ],
+  },
+
+  {
+    slug: "carrot-cake-baked-oats",
+    title: "Carrot Cake Baked Oats",
+    posted: "2025-04-24",
+    reel: "DI1PdDWRjik",
+    photo: "carrot-cake-baked-oats.jpg",
+    alt: "James holding a plate of carrot cake baked oats with yogurt frosting in front of the loaf",
+    time: "45 min",
+    tags: ["Breakfast", "Baking", "High protein"],
+    intro:
+      "Carrot cake for breakfast: oats, banana, grated carrot and a scoop of protein powder baked into a soft loaf, then topped with a honey cream cheese yogurt frosting.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["banana", "bananas"] },
+          { q: 2, u: "cup", i: "oats" },
+          { q: 1, u: "scoop", i: "protein powder", n: "about 30 g" },
+          { q: 1, u: "tsp", i: "baking powder" },
+          { q: 1, i: ["carrot", "carrots"], n: "grated" },
+          { q: 2, u: "cup", i: "milk of choice", n: "almond milk in the video" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "cinnamon" },
+          { t: "as desired", i: "nuts or seeds" },
+          { t: "as desired", i: "honey" },
+        ],
+      },
+      {
+        name: "Frosting",
+        items: [
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "tbsp", i: "cream cheese" },
+          { t: "as desired", i: "honey or maple syrup" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl, then stir in the oats, protein powder and baking powder.",
+      "Grate in the carrot, pour in the milk and mix well. Add cinnamon, seeds and a drizzle of honey if you like.",
+      "Pour into the pan and bake until set and golden on top, about 30–35 minutes.",
+      "For the frosting, stir the Greek yogurt, cream cheese and honey together until smooth. Spread it on each slice.",
+    ],
+  },
+
+  {
+    slug: "four-ingredient-oat-banana-bread",
+    title: "4-Ingredient Healthy Banana Bread",
+    posted: "2025-04-17",
+    reel: "DIjOrX-xReY",
+    photo: "four-ingredient-oat-banana-bread.jpg",
+    alt: "A golden loaf of banana bread on parchment paper",
+    time: "50 min",
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Only four ingredients are essential: bananas, eggs, oat flour and baking powder. Fold in dates and pumpkin seeds if you have them.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["banana", "bananas"] },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 2, u: "cup", i: "oat flour", n: "or oats blended into flour" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "cinnamon" },
+          { t: "as desired", i: "seeds or nuts", n: "pumpkin seeds in the video" },
+          { t: "as desired", i: "dates", n: "pitted and chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a loaf pan with parchment paper.",
+      "Mash the bananas in a large bowl and whisk in the eggs.",
+      "Blend oats into a flour if needed, then stir it in with the baking powder.",
+      "Fold in chopped dates, seeds and cinnamon if you're using them.",
+      "Pour into the pan and bake for about 40 minutes, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "korean-braised-potatoes",
+    title: "Korean Braised Potatoes (Gamja Jorim)",
+    posted: "2025-04-14",
+    reel: "DIbgA0eRhi1",
+    photo: "korean-braised-potatoes.jpg",
+    alt: "James with a plate of glossy soy-braised potatoes topped with sesame seeds",
+    tags: ["Side", "Korean"],
+    intro:
+      "A classic Korean side dish: cubed potatoes pan-fried until tender, then glazed in a sweet soy, honey and garlic sauce until sticky and shiny.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["potato", "potatoes"], n: "Yukon or yellow, peeled and cubed" },
+          { t: "for the pan", i: "olive oil" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "honey or brown sugar" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 4, u: "tbsp", i: "water" },
+          { t: "a dash", i: "sesame oil" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Peel the potatoes and cut them into bite-size cubes.",
+      "Mix the soy sauce, honey, garlic, water and sesame oil in a bowl.",
+      "Heat a little olive oil in a pan, add the potatoes, cover and cook over medium heat, stirring now and then, until they're cooked through. Make sure they're fully cooked before adding the sauce.",
+      "Pour in the sauce and keep stirring until it reduces to a sticky glaze.",
+      "Sprinkle with sesame seeds and serve.",
+    ],
+  },
+
+  {
+    slug: "four-ingredient-protein-cookies",
+    title: "4-Ingredient High-Protein Cookies",
+    posted: "2025-04-11",
+    reel: "DITxYxExwz-",
+    photo: "four-ingredient-protein-cookies.jpg",
+    alt: "James with a glass of milk and a tray of banana peanut butter chocolate chip cookies",
+    time: "20 min",
+    tags: ["Sweet", "High protein", "Baking"],
+    intro:
+      "Soft, chewy cookies made from just a banana, protein powder, peanut butter and chocolate chips. No flour and no refined sugar.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["banana", "bananas"] },
+          { q: 2, u: "scoop", i: "protein powder" },
+          { q: 1 / 3, u: "cup", i: "peanut butter" },
+          { t: "as much as you like", i: "chocolate chips" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking sheet with parchment paper.",
+      "Mash the banana in a bowl.",
+      "Add the protein powder and peanut butter and mix into a thick dough.",
+      "Scoop the dough onto the sheet, flatten each one slightly and press plenty of chocolate chips on top.",
+      "Bake for about 10–12 minutes, until golden at the edges. Let them cool a little before eating.",
+    ],
+  },
+
+  {
+    slug: "gochujang-cucumber-salad",
+    title: "Korean Spicy Gochujang Cucumbers",
+    posted: "2025-04-07",
+    reel: "DIJe8NvRUlV",
+    photo: "gochujang-cucumber-salad.jpg",
+    alt: "A glass bowl of cucumbers, onion and carrot in a red gochujang sauce",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "Salted, crunchy cucumbers with sliced onion and shredded carrot in a sweet, tangy gochujang sauce that James calls liquid gold.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["mini cucumber", "mini cucumbers"], n: "sliced into thick rounds" },
+          { t: "a sprinkle", i: "salt", n: "for salting, as in the video" },
+          { q: 0.5, i: ["large onion", "large onions"], n: "sliced" },
+          { q: 1 / 3, u: "cup", i: "carrots", n: "shredded" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "gochujang" },
+          { q: 2, u: "tbsp", i: "white vinegar" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 0.25, u: "tbsp", i: "garlic", n: "minced" },
+          { t: "as desired (lots)", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the cucumbers into thick rounds, toss them with a little salt in a bowl and leave them for about 20 minutes.",
+      "Meanwhile, stir the gochujang, vinegar, honey, garlic and sesame seeds together.",
+      "Rinse the cucumbers well and drain them.",
+      "Toss the cucumbers with the sliced onion, shredded carrot and the sauce until everything is coated.",
+    ],
+  },
+
+  {
+    slug: "protein-peanut-butter-cups",
+    title: "High-Protein Peanut Butter Chocolate Bites",
+    posted: "2025-04-04",
+    reel: "DIBxnPTxRXZ",
+    photo: "protein-peanut-butter-cups.jpg",
+    alt: "James holding a bitten chocolate-coated peanut butter ball",
+    tags: ["Sweet", "Snack", "High protein"],
+    intro:
+      "Like a Reese's, but with about 9 grams of protein and 45 calories each: powdered peanut butter balls dipped in a chocolate protein yogurt coating and frozen.",
+    groups: [
+      {
+        name: "Peanut butter balls",
+        items: [
+          { q: 1, u: "cup", i: "powdered peanut butter", b: "PB&Me" },
+          { q: 100, u: "ml", i: "applesauce" },
+        ],
+      },
+      {
+        name: "Chocolate coating",
+        items: [
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { q: 1, u: "scoop", i: "protein powder" },
+          { q: 1, u: "tbsp", i: "cocoa powder" },
+          { t: "as desired", i: "honey" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the powdered peanut butter and applesauce into a thick dough.",
+      "Roll it into small balls and set them on a parchment-lined tray.",
+      "For the coating, stir the Greek yogurt, protein powder, cocoa powder and honey together until smooth.",
+      "Dip each ball in the chocolate mixture and put it back on the tray.",
+      "Freeze until firm, then keep them in the freezer.",
+    ],
+  },
+
+  {
+    slug: "chicken-fresh-rolls-peanut-sauce",
+    title: "Chicken Fresh Rolls with All-Purpose Peanut Sauce",
+    posted: "2025-04-03",
+    reel: "DH_LPWdRkNm",
+    photo: "chicken-fresh-rolls-peanut-sauce.jpg",
+    alt: "James eating a fresh roll with a bowl of peanut sauce in front of him",
+    tags: ["Chicken", "No cook"],
+    intro:
+      "The peanut sauce James puts on everything, served with easy chicken and vegetable rice paper rolls. The caption gives amounts for the sauce; fill the rolls however you like.",
+    groups: [
+      {
+        name: "Rolls",
+        items: [
+          { t: "as needed", i: "rice paper" },
+          { t: "as needed", i: "cooked chicken", n: "shredded" },
+          { t: "as needed", i: "cabbage", n: "thinly sliced" },
+          { t: "as needed", i: "cucumber", n: "cut into strips" },
+          { t: "as needed", i: "carrot", n: "cut into strips" },
+          { t: "as needed", i: "red bell pepper", n: "cut into strips" },
+        ],
+      },
+      {
+        name: "Peanut sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "rice vinegar", b: "Marukan" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { q: 1, u: "tsp", i: "garlic", n: "minced" },
+          { q: 2, u: "tbsp", i: "water" },
+          { t: "a dash", i: "sesame oil" },
+          { t: "a squeeze", i: "lemon" },
+          { t: "a dash, optional", i: "fish sauce" },
+          { t: "optional", i: "sesame seeds" },
+          { t: "optional", i: "sriracha" },
+        ],
+      },
+    ],
+    steps: [
+      "Thinly slice the cabbage and cut the cucumber, carrot and bell pepper into strips. Shred the chicken.",
+      "Dip a sheet of rice paper in water for a few seconds and lay it flat on a plate.",
+      "Add some chicken and vegetables, fold in the sides and roll it up tightly. Repeat with the rest.",
+      "For the sauce, whisk the peanut butter, soy sauce, rice vinegar, honey, garlic and water until smooth, then add the sesame oil, lemon, and fish sauce, sesame seeds and sriracha if you like.",
+      "Serve the rolls with the sauce for dipping.",
+    ],
+  },
+
+  {
+    slug: "classic-cucumber-kimchi",
+    title: "Classic Cucumber Kimchi",
+    posted: "2025-03-27",
+    reel: "DHtJZZ2RVqr",
+    photo: "classic-cucumber-kimchi.jpg",
+    alt: "A glass bowl of cucumber kimchi with shredded carrot and onion",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "The easiest cucumber kimchi: salted cucumber rounds tossed with onion, carrot and a simple gochugaru, soy and garlic seasoning.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["mini cucumber", "mini cucumbers"], n: "sliced into rounds" },
+          { q: 0.5, u: "tbsp", i: "salt" },
+          { q: 0.5, i: ["white onion", "white onions"], n: "thinly sliced" },
+          { q: 1, i: ["carrot", "carrots"], n: "shredded" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "sugar" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the cucumbers into rounds and toss them with the salt in a bowl. Leave them for about 30 minutes.",
+      "Thinly slice the onion and shred the carrot.",
+      "Rinse the cucumbers well and drain them.",
+      "Mix the gochugaru, soy sauce, sugar, garlic, sesame oil and sesame seeds into a paste.",
+      "Toss the cucumbers, onion and carrot with the sauce until coated.",
+    ],
+  },
+
+  {
+    slug: "chicken-corn-soup",
+    title: "10-Minute Chicken Corn Soup",
+    posted: "2025-03-24",
+    reel: "DHlbgT9R7XT",
+    photo: "chicken-corn-soup.jpg",
+    alt: "A glass bowl of chicken corn soup with green onion",
+    time: "10 min",
+    tags: ["Soup", "Chicken", "Quick"],
+    intro:
+      "One of James's favorite soups growing up: rotisserie chicken and sweet corn in a gingery, garlicky broth, thickened with cornstarch and finished with green onion and sesame oil.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "rotisserie chicken", n: "chopped" },
+          { q: 900, u: "ml", i: "low-sodium chicken stock" },
+          { q: 1, u: "can", i: "corn", n: "drained" },
+          { q: 1, u: "tsp", i: "ginger", n: "grated" },
+          { q: 1, u: "tbsp", i: "mirin", n: "optional" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "tbsp", i: "cornstarch", n: "mixed with a little cold water" },
+          { t: "to taste", i: "white pepper" },
+          { t: "to garnish", i: "green onions", n: "chopped" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Chop the rotisserie chicken and drain the corn.",
+      "Bring the chicken stock to a boil in a pot and add the chicken, corn, ginger, garlic, soy sauce and mirin.",
+      "Mix the cornstarch with a little cold water, stir it into the soup and simmer until it thickens slightly.",
+      "Season with white pepper, then stir in the green onions and sesame oil.",
+    ],
+  },
+
+  {
+    slug: "rotisserie-chicken-asian-salad",
+    title: "Rotisserie Chicken Asian Salad",
+    posted: "2025-03-19",
+    reel: "DHYnIAuRcCK",
+    photo: "rotisserie-chicken-asian-salad.jpg",
+    alt: "A large glass container of Asian chicken salad with cabbage, carrot and cucumber",
+    tags: ["Chicken", "Salad", "Meal prep"],
+    intro:
+      "A ten-minute way to use up a rotisserie chicken: shredded chicken with cabbage, carrot, cucumber and onion in a punchy oyster sauce, lemon and ginger dressing.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "rotisserie chicken", n: "shredded" },
+          { q: 1, u: "cup", i: "cabbage", n: "shredded" },
+          { q: 1, i: ["medium carrot", "medium carrots"], n: "julienned" },
+          { q: 1, u: "cup", i: "cucumber", n: "julienned" },
+          { q: 0.25, i: ["onion", "onions"], n: "thinly sliced" },
+          { q: 1, q2: 2, u: "stalk", i: "green onions", n: "chopped" },
+          { t: "as desired", i: "seeds or peanuts" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "oyster sauce" },
+          { q: 2, u: "tbsp", i: "soy sauce" },
+          { q: 0.5, i: ["large lemon", "large lemons"], n: "juiced, or 1 medium" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "ginger", n: "grated" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Shred the chicken into a large container.",
+      "Shred the cabbage, julienne the carrot and cucumber, slice the onion and add them all.",
+      "Add the oyster sauce, soy sauce, lemon juice, honey, garlic, ginger and sesame oil.",
+      "Toss everything together with your hands (gloves help).",
+      "Top with green onions, seeds or peanuts and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "cottage-cheese-tuna-salad-classic",
+    title: "No-Mayo Tuna Salad",
+    posted: "2025-03-05",
+    reel: "DG0oc47RPp_",
+    photo: "cottage-cheese-tuna-salad-classic.jpg",
+    alt: "James holding a glass bowl of creamy tuna salad",
+    tags: ["Seafood", "High protein", "No cook"],
+    intro:
+      "A classic tuna salad without mayo: tuna with celery, green onion and carrot in a blended cottage cheese, Greek yogurt and Dijon sauce. About 45 grams of protein.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { t: "1 stalk", i: "celery", n: "diced" },
+          { t: "1", i: "green onion", n: "chopped" },
+          { t: "½", i: "carrot", n: "diced" },
+          { t: "optional", i: "dill pickle", n: "chopped, added in the video" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1 / 3, u: "cup", i: "cottage cheese", n: "blended" },
+          { q: 1, u: "tbsp", i: "Greek yogurt" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "garlic", n: "minced" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna into a bowl.",
+      "Dice the celery and carrot, chop the green onion and pickle, and add them to the tuna.",
+      "Blend the cottage cheese, Greek yogurt, Dijon, garlic, salt and pepper until smooth.",
+      "Pour the sauce over the tuna, mix well and eat with crackers.",
+    ],
+  },
+
+  {
+    slug: "korean-crispy-tofu",
+    title: "Korean Crispy Tofu",
+    posted: "2025-03-02",
+    reel: "DGs6b1zxe7U",
+    photo: "korean-crispy-tofu.jpg",
+    alt: "A plate of crispy tofu glazed in a red gochujang sauce with green onion",
+    tags: ["Tofu", "Korean", "Spicy"],
+    intro:
+      "James's favorite tofu: seasoned cubes coated in cornstarch and pan-fried until crispy on every side, then tossed in a sticky gochujang and oyster sauce glaze.",
+    groups: [
+      {
+        name: "Tofu",
+        items: [
+          { q: 1, u: "block", i: "firm tofu", n: "pressed and cubed" },
+          { q: 0.5, u: "tbsp", i: "soy sauce" },
+          { q: 0.5, u: "tbsp", i: "garlic powder" },
+          { t: "a dash", i: "pepper" },
+          { q: 1, u: "tbsp", i: "cornstarch" },
+          { t: "for frying", i: "neutral oil" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tbsp", i: "oyster sauce" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 0.5, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "sesame oil" },
+          { t: "to garnish", i: "green onions and sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Press the tofu in a towel to soak up the water, then cut it into cubes.",
+      "Toss the cubes with the soy sauce, garlic powder and pepper, then with the cornstarch.",
+      "Fry in a little neutral oil, turning every 2 minutes, until crispy on all sides. Set aside. (You can fry twice or use the air fryer for extra crunch.)",
+      "In the same pan, warm the gochujang, oyster sauce, garlic, honey and sesame oil for a minute.",
+      "Add the tofu back and toss to coat. Top with green onions and sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "gochujang-shrimp-pasta",
+    title: "Easy Gochujang Shrimp Pasta",
+    posted: "2025-02-26",
+    reel: "DGilMrGx5dl",
+    photo: "gochujang-shrimp-pasta.jpg",
+    alt: "A pan of creamy gochujang pasta with shrimp",
+    tags: ["Pasta", "Seafood", "Spicy"],
+    intro:
+      "A creamy, spicy pasta: onion and garlic cooked in butter with gochujang, loosened with milk and Parmesan, then tossed with shrimp and spirals of pasta.",
+    groups: [
+      {
+        items: [
+          { q: 0.5, i: ["onion", "onions"], n: "diced" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 12, q2: 15, i: "shrimp", n: "peeled, or as many as you like" },
+          { q: 0.25, u: "cup", i: "Parmesan cheese", n: "grated" },
+          { q: 2, u: "tbsp", i: "gochujang" },
+          { q: 2, u: "tbsp", i: "butter" },
+          { q: 1, u: "cup", i: "milk" },
+          { q: 3, u: "cup", i: "pasta", n: "uncooked, such as rotini" },
+        ],
+      },
+    ],
+    steps: [
+      "Cook the pasta in salted water until al dente, saving a little pasta water.",
+      "Melt the butter in a large pan and cook the onion and garlic until soft.",
+      "Stir in the gochujang, then pour in the milk and add the Parmesan. Simmer until smooth and slightly thick.",
+      "Add the shrimp and cook until pink.",
+      "Toss in the pasta, adding a splash of pasta water if the sauce is too thick.",
+    ],
+  },
+
+  {
+    slug: "banana-mug-cake",
+    title: "2-Minute Banana Mug Cake",
+    posted: "2025-02-19",
+    reel: "DGQkVb4xV9J",
+    photo: "banana-mug-cake.jpg",
+    alt: "James holding a spoonful of chocolate mug cake topped with Greek yogurt",
+    serves: "1",
+    time: "5 min",
+    tags: ["Sweet", "Quick"],
+    intro:
+      "The easiest mug cake: a ripe banana mashed with cocoa, oat flour and peanut butter, microwaved for two minutes and topped with Greek yogurt.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["ripe banana", "ripe bananas"] },
+          { q: 1, u: "tbsp", i: "cocoa powder" },
+          { q: 3, u: "tbsp", i: "oat flour", n: "or any flour" },
+          { q: 2, u: "tbsp", i: "peanut butter" },
+          { q: 0.5, u: "tsp", i: "baking powder", n: "optional" },
+          { t: "optional", i: "chocolate chips" },
+          { t: "for topping", i: "Greek yogurt", n: "as in the video" },
+        ],
+      },
+    ],
+    steps: [
+      "Mash the banana in a bowl.",
+      "Add the cocoa powder, oat flour, peanut butter and baking powder and mix well. Stir in chocolate chips.",
+      "Spoon it into a microwave-safe mug.",
+      "Microwave for about 2 minutes, until set.",
+      "Top with a spoonful of Greek yogurt and eat it warm.",
+    ],
+  },
+
+  {
+    slug: "korean-soy-dipping-sauce",
+    title: "Korean All-Purpose Soy Sauce (Yangnyeom Ganjang)",
+    posted: "2025-02-03",
+    reel: "DFnXxFURMbc",
+    photo: "korean-soy-dipping-sauce.jpg",
+    alt: "James holding a plate of Korean fried tofu topped with spicy soy sauce",
+    time: "5 min",
+    tags: ["Sauce", "Korean", "Quick"],
+    intro:
+      "The sauce James puts on everything: soy sauce with green onion, gochugaru, garlic, a little sweetness and lots of sesame. Spoon it over tofu, acorn jelly, noodles or rice.",
+    groups: [
+      {
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 2, u: "stalk", i: "green onions", n: "finely chopped" },
+          { q: 0.5, u: "tbsp", i: "plum extract", n: "or maple syrup" },
+          { q: 1, u: "tbsp", i: "gochugaru" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "sugar" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+          { t: "a dash", i: "black pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Finely chop the green onions and put them in a bowl.",
+      "Add the soy sauce, plum extract, gochugaru, garlic, sugar, sesame oil, sesame seeds and pepper.",
+      "Stir until the sugar dissolves.",
+      "Spoon it over pan-fried tofu, Korean acorn jelly (dotorimuk), noodles or rice.",
+    ],
+  },
+
+  {
+    slug: "easy-beef-bulgogi",
+    title: "Easiest Beef Bulgogi",
+    posted: "2025-01-27",
+    reel: "DFVVRgEx8ix",
+    photo: "easy-beef-bulgogi.jpg",
+    alt: "A plate of beef bulgogi topped with green onion",
+    tags: ["Korean", "High protein"],
+    intro:
+      "Thinly sliced ribeye marinated in a sweet soy, garlic and Asian pear sauce, then seared with onion and green onion. Wrap it in lettuce with rice and ssamjang.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "lb", i: "beef ribeye", n: "thinly sliced" },
+          { q: 0.5, i: ["large onion", "large onions"], n: "thinly sliced" },
+          { q: 2, i: ["green onion", "green onions"], n: "cut into 2-inch pieces" },
+          { q: 0.5, u: "tbsp", i: "sesame seeds" },
+          { t: "for serving", i: "lettuce, rice and kimchi" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "water" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "mirin" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { q: 2, u: "tbsp", i: "sugar" },
+          { t: "a dash", i: "pepper" },
+          { q: 1, u: "tbsp", i: "Asian pear", n: "grated, optional" },
+        ],
+      },
+    ],
+    steps: [
+      "Blend the soy sauce, water, garlic, mirin, sesame oil, sugar, pepper and Asian pear until smooth.",
+      "Pour the marinade over the sliced beef in a bowl, add the onion and green onion and mix it in with your hands (wear gloves).",
+      "Cover and marinate in the fridge, ideally overnight.",
+      "Cook in a hot pan, spreading the beef out, until browned and cooked through.",
+      "Top with sesame seeds and more green onion. Serve with lettuce, rice and kimchi.",
+    ],
+  },
+
+  {
+    slug: "asian-twist-tuna-salad",
+    title: "5-Minute Asian-Style Tuna Salad",
+    posted: "2024-11-26",
+    reel: "DC2bJsLzhlq",
+    photo: "asian-twist-tuna-salad.jpg",
+    alt: "James holding a glass bowl of Asian tuna salad with seaweed",
+    time: "5 min",
+    tags: ["Seafood", "Quick", "No cook"],
+    intro:
+      "A quick, high-protein tuna salad seasoned with soy sauce, sriracha and sesame oil, with crunchy celery, carrot, green onion and pickle, and crumbled seaweed on top.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 0.5, u: "tbsp", i: "soy sauce" },
+          { q: 0.5, u: "tbsp", i: "olive oil" },
+          { q: 0.5, u: "tbsp", i: "sriracha", n: "or to taste" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "carrot, celery and green onion", n: "finely chopped" },
+          { t: "optional", i: "dill pickle", n: "chopped, added in the video" },
+          { t: "as desired", i: "dried seaweed", n: "crumbled" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Drain the tuna into a bowl.",
+      "Add the soy sauce, olive oil, sriracha and sesame oil and mix.",
+      "Finely chop the celery, carrot, green onion and pickle and add them.",
+      "Crumble in the seaweed, add sesame seeds and mix everything together. Eat it with crackers.",
+    ],
+  },
+
+  {
+    slug: "orange-juice-chia-pudding",
+    title: "Orange Juice Chia Pudding",
+    posted: "2024-10-09",
+    reel: "DA5_YepRG81",
+    photo: "orange-juice-chia-pudding.jpg",
+    alt: "A jar of chia pudding next to a glass of orange juice on a small table",
+    tags: ["Breakfast", "Sweet", "No cook"],
+    intro:
+      "A bright, citrusy chia pudding made with orange juice and plant milk, sweetened with honey. The recipe comes from the caption of a photo post, so there's no video to follow.",
+    groups: [
+      {
+        items: [
+          { q: 0.5, u: "cup", i: "orange juice", b: "Florida Orange Juice" },
+          { q: 1, u: "cup", i: "plant milk of choice" },
+          { q: 2, u: "tbsp", i: "honey" },
+          { q: 0.25, u: "cup", i: "chia seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the orange juice, plant milk and honey in a jar and stir until the honey dissolves.",
+      "Add the chia seeds and stir well so there are no clumps.",
+      "Stir again after 5 minutes, then cover and refrigerate until thick, at least 2 hours or overnight.",
+      "Give it a stir before eating.",
+    ],
+  },
+
+  {
+    slug: "gochujang-salmon-chicken-meal-prep",
+    title: "Gochujang Salmon and Chicken Meal Prep",
+    posted: "2024-09-24",
+    reel: "DATe8MvRNa_",
+    photo: "gochujang-salmon-chicken-meal-prep.jpg",
+    alt: "James packing meal prep containers of rice, roasted vegetables, salmon and chicken",
+    tags: ["Meal prep", "Korean", "High protein"],
+    intro:
+      "A week of lunches from one sauce: gochujang, soy, honey and garlic brushed over salmon and chicken thighs, baked with a tray of vegetables and packed with rice. The caption gives amounts for the sauce only.",
+    groups: [
+      {
+        name: "Sauce",
+        items: [
+          { q: 3, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tbsp", i: "honey" },
+          { q: 0.5, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tbsp", i: "water" },
+          { q: 0.5, u: "tbsp", i: "sesame oil", n: "optional" },
+        ],
+      },
+      {
+        name: "For the meal prep",
+        items: [
+          { t: "as needed", i: "salmon fillet" },
+          { t: "as needed", i: "boneless chicken thighs" },
+          { t: "as needed", i: "mixed vegetables", n: "broccoli, carrots, green beans, peppers" },
+          { t: "a drizzle", i: "olive oil, salt and pepper", n: "for the vegetables" },
+          { t: "for serving", i: "cooked rice" },
+          { t: "to garnish", i: "sesame seeds" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the gochujang, soy sauce, honey, garlic, water and sesame oil.",
+      "Pour some over the salmon and the rest over the chicken thighs, and let them marinate.",
+      "Toss the vegetables with olive oil, salt and pepper on a sheet pan.",
+      "Bake the chicken, salmon and vegetables at 400°F for about 25 minutes, until cooked through.",
+      "Slice the chicken, then pack containers with rice, vegetables, salmon or chicken, and a sprinkle of sesame seeds.",
+    ],
+  },
+
+  {
+    slug: "quick-fresh-kimchi",
+    title: "Umma's Quick Fresh Kimchi",
+    posted: "2024-07-29",
+    reel: "C-Arw4-RC53",
+    photo: "quick-fresh-kimchi.jpg",
+    alt: "James's mom tossing napa cabbage kimchi in a large bowl",
+    tags: ["Side", "Korean", "Spicy"],
+    intro:
+      "The quickest kimchi: napa cabbage quickly salted, then tossed with onion and chives in a garlicky gochugaru, fish sauce and plum extract seasoning. A fresh kimchi (geotjeori) to eat right away.",
+    groups: [
+      {
+        items: [
+          { t: "1 small head", i: "napa cabbage", n: "leaves torn into pieces" },
+          { t: "for salting", i: "salt and water" },
+          { t: "½", i: "onion", n: "sliced" },
+          { t: "a handful", i: "chives", n: "cut into pieces" },
+        ],
+      },
+      {
+        name: "Sauce",
+        items: [
+          { q: 2, u: "tbsp", i: "gochugaru" },
+          { q: 1, u: "tbsp", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "salted shrimp paste" },
+          { q: 2, u: "tbsp", i: "fish sauce" },
+          { q: 2, u: "tbsp", i: "plum extract" },
+          { q: 1, u: "tbsp", i: "sesame seeds and sesame oil", n: "added at the end" },
+        ],
+      },
+    ],
+    steps: [
+      "Tear the cabbage into bite-size pieces and toss with salt and a little water. Leave it for about 20 minutes, turning once, until the leaves soften.",
+      "Rinse the cabbage and drain it well.",
+      "In a large bowl, mix the gochugaru, garlic, shrimp paste, fish sauce and plum extract.",
+      "Add the cabbage, onion and chives and toss with your hands (wear gloves) until everything is coated.",
+      "Finish with the sesame seeds and sesame oil.",
+    ],
+  },
 ];
