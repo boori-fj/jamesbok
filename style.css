@@ -184,7 +184,8 @@ button { font: inherit; color: inherit; }
   transition: color .15s ease;
 }
 .card a:hover h3 { color: var(--accent); }
-.meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin-top: 10px; font-size: 14px; color: var(--ink-2); }
+.meta { display: flex; flex-wrap: wrap; gap: 4px 8px; margin-top: 10px; font-size: 14px; color: var(--ink-2); }
+.meta span + span::before { content: "·"; margin-right: 8px; color: var(--ink-3); }
 .empty { grid-column: 1 / -1; padding: 40px 0; color: var(--ink-2); font-family: var(--serif); font-size: 18px; }
 .more { display: flex; justify-content: center; margin-top: 64px; }
 .more[hidden] { display: none; }
@@ -348,8 +349,10 @@ button { font: inherit; color: inherit; }
   .feature-cap h2 { font-size: 22px; }
 
   .toolbar { margin-top: 20px; padding-bottom: 24px; gap: 10px; }
-  .select { flex: 1 1 150px; }
-  .search { flex: 1 1 170px; }
+  .select { flex: 1 1 160px; }
+  .select select { padding-left: 14px; padding-right: 34px; font-size: 14px; }
+  .select::after { right: 15px; }
+  .search { flex: 1 1 170px; padding-left: 14px; padding-right: 14px; font-size: 14px; }
 
   .plan { margin-bottom: 80px; }
   .plan-lede { font-size: 17px; }

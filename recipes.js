@@ -2,6 +2,8 @@
   Recipe data. Newest first.
   To add a recipe, copy one object and edit it.
   photo: a 4:5 image (1080×1350) in this folder, named after the slug. alt: one line describing it.
+  level: "Easy", "Medium" or "Hard". time: how long until it's ready to eat, including baking,
+  salting or chilling ("15 min", "1 hr 15 min", "Overnight"). Both show under the title on every card.
 
   Ingredient fields:
     q   number (scales with the ½× / 2× buttons). Leave out for "to taste" items.
@@ -21,6 +23,7 @@ window.RECIPES = [
     photo: "salmon-fried-rice.jpg",
     alt: "James holding out a plate of salmon fried rice topped with green onion",
     serves: "3–4",
+    level: "Easy",
     time: "15 min",
     tags: ["Rice", "High protein", "Quick"],
     intro:
@@ -61,7 +64,8 @@ window.RECIPES = [
     photo: "sticky-toffee-pie-chia-pudding.jpg",
     alt: "A jar of chia pudding topped with chopped dates and Sweet Thins crumbs, seen from above",
     serves: "4",
-    time: "Chill until set",
+    level: "Easy",
+    time: "Overnight",
     tags: ["Sweet", "Meal prep", "High protein"],
     intro:
       "Five ingredients. Blended dates give it a caramel sweetness, and crushed Honey Cinnamon Sweet Thins stand in for the pie crust. Thick, high in protein and fiber, and it keeps for meal prep.",
@@ -100,6 +104,8 @@ window.RECIPES = [
     reel: "DfNVIsUJ-Wp",
     photo: "peanut-cucumber-salad.jpg",
     alt: "James holding a glass bowl of cucumber salad in peanut sauce, a slice raised on chopsticks",
+    level: "Easy",
+    time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
       "Savory, tangy, creamy and a little spicy. Salting the cucumbers first pulls out their water, so the peanut sauce stays thick.",
@@ -141,6 +147,8 @@ window.RECIPES = [
     reel: "DfAtQclJDs7",
     photo: "spicy-creamy-shrimp-pasta.jpg",
     alt: "A white bowl of penne and shrimp in a creamy gochujang sauce with grated Parmesan",
+    level: "Easy",
+    time: "25 min",
     tags: ["Pasta", "High protein", "Spicy"],
     intro:
       "Creamy pasta with a Korean twist. Gochujang brings the heat and blended cottage cheese makes the sauce, so it's high in protein without any cream.",
@@ -179,7 +187,8 @@ window.RECIPES = [
     reel: "De7gGJIp2gx",
     photo: "soy-honey-garlic-chicken.jpg",
     alt: "James eating a piece of soy honey garlic chicken, with the plate in front of him",
-    time: "15 min in the air fryer",
+    level: "Easy",
+    time: "25 min",
     tags: ["Chicken", "Air fryer", "High protein"],
     intro:
       "Five ingredients, one bowl and 15 minutes in the air fryer.",
@@ -218,6 +227,8 @@ window.RECIPES = [
     reel: "DesJeC2Jg7Y",
     photo: "celery-salad.jpg",
     alt: "James holding a glass bowl of celery salad with olives, walnuts and Parmesan",
+    level: "Easy",
+    time: "10 min",
     tags: ["Salad", "No cook"],
     intro:
       "Crunchy, savory and mostly celery. Olives and walnuts bring salt and crunch, and a lemony Parmesan dressing pulls it together.",
@@ -261,6 +272,8 @@ window.RECIPES = [
     reel: "Dee_e4vpkBs",
     photo: "korean-spicy-chicken.jpg",
     alt: "A plate of gochujang chicken with rice and greens in front of James",
+    level: "Easy",
+    time: "25 min",
     tags: ["Chicken", "Spicy", "Meal prep"],
     intro:
       "An easy meal prep: sticky gochujang chicken served over rice with cucumber, kimchi, scallions and seaweed.",
@@ -303,6 +316,8 @@ window.RECIPES = [
     reel: "DecpiMsSM9T",
     photo: "lighter-boxed-cake.jpg",
     alt: "A slice of frosted cake topped with walnuts, held up on a cake stand",
+    level: "Easy",
+    time: "45 min",
     tags: ["Sweet", "Baking"],
     intro:
       "A few simple swaps make a boxed cake less indulgent without losing the moist, fluffy texture: milk, olive oil and applesauce in the batter, and a Greek yogurt maple frosting on top.",
@@ -351,6 +366,8 @@ window.RECIPES = [
     reel: "DeUz2MEvI5-",
     photo: "garlic-oyster-sauce-celery.jpg",
     alt: "A plate of stir-fried celery with sesame seeds, James lifting a piece with chopsticks",
+    level: "Easy",
+    time: "10 min",
     tags: ["Side", "Quick"],
     intro:
       "The best way to use up leftover celery: a quick stir-fry with garlic and oyster sauce.",
@@ -381,6 +398,8 @@ window.RECIPES = [
     reel: "DePxNaLSuR9",
     photo: "peanut-tuna-salad.jpg",
     alt: "A glass bowl of peanut tuna salad topped with sliced almonds",
+    level: "Easy",
+    time: "10 min",
     tags: ["Salad", "High protein", "No cook"],
     intro:
       "High in protein and fiber, with omega-3s from the tuna. Apple and carrot keep it crunchy and a little sweet against the peanut dressing.",
@@ -426,7 +445,8 @@ window.RECIPES = [
     reel: "DeH74sBJTij",
     photo: "sweet-spicy-crispy-tofu.jpg",
     alt: "A plate of crispy tofu cubes coated in red sauce, with the sauce bottle behind",
-    time: "15 min in the air fryer",
+    level: "Easy",
+    time: "25 min",
     tags: ["Air fryer", "High protein", "Spicy"],
     intro:
       "Four ingredients and no deep frying. Cornstarch and the air fryer make the tofu crisp, then it's tossed in a sweet and spicy sauce made with gochujang, soy and garlic.",
@@ -457,6 +477,8 @@ window.RECIPES = [
     reel: "Dd91E8apgGj",
     photo: "chipotle-chicken-salad.jpg",
     alt: "James holding a glass bowl of chipotle chicken salad",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "Spicy"],
     intro:
       "Protein, fiber and some heat. Chipotle and Greek yogurt make a smoky dressing, with celery and red onion for crunch.",
@@ -501,6 +523,8 @@ window.RECIPES = [
     reel: "Dd4p8P7pOYn",
     photo: "spinach-artichoke-dip.jpg",
     alt: "A glass bowl of spinach artichoke dip with a box of almond flour crackers behind",
+    level: "Easy",
+    time: "10 min",
     tags: ["Snack", "High protein", "No cook"],
     intro:
       "Creamy, high in protein and one of the easiest dips to make. Blended cottage cheese and Greek yogurt are the base, and there's no baking.",
@@ -540,6 +564,8 @@ window.RECIPES = [
     photo: "high-protein-turkey-sandwich.jpg",
     alt: "A tall turkey sandwich cut in half and stacked on a plate by a window",
     serves: "1",
+    level: "Easy",
+    time: "10 min",
     tags: ["High protein", "Quick"],
     intro:
       "Turkey, turkey bacon and a sriracha cottage cheese spread add up to more than 50 grams of protein in one sandwich.",
@@ -575,7 +601,8 @@ window.RECIPES = [
     reel: "DdpPtJlxii3",
     photo: "pumpkin-banana-bread.jpg",
     alt: "James behind a sliced loaf of chocolate chip pumpkin banana bread",
-    time: "45 min at 350°F",
+    level: "Easy",
+    time: "1 hr",
     tags: ["Sweet", "Baking"],
     intro:
       "No butter or oil, sweetened with bananas and a little maple, and full of fiber from the oats. Chocolate and pumpkin seeds go on top.",
@@ -620,6 +647,8 @@ window.RECIPES = [
     reel: "DdkHBqTxTUg",
     photo: "crunchy-apple-salad.jpg",
     alt: "James holding a metal bowl of diced apple, celery and cucumber salad",
+    level: "Easy",
+    time: "10 min",
     tags: ["Salad", "No cook"],
     intro:
       "High in fiber and very crunchy. Dates add sweetness, and a lemony Parmesan dressing keeps it bright.",
@@ -661,6 +690,8 @@ window.RECIPES = [
     reel: "DdcTrUdJTyO",
     photo: "korean-bean-sprouts.jpg",
     alt: "James holding a glass bowl of seasoned bean sprouts",
+    level: "Easy",
+    time: "10 min",
     tags: ["Side", "Quick"],
     intro:
       "My favorite Korean side dish growing up, kongnamul muchim. It takes a few minutes and has a good amount of protein too.",
@@ -692,7 +723,8 @@ window.RECIPES = [
     reel: "DdUkCeZJ-lS",
     photo: "blueberry-crumble-chia-pudding.jpg",
     alt: "A glass of layered blueberry chia pudding and granola in front of James",
-    time: "Chill until set",
+    level: "Easy",
+    time: "Overnight",
     tags: ["Sweet", "Meal prep", "High protein"],
     intro:
       "No refined sugar, high in protein and fiber. Mashed blueberries flavor the pudding and granola gives it the crumble crunch.",
@@ -730,6 +762,8 @@ window.RECIPES = [
     reel: "DdPUES0JciP",
     photo: "dense-bean-salad.jpg",
     alt: "James lifting a cracker of bean salad over a full glass bowl",
+    level: "Easy",
+    time: "15 min",
     tags: ["Salad", "Meal prep", "High protein"],
     intro:
       "My favorite meal-prep salad: two kinds of beans, lots of crunchy vegetables and a lime dressing. High in protein and fiber.",
@@ -782,6 +816,8 @@ window.RECIPES = [
     photo: "iced-honey-vanilla-latte.jpg",
     alt: "James stirring an iced latte in a glass",
     serves: "1",
+    level: "Easy",
+    time: "5 min",
     tags: ["Drink", "Quick"],
     intro:
       "A summer coffee: honey, vanilla and a pinch of salt melted into hot espresso, then poured over iced milk.",
@@ -812,6 +848,8 @@ window.RECIPES = [
     reel: "DdCgiN3JlEG",
     photo: "thai-chicken-salad.jpg",
     alt: "James behind a big glass bowl of crunchy Thai chicken salad",
+    level: "Easy",
+    time: "20 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "A crunchy, high-protein salad of shredded chicken, red cabbage, carrot and cucumber in a sweet and sour lime and fish sauce dressing. Scoop it up with crackers.",
@@ -857,6 +895,8 @@ window.RECIPES = [
     reel: "Dc1yJ3CRNB5",
     photo: "banana-coconut-pie-chia-pudding.jpg",
     alt: "A glass of banana coconut chia pudding layered with banana slices",
+    level: "Easy",
+    time: "Overnight",
     tags: ["Sweet", "Meal prep", "High protein"],
     intro:
       "Banana cream pie in a jar: mashed banana, Greek yogurt and coconut milk set with chia seeds, then layered with fresh banana and graham cracker crumbs. High in protein and fiber, with no refined sugar.",
@@ -897,6 +937,7 @@ window.RECIPES = [
     reel: "DcwamV7pW9t",
     photo: "strawberry-cheesecake-dip.jpg",
     alt: "James holding up a glass of strawberry cheesecake dip topped with graham crumbs",
+    level: "Easy",
     time: "10 min",
     tags: ["Sweet", "High protein", "No cook"],
     intro:
@@ -934,6 +975,8 @@ window.RECIPES = [
     reel: "DcrZJ_jpf0w",
     photo: "creamy-spinach-chicken-butter-beans.jpg",
     alt: "A pan of creamy butter beans with chicken and spinach, next to sourdough toast",
+    level: "Easy",
+    time: "25 min",
     tags: ["Chicken", "High protein"],
     intro:
       "Butter beans and shredded chicken simmered in broth with spinach, then made creamy with Greek yogurt and Parmesan instead of cream. Mop it up with toasted sourdough.",
@@ -973,6 +1016,8 @@ window.RECIPES = [
     reel: "DchIcR3pgsb",
     photo: "fresh-rolls-peanut-sauce.jpg",
     alt: "A shrimp fresh roll being dipped into a bowl of peanut sauce",
+    level: "Medium",
+    time: "30 min",
     tags: ["Seafood", "No cook"],
     intro:
       "Rice paper rolls packed with crunchy vegetables, avocado and shrimp, with a peanut sauce you'll want to drink. The caption only gives amounts for the sauce, so fill the rolls with as much as you like.",
@@ -1022,6 +1067,7 @@ window.RECIPES = [
     reel: "DcbxBjhpSaW",
     photo: "korean-bbq-beef-udon.jpg",
     alt: "A bowl of Korean BBQ beef udon with shrimp, bok choy and boiled egg",
+    level: "Easy",
     time: "10 min",
     tags: ["Noodles", "High protein", "Quick"],
     intro:
@@ -1056,6 +1102,8 @@ window.RECIPES = [
     reel: "DcTtuMCxvNK",
     photo: "spicy-honey-garlic-minced-tofu.jpg",
     alt: "A plate of honey garlic minced tofu with green onion and sesame seeds, next to rice",
+    level: "Easy",
+    time: "20 min",
     tags: ["Tofu", "High protein", "Meal prep"],
     intro:
       "Firm tofu crumbled and pan-fried until golden, then tossed in a sticky honey garlic sauce with a little heat. Cheap, high in protein and great for meal prep over rice.",
@@ -1100,6 +1148,8 @@ window.RECIPES = [
     reel: "DcPIwveJvPd",
     photo: "hot-honey-chicken-salad.jpg",
     alt: "James holding a glass bowl of hot honey chicken salad",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "Shredded chicken with crunchy celery, cucumber, carrot and pickles in a sweet and spicy Greek yogurt dressing. No mayo, lots of protein, and great on crackers.",
@@ -1145,6 +1195,7 @@ window.RECIPES = [
     reel: "DcJ9s9npUGS",
     photo: "bok-choy-kimchi.jpg",
     alt: "A glass bowl of bok choy kimchi with chopsticks",
+    level: "Easy",
     time: "5 min",
     tags: ["Side", "Korean", "Quick"],
     intro:
@@ -1179,6 +1230,8 @@ window.RECIPES = [
     reel: "Db_qVanRBdT",
     photo: "healthy-pizza-beans.jpg",
     alt: "A pan of cheesy tomato pizza beans with kale, with James holding toast",
+    level: "Easy",
+    time: "20 min",
     tags: ["High protein", "Meal prep"],
     intro:
       "White beans simmered in tomato sauce with onion, garlic and kale, then finished with melty mozzarella and Parmesan. All the flavor of pizza, with plenty of fiber and protein.",
@@ -1214,6 +1267,7 @@ window.RECIPES = [
     reel: "Db6hhukpaeN",
     photo: "creamy-crunchy-kale-salad.jpg",
     alt: "A glass bowl of kale salad with avocado, almonds and sliced chicken",
+    level: "Easy",
     time: "5 min",
     tags: ["Salad", "Quick", "No cook"],
     intro:
@@ -1256,6 +1310,8 @@ window.RECIPES = [
     reel: "Db38GWhpNN9",
     photo: "creamy-butter-beans.jpg",
     alt: "A pan of creamy butter beans with kale, with James holding a piece of toast",
+    level: "Easy",
+    time: "20 min",
     tags: ["High protein", "Quick"],
     intro:
       "Two cans of butter beans simmered with onion, garlic, paprika and kale, then made creamy with Greek yogurt and Parmesan. Spoon it over sourdough toast.",
@@ -1295,6 +1351,7 @@ window.RECIPES = [
     photo: "tiramisu-chia-pudding.jpg",
     alt: "A short glass of tiramisu chia pudding dusted with cacao",
     serves: "1",
+    level: "Easy",
     time: "30 min",
     tags: ["Sweet", "High protein"],
     intro:
@@ -1334,6 +1391,7 @@ window.RECIPES = [
     reel: "Dbog0N9RFCq",
     photo: "high-protein-egg-salad.jpg",
     alt: "James holding a glass bowl of egg salad with green onion",
+    level: "Easy",
     time: "10 min",
     tags: ["High protein", "Quick", "No cook"],
     intro:
@@ -1374,6 +1432,8 @@ window.RECIPES = [
     reel: "Dbl7Cl0x2Vj",
     photo: "sesame-miso-chicken-salad.jpg",
     alt: "A glass bowl of sesame miso chicken salad with apple and carrot",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "Shredded chicken with sweet apple, carrot, celery and pickle in a sesame miso dressing. The whole bowl has over 90 grams of protein, and it's great scooped up on crackers.",
@@ -1420,6 +1480,7 @@ window.RECIPES = [
     reel: "DbT41ivpLGa",
     photo: "sticky-date-banana-bread.jpg",
     alt: "A loaf of sticky date banana bread, sliced, on parchment paper",
+    level: "Easy",
     time: "1 hr",
     tags: ["Sweet", "Baking"],
     intro:
@@ -1465,6 +1526,8 @@ window.RECIPES = [
     reel: "DbB4Ez5RSnr",
     photo: "mango-sticky-rice-chia-pudding.jpg",
     alt: "A glass of mango chia pudding layered with fresh mango",
+    level: "Easy",
+    time: "Overnight",
     tags: ["Sweet", "Meal prep", "High protein"],
     intro:
       "Mango sticky rice, made with chia seeds instead of rice. Coconut milk and Greek yogurt make it creamy and high in protein, with no refined sugar.",
@@ -1503,6 +1566,7 @@ window.RECIPES = [
     reel: "DayaCDZJAVV",
     photo: "sweet-potato-blondies.jpg",
     alt: "A tray of sweet potato blondies with chocolate chips on parchment paper",
+    level: "Easy",
     time: "40 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -1544,6 +1608,8 @@ window.RECIPES = [
     reel: "DagZxRRJmws",
     photo: "carrot-kimchi.jpg",
     alt: "A glass bowl of carrot ribbon kimchi with sesame seeds",
+    level: "Easy",
+    time: "40 min",
     tags: ["Side", "Korean"],
     intro:
       "Carrot ribbons salted, rinsed and tossed in a garlicky gochugaru sauce with sliced onion. Crunchy, spicy and good for your gut.",
@@ -1578,6 +1644,7 @@ window.RECIPES = [
     reel: "DaTaoFPJoR0",
     photo: "celery-walnut-salad.jpg",
     alt: "A plate of celery salad with walnuts, dates and Parmesan",
+    level: "Easy",
     time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
@@ -1611,6 +1678,7 @@ window.RECIPES = [
     reel: "DaL1ro8xJ9T",
     photo: "tuna-egg-salad.jpg",
     alt: "James holding a slice of toast piled with tuna egg salad",
+    level: "Easy",
     time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
@@ -1652,6 +1720,8 @@ window.RECIPES = [
     reel: "DZ5QU9BJsj-",
     photo: "air-fryer-korean-fried-chicken.jpg",
     alt: "A plate of glazed Korean fried chicken topped with sesame seeds and green onion",
+    level: "Medium",
+    time: "35 min",
     tags: ["Chicken", "Air fryer", "Korean"],
     intro:
       "Crispy chicken bites from the air fryer, tossed in a sticky, sweet and spicy gochujang glaze. Much easier than it looks, with no deep frying.",
@@ -1694,6 +1764,7 @@ window.RECIPES = [
     reel: "DZvQ35VPLe7",
     photo: "healthy-sardine-dip.jpg",
     alt: "A white bowl of creamy sardine dip on a wooden board",
+    level: "Easy",
     time: "10 min",
     tags: ["Seafood", "Snack", "High protein"],
     intro:
@@ -1733,6 +1804,8 @@ window.RECIPES = [
     reel: "DZnsxkdJ_Qx",
     photo: "asian-cucumber-salad.jpg",
     alt: "A glass bowl of sliced cucumbers in chili oil and sesame seeds",
+    level: "Easy",
+    time: "35 min",
     tags: ["Side", "Salad", "Spicy"],
     intro:
       "Crunchy cucumber rounds, salted and rinsed, then tossed in a savory, tangy and spicy soy and chili oil dressing.",
@@ -1765,6 +1838,7 @@ window.RECIPES = [
     reel: "DZf3m_iRgON",
     photo: "korean-pickle-dip.jpg",
     alt: "A glass bowl of creamy Korean pickle dip next to a jar of pickles",
+    level: "Easy",
     time: "5 min",
     tags: ["Snack", "No cook", "Korean"],
     intro:
@@ -1796,6 +1870,8 @@ window.RECIPES = [
     reel: "DZa4NfwRTkn",
     photo: "sweet-potato-pancakes.jpg",
     alt: "A stack of sweet potato pancakes topped with yogurt and berries",
+    level: "Easy",
+    time: "20 min",
     tags: ["Breakfast", "High protein"],
     intro:
       "Fluffy pancakes made from mashed sweet potato, Greek yogurt and blended oats. High in protein and fiber, with no refined sugar.",
@@ -1836,6 +1912,8 @@ window.RECIPES = [
     reel: "DZLasfcRlkB",
     photo: "caramel-date-chia-pudding.jpg",
     alt: "A glass of date chia pudding topped with chopped almonds",
+    level: "Easy",
+    time: "Overnight",
     tags: ["Sweet", "Meal prep", "High protein"],
     intro:
       "Soft dates mashed into Greek yogurt and milk give this chia pudding a caramel flavor with no refined sugar. Five minutes of prep and over 60 grams of protein in the batch.",
@@ -1875,6 +1953,7 @@ window.RECIPES = [
     reel: "DY5ZE4bxeny",
     photo: "zucchini-banana-bread.jpg",
     alt: "A loaf of zucchini banana bread with dates, sliced on parchment paper",
+    level: "Easy",
     time: "50 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -1916,6 +1995,8 @@ window.RECIPES = [
     reel: "DY2-CNTRNvC",
     photo: "cucumber-kimchi.jpg",
     alt: "A glass bowl of cucumber kimchi with carrot and onion",
+    level: "Easy",
+    time: "40 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "Mini cucumbers salted and rinsed so they stay crunchy, then tossed with onion, carrot and a sweet and spicy gochugaru sauce.",
@@ -1956,6 +2037,8 @@ window.RECIPES = [
     reel: "DYxzSDHRZi7",
     photo: "honey-garlic-asian-chicken-salad.jpg",
     alt: "A glass bowl of chicken salad with diced cucumber and carrot",
+    level: "Easy",
+    time: "10 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "Shredded chicken with diced cucumber, carrot and green onion in a sweet and savory soy, honey and garlic dressing. Eat it with crackers.",
@@ -1996,6 +2079,8 @@ window.RECIPES = [
     reel: "DYiVYPZRs7-",
     photo: "blueberry-greek-yogurt-pancakes.jpg",
     alt: "A tall stack of blueberry pancakes topped with yogurt and blueberries",
+    level: "Easy",
+    time: "20 min",
     tags: ["Breakfast", "High protein"],
     intro:
       "Banana and Greek yogurt pancakes made with blended oats and studded with blueberries. No refined sugar or flour, and they stack up tall.",
@@ -2037,6 +2122,8 @@ window.RECIPES = [
     reel: "DYdJziixGMe",
     photo: "grape-chicken-salad.jpg",
     alt: "A glass bowl of creamy chicken salad with grapes, celery and almonds",
+    level: "Easy",
+    time: "10 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "A sweet and savory chicken salad with juicy grapes, crunchy celery and almonds in a Greek yogurt and dill dressing. High protein, no mayo.",
@@ -2077,6 +2164,7 @@ window.RECIPES = [
     reel: "DYSy1mcx7UY",
     photo: "healthy-banana-bread.jpg",
     alt: "A sliced loaf of banana bread with dates and walnuts",
+    level: "Easy",
     time: "50 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -2117,6 +2205,7 @@ window.RECIPES = [
     reel: "DYFvtQtxJna",
     photo: "asian-avocado-broccoli.jpg",
     alt: "A glass bowl of broccoli tossed with avocado and sesame seeds",
+    level: "Easy",
     time: "15 min",
     tags: ["Side", "Quick"],
     intro:
@@ -2155,6 +2244,7 @@ window.RECIPES = [
     reel: "DX7eTj7xdtP",
     photo: "sesame-tuna-salad.jpg",
     alt: "A glass bowl of crunchy sesame tuna salad with cabbage and almonds",
+    level: "Easy",
     time: "5 min",
     tags: ["Seafood", "Salad", "Quick"],
     intro:
@@ -2189,6 +2279,8 @@ window.RECIPES = [
     reel: "DX4XljAxxEb",
     photo: "chicken-corn-salad.jpg",
     alt: "A glass bowl of chicken salad with golden sautéed corn, cucumber, basil and Parmesan",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "A summer salad of chicken, sweet sautéed corn, cucumber, pine nuts and basil in a lemony Greek yogurt dressing, finished with Parmesan.",
@@ -2228,6 +2320,7 @@ window.RECIPES = [
     reel: "DXzKBx5Rtwt",
     photo: "chili-crunch-sushi-dip.jpg",
     alt: "A plate of spicy tuna rice with avocado slices and sheets of nori",
+    level: "Easy",
     time: "5 min",
     tags: ["Seafood", "Rice", "Quick"],
     intro:
@@ -2266,6 +2359,7 @@ window.RECIPES = [
     reel: "DXuvG7VEaBa",
     photo: "grape-tomato-salad.jpg",
     alt: "James holding a glass bowl of grape and tomato salad topped with almonds and Parmesan",
+    level: "Easy",
     time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
@@ -2307,6 +2401,8 @@ window.RECIPES = [
     reel: "DXsFIlkERsJ",
     photo: "cottage-cheese-egg-salad-toast.jpg",
     alt: "A thick slice of toast piled high with egg salad",
+    level: "Easy",
+    time: "20 min",
     tags: ["High protein", "Quick"],
     intro:
       "Four eggs, crunchy vegetables and cottage cheese instead of mayo, piled onto toast. Over 50 grams of protein and plenty of fiber.",
@@ -2348,6 +2444,8 @@ window.RECIPES = [
     reel: "DXjuHMgkbbJ",
     photo: "caramel-smores-dip.jpg",
     alt: "A tray of s'mores dip with golden toasted marshmallows",
+    level: "Easy",
+    time: "20 min",
     tags: ["Sweet", "Snack"],
     intro:
       "A crowd-pleasing s'mores dip for a barbecue: a creamy vanilla base topped with Hershey's caramel-filled chocolate and mini marshmallows, toasted until gooey, then finished with strawberries.",
@@ -2381,6 +2479,8 @@ window.RECIPES = [
     reel: "DXcsu__EYcd",
     photo: "crispy-corn-salad.jpg",
     alt: "James holding up a glass bowl of creamy crispy corn salad topped with almonds",
+    level: "Easy",
+    time: "25 min",
     tags: ["Salad", "Air fryer", "Side"],
     intro:
       "Canned corn air-fried until crispy and golden, then tossed with cucumber and bell pepper in a lime, Parmesan and Greek yogurt dressing. Great with crackers.",
@@ -2425,6 +2525,8 @@ window.RECIPES = [
     reel: "DXFirgxEY5Q",
     photo: "cottage-cheese-tuna-salad.jpg",
     alt: "A white bowl of crunchy tuna salad",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
       "Cottage cheese blended smooth with lemon and Dijon makes a creamy, mayo-free base for tuna and lots of crunchy vegetables and apple. Over 30 grams of protein.",
@@ -2468,6 +2570,7 @@ window.RECIPES = [
     reel: "DXC7YmYEf8G",
     photo: "celery-pistachio-salad.jpg",
     alt: "A plate of celery salad with apple, dates, pistachios and Parmesan",
+    level: "Easy",
     time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
@@ -2507,6 +2610,7 @@ window.RECIPES = [
     reel: "DWw7FlFkYGO",
     photo: "honey-garlic-enoki-mushrooms.jpg",
     alt: "A pan of golden enoki mushrooms in a glossy honey garlic sauce with sesame seeds",
+    level: "Easy",
     time: "5 min",
     tags: ["Side", "Quick"],
     intro:
@@ -2542,6 +2646,8 @@ window.RECIPES = [
     reel: "DWmnXuykXNg",
     photo: "crunchy-crispy-tuna-salad.jpg",
     alt: "A cracker topped with crunchy tuna salad and chili crisp",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
       "Tuna with celery, carrot, apple and pickle in a Greek yogurt and Dijon sauce, with chili crisp for heat and almonds for crunch. 45 grams of protein.",
@@ -2588,6 +2694,8 @@ window.RECIPES = [
     reel: "DWkA5t-kRC9",
     photo: "soy-garlic-tofu.jpg",
     alt: "A plate of crispy tofu slabs glazed in soy garlic sauce with green onion and sesame",
+    level: "Easy",
+    time: "25 min",
     tags: ["Tofu", "High protein"],
     intro:
       "Slabs of firm tofu dredged in cornstarch, pan-fried until golden and crispy, then glazed in a sticky honey, soy and garlic sauce.",
@@ -2629,6 +2737,8 @@ window.RECIPES = [
     reel: "DWZGVcikeXt",
     photo: "korean-rolled-omelette.jpg",
     alt: "A plate of sliced Korean rolled omelette with flecks of green onion, carrot and ham",
+    level: "Medium",
+    time: "15 min",
     tags: ["Side", "Korean", "Quick"],
     intro:
       "One of Korea's most popular side dishes: eggs with green onion, carrot and ham, cooked in thin layers and rolled up, then sliced into rounds.",
@@ -2660,6 +2770,7 @@ window.RECIPES = [
     reel: "DWMIFYZEal0",
     photo: "healthy-chocolate-banana-bread.jpg",
     alt: "James holding a thick slice of chocolate banana bread over the loaf",
+    level: "Easy",
     time: "1 hr",
     tags: ["Sweet", "Baking"],
     intro:
@@ -2708,6 +2819,8 @@ window.RECIPES = [
     reel: "DWEdghZkcJZ",
     photo: "orange-sesame-chicken.jpg",
     alt: "A plate of orange sesame chicken topped with green onion, with a glass of orange juice",
+    level: "Medium",
+    time: "30 min",
     tags: ["Chicken", "High protein"],
     intro:
       "Pan-fried chicken in a glossy orange sauce made with a full cup of fresh-squeezed orange juice, honey, garlic and ginger. No deep frying.",
@@ -2759,6 +2872,8 @@ window.RECIPES = [
     reel: "DVzHVYSkacI",
     photo: "tuna-kimchi-stew.jpg",
     alt: "A white bowl of tuna kimchi stew with tofu",
+    level: "Easy",
+    time: "25 min",
     tags: ["Soup", "Korean", "High protein"],
     intro:
       "The easiest kimchi jjigae: well-fermented kimchi simmered with onion, canned tuna and an anchovy broth tablet, finished with soft tofu and green onion.",
@@ -2800,6 +2915,8 @@ window.RECIPES = [
     reel: "DVex7MZkSjt",
     photo: "sardine-melt.jpg",
     alt: "James holding a golden grilled sardine melt sandwich",
+    level: "Easy",
+    time: "15 min",
     tags: ["Seafood", "High protein"],
     intro:
       "A tuna melt, but with sardines: mashed with celery, pickle and a tangy yogurt and Dijon dressing, then grilled between buttered bread with sharp cheddar. Over 40 grams of protein.",
@@ -2842,7 +2959,8 @@ window.RECIPES = [
     reel: "DVRrsDCkdgz",
     photo: "chickpea-banana-blondies.jpg",
     alt: "James holding a chickpea banana blondie over the tray",
-    time: "45 min",
+    level: "Easy",
+    time: "55 min",
     tags: ["Sweet", "Baking"],
     intro:
       "A sneaky healthy treat: chickpeas, banana and peanut butter blended into a soft, chewy blondie, studded with dates and topped with pecans.",
@@ -2876,6 +2994,8 @@ window.RECIPES = [
     reel: "DVE31-Nkd4n",
     photo: "shrimp-vermicelli-fresh-rolls.jpg",
     alt: "A platter of sliced vegetables, herbs and lime wedges for fresh rolls",
+    level: "Medium",
+    time: "40 min",
     tags: ["Seafood", "No cook"],
     intro:
       "Rice paper rolls packed with shrimp, vermicelli noodles, crunchy vegetables, avocado and plenty of herbs, with a bigger batch of peanut sauce for dipping.",
@@ -2925,6 +3045,8 @@ window.RECIPES = [
     reel: "DU_rHjckRpI",
     photo: "crispy-cheesy-broccoli.jpg",
     alt: "A tray of crispy broccoli with golden Parmesan crisps",
+    level: "Easy",
+    time: "20 min",
     tags: ["Side", "Air fryer"],
     intro:
       "Broccoli tossed in a garlicky olive oil and nutritional yeast dressing, then air-fried on a layer of Parmesan until the cheese turns into a golden, lacy crisp.",
@@ -2961,6 +3083,8 @@ window.RECIPES = [
     reel: "DUtk_rxkem-",
     photo: "kongbul-bean-sprout-bulgogi.jpg",
     alt: "A large pan of spicy bean sprout bulgogi with green onion and sesame seeds",
+    level: "Medium",
+    time: "30 min",
     tags: ["Korean", "High protein", "Spicy"],
     intro:
       "Thinly sliced beef or pork steamed on a big pile of bean sprouts, cabbage, onion and sweet potato, then tossed in a spicy gochujang sauce. Packed with protein and fiber.",
@@ -3006,6 +3130,8 @@ window.RECIPES = [
     reel: "DUmEEYpEQ6K",
     photo: "freezer-korean-soup.jpg",
     alt: "James eating spoonfuls of soup from a small pot",
+    level: "Easy",
+    time: "15 min",
     tags: ["Soup", "Korean", "Meal prep"],
     intro:
       "A cozy soup you can make from freezer bags: zucchini, tofu, enoki and frozen dumplings in an anchovy and doenjang broth. Prep the bags ahead, then just add water.",
@@ -3041,6 +3167,8 @@ window.RECIPES = [
     reel: "DUgild_EcKD",
     photo: "healthy-shrimp-salad.jpg",
     alt: "James holding a glass bowl of creamy shrimp salad",
+    level: "Easy",
+    time: "15 min",
     tags: ["Seafood", "Salad", "High protein"],
     intro:
       "Shrimp with crunchy celery, cucumber and apple in a blended cottage cheese, Greek yogurt and honey Dijon sauce. No mayo and over 55 grams of protein.",
@@ -3084,6 +3212,8 @@ window.RECIPES = [
     reel: "DUbFaLrEY3M",
     photo: "soondubu-korean-tofu-soup.jpg",
     alt: "A bowl of spicy Korean soft tofu soup",
+    level: "Medium",
+    time: "25 min",
     tags: ["Soup", "Korean", "Spicy"],
     intro:
       "A hearty, spicy soft tofu stew: a quick chili oil base with onion and garlic, simmered with zucchini, mushrooms and seafood, then finished with silken tofu and an egg.",
@@ -3124,6 +3254,7 @@ window.RECIPES = [
     reel: "DUT3-OfkVhB",
     photo: "honey-garlic-tofu.jpg",
     alt: "A plate of golden tofu cubes in honey garlic sauce with green onion and sesame",
+    level: "Easy",
     time: "10 min",
     tags: ["Tofu", "High protein", "Quick"],
     intro:
@@ -3164,7 +3295,8 @@ window.RECIPES = [
     reel: "DUG_hABku31",
     photo: "apple-banana-bread.jpg",
     alt: "A loaf of apple banana bread topped with apple slices and cinnamon",
-    time: "50 min",
+    level: "Easy",
+    time: "55 min",
     tags: ["Sweet", "Baking"],
     intro:
       "A vegan, gluten-free loaf with no refined sugar or oil: mashed banana and applesauce with oat flour, chunks of fresh apple and cinnamon, topped with more apple slices.",
@@ -3205,6 +3337,8 @@ window.RECIPES = [
     reel: "DT09GHrkcHc",
     photo: "asian-peanut-chicken-salad.jpg",
     alt: "James holding a container of crunchy peanut chicken salad",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "Shredded cabbage, carrot, cucumber and apple with diced chicken in a lemony peanut and soy dressing. High in protein and fiber, and great for meal prep.",
@@ -3250,6 +3384,7 @@ window.RECIPES = [
     reel: "DTv3vnIEYFn",
     photo: "korean-spinach-side-dish.jpg",
     alt: "James holding a bowl of seasoned Korean spinach",
+    level: "Easy",
     time: "10 min",
     tags: ["Side", "Korean", "Quick"],
     intro:
@@ -3282,6 +3417,7 @@ window.RECIPES = [
     reel: "DTqm6RHEVCp",
     photo: "healthy-blondies.jpg",
     alt: "Sliced healthy blondies with pecans and dates on parchment paper",
+    level: "Easy",
     time: "30 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -3323,6 +3459,8 @@ window.RECIPES = [
     reel: "DTYpmSOkYkp",
     photo: "celery-apple-salad.jpg",
     alt: "James holding up a container of celery apple salad topped with seeds",
+    level: "Easy",
+    time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
       "Celery, apple, cucumber and sweet dates in a light, creamy lemon, Parmesan and Greek yogurt dressing, topped with crunchy seeds.",
@@ -3364,6 +3502,8 @@ window.RECIPES = [
     reel: "DTOes2hEZV9",
     photo: "roasted-burrata-bruschetta.jpg",
     alt: "A dish of roasted cherry tomatoes with a whole burrata, basil and balsamic glaze",
+    level: "Easy",
+    time: "25 min",
     tags: ["Snack", "Side"],
     intro:
       "James's most requested potluck dish: cherry tomatoes roasted with garlic and olive oil until jammy, topped with a whole burrata, fresh basil and a quick homemade balsamic glaze.",
@@ -3403,6 +3543,8 @@ window.RECIPES = [
     reel: "DTJLEu_kQ6n",
     photo: "korean-braised-tofu.jpg",
     alt: "A plate of Korean braised tofu in a spicy soy glaze with green onion",
+    level: "Easy",
+    time: "20 min",
     tags: ["Tofu", "Korean", "High protein"],
     intro:
       "Slices of firm tofu pan-fried until golden, then braised in a spicy, garlicky soy and gochugaru sauce until sticky.",
@@ -3442,6 +3584,7 @@ window.RECIPES = [
     reel: "DTGe7SiEdDe",
     photo: "five-ingredient-healthy-brownies.jpg",
     alt: "A glass dish of fudgy banana brownies topped with walnuts",
+    level: "Easy",
     time: "35 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -3480,6 +3623,8 @@ window.RECIPES = [
     reel: "DTBV1CyCez7",
     photo: "hosting-burrata-salad.jpg",
     alt: "A large platter of salad with roasted red pepper, strawberries and burrata",
+    level: "Medium",
+    time: "35 min",
     tags: ["Salad", "Side"],
     intro:
       "James's rule for a crowd-pleasing salad: three fruits, three vegetables and a base. Spring mix with roasted sweet potato, red pepper and burrata, finished with a honey balsamic dressing.",
@@ -3525,7 +3670,8 @@ window.RECIPES = [
     reel: "DSvluo2EfWR",
     photo: "blueberry-banana-bread.jpg",
     alt: "James holding a slice of blueberry banana bread over the loaf",
-    time: "1 hr 10 min",
+    level: "Easy",
+    time: "1 hr 15 min",
     tags: ["Sweet", "Baking", "High protein"],
     intro:
       "A moist, high-protein banana bread made with almond flour and Greek yogurt and studded with wild blueberries. No oil or refined sugar.",
@@ -3566,6 +3712,8 @@ window.RECIPES = [
     reel: "DSlR0SzEWnQ",
     photo: "korean-gochujang-broccoli.jpg",
     alt: "A plate of crispy air-fried broccoli in a sweet and spicy gochujang glaze",
+    level: "Easy",
+    time: "20 min",
     tags: ["Side", "Korean", "Air fryer"],
     intro:
       "A whole head of broccoli air-fried until crispy at the edges, then tossed in a quick sweet and spicy gochujang sauce.",
@@ -3602,6 +3750,8 @@ window.RECIPES = [
     reel: "DSc8Pn4CXwk",
     photo: "ssamjang-cucumber.jpg",
     alt: "A plate of cucumber rounds coated in a spicy ssamjang sauce",
+    level: "Easy",
+    time: "10 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "Cucumber rounds tossed in a homemade ssamjang (doenjang and gochujang) with onion, garlic and sesame oil. Savory, sweet, spicy and garlicky.",
@@ -3640,6 +3790,8 @@ window.RECIPES = [
     reel: "DSYUvS_EUVp",
     photo: "no-mayo-chicken-salad.jpg",
     alt: "James holding a container of creamy chicken salad with apple and pickles",
+    level: "Easy",
+    time: "10 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "A crunchy chicken salad with red onion, celery, carrot, apple and pickles in a lemony Greek yogurt dressing. High in protein and fiber, low in calories.",
@@ -3685,6 +3837,8 @@ window.RECIPES = [
     photo: "ummas-bibimbap.jpg",
     alt: "Bowls of bibimbap toppings: rice, fried eggs, zucchini, radish, sprouts, mushrooms and gochujang",
     serves: "4",
+    level: "Hard",
+    time: "1 hr",
     tags: ["Korean", "Rice"],
     intro:
       "James's mom's comfort-food bibimbap, made with him for four: sautéed vegetables, spicy seasoned radish and bean sprouts over rice with a fried egg and gochujang.",
@@ -3746,7 +3900,8 @@ window.RECIPES = [
     reel: "DR-iN9lkbEA",
     photo: "sticky-date-oat-banana-bread.jpg",
     alt: "Sliced sticky banana bread with dates and seeds on parchment paper",
-    time: "45 min",
+    level: "Easy",
+    time: "50 min",
     tags: ["Sweet", "Baking"],
     intro:
       "Five ingredients: bananas, eggs, blended oats, baking powder and plenty of chopped dates for sticky, caramel-like pockets. Gluten free with no refined sugar.",
@@ -3785,6 +3940,8 @@ window.RECIPES = [
     reel: "DRdGw4ZkaIL",
     photo: "spicy-crunchy-egg-salad.jpg",
     alt: "A white bowl of crunchy egg salad with chili crisp and almonds",
+    level: "Easy",
+    time: "10 min",
     tags: ["High protein", "Quick", "No cook"],
     intro:
       "Four boiled eggs with crunchy Persian cucumber, celery and onion in a Greek yogurt sauce with a spoonful of chili crisp, topped with almonds. Over 30 grams of protein.",
@@ -3818,6 +3975,7 @@ window.RECIPES = [
     reel: "DRAxq2FkT_h",
     photo: "tuna-apple-salad.jpg",
     alt: "James holding a bowl of tuna apple salad topped with walnuts and green onion",
+    level: "Easy",
     time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
@@ -3857,6 +4015,7 @@ window.RECIPES = [
     reel: "DQnC0YVEUmT",
     photo: "green-goddess-egg-salad.jpg",
     alt: "A slice of toast piled with green goddess egg salad",
+    level: "Easy",
     time: "10 min",
     tags: ["High protein", "Quick", "No cook"],
     intro:
@@ -3893,6 +4052,8 @@ window.RECIPES = [
     reel: "DQDHflYko8h",
     photo: "high-protein-broccoli-salad.jpg",
     alt: "A glass container of creamy broccoli salad with apple, dates and walnuts",
+    level: "Easy",
+    time: "15 min",
     tags: ["Salad", "Side", "High protein"],
     intro:
       "A no-mayo broccoli salad: raw florets with apple, dates and walnuts in a blended cottage cheese, Greek yogurt and honey dressing.",
@@ -3932,6 +4093,7 @@ window.RECIPES = [
     photo: "iced-french-toast-latte.jpg",
     alt: "James holding an iced cinnamon latte topped with cold foam",
     serves: "1",
+    level: "Easy",
     time: "5 min",
     tags: ["Drink", "Quick"],
     intro:
@@ -3963,6 +4125,8 @@ window.RECIPES = [
     reel: "DPt8Pqokcgr",
     photo: "butternut-squash-mac-and-cheese.jpg",
     alt: "James holding a plate of creamy butternut squash mac and cheese",
+    level: "Medium",
+    time: "1 hr 15 min",
     tags: ["Pasta", "High protein", "Baking"],
     intro:
       "A creamy Thanksgiving-ready mac and cheese with a sauce of roasted butternut squash, onion and garlic blended with cottage cheese, milk and nutritional yeast, then baked with a cheesy top.",
@@ -3998,6 +4162,8 @@ window.RECIPES = [
     reel: "DPj9Mi-EY8x",
     photo: "high-protein-butternut-squash-soup.jpg",
     alt: "James holding a spoonful of creamy butternut squash soup over the bowl",
+    level: "Easy",
+    time: "1 hr",
     tags: ["Soup", "High protein"],
     intro:
       "Roasted butternut squash, carrots, red onion and garlic blended with milk and cottage cheese into a velvety fall soup with over 25 grams of protein per serving.",
@@ -4031,6 +4197,8 @@ window.RECIPES = [
     reel: "DPe75hpkQjA",
     photo: "sticky-spicy-peanut-tofu.jpg",
     alt: "A pan of crispy tofu tossed in sticky spicy peanut sauce",
+    level: "Easy",
+    time: "25 min",
     tags: ["Tofu", "Air fryer", "Spicy"],
     intro:
       "Cubes of extra-firm tofu air-fried until crisp, then tossed in a no-cook peanut, gochujang and honey sauce. Vegan if you swap the honey for maple syrup.",
@@ -4076,6 +4244,8 @@ window.RECIPES = [
     reel: "DPUj4AvEZhu",
     photo: "roasted-cauliflower-dates.jpg",
     alt: "James holding a plate of roasted cauliflower with dates",
+    level: "Easy",
+    time: "40 min",
     tags: ["Side", "Baking"],
     intro:
       "Four main ingredients: cauliflower roasted with olive oil and spices until golden, tossed with sweet chopped dates and a lemon zest dressing.",
@@ -4114,6 +4284,8 @@ window.RECIPES = [
     reel: "DPPaYdVkXfn",
     photo: "kimchi-seafood-pancake.jpg",
     alt: "A crispy golden kimchi seafood pancake in a pan",
+    level: "Medium",
+    time: "20 min",
     tags: ["Korean", "Seafood"],
     intro:
       "James's mom's kimchi pancake: a simple pancake batter loaded with kimchi, seafood, potato and green onion, fried until crispy at the edges.",
@@ -4147,6 +4319,7 @@ window.RECIPES = [
     reel: "DO_-HU0kc_P",
     photo: "korean-spicy-tuna-salad.jpg",
     alt: "A glass bowl of spicy tuna salad topped with crumbled seaweed",
+    level: "Easy",
     time: "5 min",
     tags: ["Seafood", "High protein", "Spicy"],
     intro:
@@ -4185,6 +4358,7 @@ window.RECIPES = [
     reel: "DO60OTlkUv5",
     photo: "boursin-avocado-dip.jpg",
     alt: "A glass dish of layered Boursin dip with avocado, tomatoes, bacon, dates and walnuts",
+    level: "Easy",
     time: "15 min",
     tags: ["Snack", "No cook"],
     intro:
@@ -4223,6 +4397,8 @@ window.RECIPES = [
     reel: "DOrW_r2EX27",
     photo: "ummas-fresh-kimchi.jpg",
     alt: "James and his mom with a plate of fresh napa cabbage kimchi",
+    level: "Medium",
+    time: "30 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "James's most requested recipe: his mom's geotjeori, a fresh, unfermented kimchi. Crisp, savory, sweet and spicy, and best eaten within a day or two.",
@@ -4264,6 +4440,8 @@ window.RECIPES = [
     reel: "DOg_hgdkQTd",
     photo: "sesame-miso-tuna-salad.jpg",
     alt: "James holding a glass bowl of sesame miso tuna salad with carrots and cucumber",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
       "Tuna with crunchy cucumber, celery and carrot in a miso, lime and sesame dressing, sprinkled with furikake. High in protein and fiber and full of flavor.",
@@ -4307,6 +4485,8 @@ window.RECIPES = [
     reel: "DOb8QuwiVKU",
     photo: "sriracha-egg-salad.jpg",
     alt: "James holding a glass bowl of spicy egg salad with diced vegetables",
+    level: "Easy",
+    time: "10 min",
     tags: ["High protein", "Quick", "No cook"],
     intro:
       "Boiled eggs and crunchy diced vegetables in a sriracha and Greek yogurt sauce made creamy with the yolks. High in protein and fiber, low in calories, no mayo.",
@@ -4338,6 +4518,7 @@ window.RECIPES = [
     reel: "DOJ76G1kYqp",
     photo: "ground-beef-bulgogi.jpg",
     alt: "James holding a plate of ground beef bulgogi topped with green onion",
+    level: "Easy",
     time: "10 min",
     tags: ["Korean", "High protein", "Quick"],
     intro:
@@ -4378,6 +4559,7 @@ window.RECIPES = [
     reel: "DOEzD2GERII",
     photo: "banana-carrot-cake.jpg",
     alt: "A loaf of banana carrot cake, sliced on parchment paper",
+    level: "Easy",
     time: "55 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -4420,6 +4602,8 @@ window.RECIPES = [
     reel: "DN5rv7nkf4K",
     photo: "korean-spicy-pork-jeyuk.jpg",
     alt: "A plate of spicy Korean pork with onions, topped with green onion",
+    level: "Medium",
+    time: "50 min",
     tags: ["Korean", "Spicy", "High protein"],
     intro:
       "Thinly sliced pork belly marinated in a spicy-sweet gochujang sauce, then stir-fried with onion. James cooks it on the barbecue for a smoky flavor; a frying pan works too.",
@@ -4462,6 +4646,7 @@ window.RECIPES = [
     reel: "DN1UR4J4iTP",
     photo: "banana-bread-protein-balls.jpg",
     alt: "A plate of banana bread protein balls with chocolate chips",
+    level: "Easy",
     time: "20 min",
     tags: ["Snack", "High protein", "Sweet"],
     intro:
@@ -4500,6 +4685,7 @@ window.RECIPES = [
     reel: "DNq_kznYkkr",
     photo: "sweet-potato-brownies.jpg",
     alt: "James holding a fudgy sweet potato brownie over the tray",
+    level: "Easy",
     time: "40 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -4541,6 +4727,7 @@ window.RECIPES = [
     reel: "DNl_DC7RGd_",
     photo: "korean-sesame-broccoli.jpg",
     alt: "A glass bowl of blanched broccoli tossed with sesame oil and sesame seeds",
+    level: "Easy",
     time: "10 min",
     tags: ["Side", "Korean", "Quick"],
     intro:
@@ -4571,6 +4758,8 @@ window.RECIPES = [
     reel: "DNgtNB4xARi",
     photo: "apple-date-chicken-salad.jpg",
     alt: "James holding a glass bowl of creamy chicken salad with apple and dates",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "High protein"],
     intro:
       "James's favorite chicken salad: shredded chicken with crunchy vegetables, pickles, sweet apple and dates in a Greek yogurt and olive oil dressing.",
@@ -4612,6 +4801,8 @@ window.RECIPES = [
     reel: "DNTFGNrRgyj",
     photo: "korean-soy-marinated-eggs.jpg",
     alt: "A bowl of rice topped with jammy soy-marinated eggs",
+    level: "Easy",
+    time: "4 hr",
     tags: ["Korean", "High protein", "Meal prep"],
     intro:
       "Jammy soft-boiled eggs soaked in a sweet soy, honey and garlic marinade with onion and jalapeño. Spoon them over rice with some of the marinade.",
@@ -4651,6 +4842,7 @@ window.RECIPES = [
     reel: "DNOsgFVxiqN",
     photo: "celery-date-salad.jpg",
     alt: "James holding a glass bowl of celery date salad topped with pumpkin seeds",
+    level: "Easy",
     time: "10 min",
     tags: ["Salad", "Side", "No cook"],
     intro:
@@ -4692,6 +4884,7 @@ window.RECIPES = [
     photo: "iced-peanut-butter-latte.jpg",
     alt: "James sipping an iced peanut butter latte",
     serves: "1",
+    level: "Easy",
     time: "5 min",
     tags: ["Drink", "Quick"],
     intro:
@@ -4724,6 +4917,7 @@ window.RECIPES = [
     reel: "DNBCHU8xG8d",
     photo: "date-walnut-banana-bread.jpg",
     alt: "James holding a thick slice of date and walnut banana bread",
+    level: "Easy",
     time: "55 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -4768,6 +4962,7 @@ window.RECIPES = [
     reel: "DM0MlG_Ri1p",
     photo: "chocolate-protein-granola-bars.jpg",
     alt: "A tray of chocolate oat granola bars cut into strips",
+    level: "Easy",
     time: "30 min",
     tags: ["Snack", "High protein", "Baking"],
     intro:
@@ -4810,6 +5005,7 @@ window.RECIPES = [
     reel: "DMsdJ0oRzha",
     photo: "protein-cookie-dough.jpg",
     alt: "James holding a bowl of protein cookie dough scoops with chocolate chips",
+    level: "Easy",
     time: "5 min",
     tags: ["Sweet", "High protein", "No cook"],
     intro:
@@ -4840,6 +5036,8 @@ window.RECIPES = [
     reel: "DMiImg_xUC2",
     photo: "kimchi-tuna-salad.jpg",
     alt: "James holding up a cracker topped with kimchi tuna salad",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "Korean", "High protein"],
     intro:
       "Tuna with chopped kimchi, carrot, celery and green onion in a light soy, sesame and Greek yogurt sauce. No mayo, good for your gut, and about 35 grams of protein.",
@@ -4880,6 +5078,8 @@ window.RECIPES = [
     reel: "DMX1GtYR_6V",
     photo: "healthy-egg-salad-dip.jpg",
     alt: "A glass bowl of creamy egg salad dip",
+    level: "Easy",
+    time: "15 min",
     tags: ["High protein", "Snack", "No cook"],
     intro:
       "A creamy egg salad blended with cottage cheese, Greek yogurt and the yolks, with crunchy celery, cucumber and red onion. Use 6 eggs for a dip or 8 for a classic egg salad.",
@@ -4917,6 +5117,7 @@ window.RECIPES = [
     reel: "DMFzzsbRBSd",
     photo: "korean-street-toast.jpg",
     alt: "James holding up a thick Korean street toast sandwich with egg, cabbage, ham and cheese",
+    level: "Easy",
     time: "15 min",
     tags: ["Breakfast", "Korean", "Quick"],
     intro:
@@ -4961,6 +5162,7 @@ window.RECIPES = [
     photo: "cottage-cheese-protein-brownie.jpg",
     alt: "James holding a dish of fudgy microwave brownie",
     serves: "1",
+    level: "Easy",
     time: "5 min",
     tags: ["Sweet", "High protein", "Quick"],
     intro:
@@ -4992,6 +5194,8 @@ window.RECIPES = [
     reel: "DLzyuTxRaMR",
     photo: "tuna-celery-salad.jpg",
     alt: "James holding a glass bowl of creamy tuna celery salad",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
       "Tuna with crunchy celery, cucumber and apple in a blended cottage cheese and Greek yogurt dressing. About 50 grams of protein with no mayo.",
@@ -5031,6 +5235,7 @@ window.RECIPES = [
     reel: "DLm7Apfxezc",
     photo: "rice-paper-spanakopita.jpg",
     alt: "James holding a forkful of rice paper spanakopita over the plate",
+    level: "Medium",
     time: "20 min",
     tags: ["Air fryer", "Snack"],
     intro:
@@ -5059,11 +5264,13 @@ window.RECIPES = [
 
   {
     slug: "kimbap",
-    title: "Easy Kimbap",
+    title: "Kimbap",
     posted: "2025-06-30",
     reel: "DLh7UgrRF_R",
     photo: "kimbap.jpg",
     alt: "A plate of sliced kimbap rolls",
+    level: "Hard",
+    time: "1 hr",
     tags: ["Korean", "Rice"],
     intro:
       "James's favorite childhood food: seasoned rice rolled in seaweed with carrots, pickled radish, braised fish cake, crab sticks, spinach and egg. Great for a potluck.",
@@ -5121,6 +5328,7 @@ window.RECIPES = [
     reel: "DLPvehERvDw",
     photo: "banana-protein-granola-bars.jpg",
     alt: "A tray of golden oat and nut granola bars cut into strips",
+    level: "Easy",
     time: "30 min",
     tags: ["Snack", "High protein", "Baking"],
     intro:
@@ -5157,11 +5365,12 @@ window.RECIPES = [
 
   {
     slug: "boursin-tomato-bruschetta-dip",
-    title: "5-Minute Boursin Bruschetta Dip",
+    title: "Boursin Bruschetta Dip",
     posted: "2025-06-18",
     reel: "DLC3IV5xN_g",
     photo: "boursin-tomato-bruschetta-dip.jpg",
     alt: "A glass dish of Boursin topped with bruschetta tomatoes, basil and balsamic glaze",
+    level: "Easy",
     time: "15 min",
     tags: ["Snack", "No cook"],
     intro:
@@ -5202,6 +5411,7 @@ window.RECIPES = [
     reel: "DK9tfA5RflT",
     photo: "fig-balsamic-cottage-cheese-salad.jpg",
     alt: "A plate of cottage cheese topped with a chopped cucumber, tomato and apple salad",
+    level: "Easy",
     time: "10 min",
     tags: ["Salad", "High protein", "No cook"],
     intro:
@@ -5235,6 +5445,7 @@ window.RECIPES = [
     reel: "DK2NzrOxX8V",
     photo: "healthy-lemon-loaf.jpg",
     alt: "A golden lemon loaf cake, sliced, on parchment paper",
+    level: "Easy",
     time: "45 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -5270,7 +5481,8 @@ window.RECIPES = [
     reel: "DKvTGpyx4T5",
     photo: "peanut-butter-chocolate-granola.jpg",
     alt: "James with a bowl of Greek yogurt topped with chocolate granola and fruit",
-    time: "25 min",
+    level: "Easy",
+    time: "30 min",
     tags: ["Breakfast", "Snack", "Baking"],
     intro:
       "Crunchy chocolate granola with almonds and pumpkin seeds, bound with honey, coconut oil and peanut butter. Gluten free with no refined sugar; great over yogurt and fruit.",
@@ -5312,6 +5524,7 @@ window.RECIPES = [
     reel: "DKe6Hj2RgJO",
     photo: "healthy-spinach-cheese-dip.jpg",
     alt: "James with a bowl of baked spinach dip topped with melted cheddar",
+    level: "Easy",
     time: "15 min",
     tags: ["Snack", "High protein", "Air fryer"],
     intro:
@@ -5343,6 +5556,7 @@ window.RECIPES = [
     reel: "DKZqrMIxfic",
     photo: "double-chocolate-banana-bread.jpg",
     alt: "James holding a piece of double chocolate banana bread over the sliced loaf",
+    level: "Easy",
     time: "50 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -5383,6 +5597,7 @@ window.RECIPES = [
     reel: "DKHpZd9RIG4",
     photo: "banana-cream-pudding.jpg",
     alt: "A bowl of creamy banana pudding topped with banana slices and granola",
+    level: "Easy",
     time: "5 min",
     tags: ["Sweet", "High protein", "No cook"],
     intro:
@@ -5419,6 +5634,7 @@ window.RECIPES = [
     reel: "DJ6xEDfxb6p",
     photo: "air-fryer-protein-granola.jpg",
     alt: "A close-up of golden clusters of oat, almond and pumpkin seed granola",
+    level: "Easy",
     time: "20 min",
     tags: ["Breakfast", "High protein", "Air fryer"],
     intro:
@@ -5461,6 +5677,7 @@ window.RECIPES = [
     reel: "DJ1nU5RRnU-",
     photo: "miso-lime-asian-tuna-salad.jpg",
     alt: "James holding a glass bowl of Asian tuna salad with seaweed and carrots",
+    level: "Easy",
     time: "5 min",
     tags: ["Seafood", "Quick", "No cook"],
     intro:
@@ -5495,6 +5712,7 @@ window.RECIPES = [
     reel: "DJjmBwgxJ-u",
     photo: "cottage-cheese-banana-bread.jpg",
     alt: "James holding a slice of banana bread over the loaf",
+    level: "Easy",
     time: "1 hr",
     tags: ["Sweet", "Baking", "High protein"],
     intro:
@@ -5534,6 +5752,8 @@ window.RECIPES = [
     reel: "DJWtrPiItDL",
     photo: "ummas-japchae.jpg",
     alt: "A platter of japchae glass noodles topped with egg strips and spinach",
+    level: "Medium",
+    time: "45 min",
     tags: ["Korean", "Noodles"],
     intro:
       "James's mom's favorite noodle dish: chewy Korean glass noodles tossed in a sweet soy and garlic sauce with sautéed vegetables, mushrooms, spinach and egg. This recipe makes a big platter.",
@@ -5583,6 +5803,7 @@ window.RECIPES = [
     reel: "DJJ1hG7IU9Y",
     photo: "high-protein-tzatziki.jpg",
     alt: "James dipping a cracker into a bowl of creamy tzatziki",
+    level: "Easy",
     time: "5 min",
     tags: ["Snack", "High protein", "No cook"],
     intro:
@@ -5616,6 +5837,7 @@ window.RECIPES = [
     reel: "DI1PdDWRjik",
     photo: "carrot-cake-baked-oats.jpg",
     alt: "James holding a plate of carrot cake baked oats with yogurt frosting in front of the loaf",
+    level: "Easy",
     time: "45 min",
     tags: ["Breakfast", "Baking", "High protein"],
     intro:
@@ -5664,6 +5886,7 @@ window.RECIPES = [
     reel: "DIjOrX-xReY",
     photo: "four-ingredient-oat-banana-bread.jpg",
     alt: "A golden loaf of banana bread on parchment paper",
+    level: "Easy",
     time: "50 min",
     tags: ["Sweet", "Baking"],
     intro:
@@ -5702,6 +5925,8 @@ window.RECIPES = [
     reel: "DIbgA0eRhi1",
     photo: "korean-braised-potatoes.jpg",
     alt: "James with a plate of glossy soy-braised potatoes topped with sesame seeds",
+    level: "Easy",
+    time: "30 min",
     tags: ["Side", "Korean"],
     intro:
       "A classic Korean side dish: cubed potatoes pan-fried until tender, then glazed in a sweet soy, honey and garlic sauce until sticky and shiny.",
@@ -5740,6 +5965,7 @@ window.RECIPES = [
     reel: "DITxYxExwz-",
     photo: "four-ingredient-protein-cookies.jpg",
     alt: "James with a glass of milk and a tray of banana peanut butter chocolate chip cookies",
+    level: "Easy",
     time: "20 min",
     tags: ["Sweet", "High protein", "Baking"],
     intro:
@@ -5770,6 +5996,8 @@ window.RECIPES = [
     reel: "DIJe8NvRUlV",
     photo: "gochujang-cucumber-salad.jpg",
     alt: "A glass bowl of cucumbers, onion and carrot in a red gochujang sauce",
+    level: "Easy",
+    time: "30 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "Salted, crunchy cucumbers with sliced onion and shredded carrot in a sweet, tangy gochujang sauce that James calls liquid gold.",
@@ -5808,6 +6036,8 @@ window.RECIPES = [
     reel: "DIBxnPTxRXZ",
     photo: "protein-peanut-butter-cups.jpg",
     alt: "James holding a bitten chocolate-coated peanut butter ball",
+    level: "Easy",
+    time: "1 hr",
     tags: ["Sweet", "Snack", "High protein"],
     intro:
       "Like a Reese's, but with about 9 grams of protein and 45 calories each: powdered peanut butter balls dipped in a chocolate protein yogurt coating and frozen.",
@@ -5845,6 +6075,8 @@ window.RECIPES = [
     reel: "DH_LPWdRkNm",
     photo: "chicken-fresh-rolls-peanut-sauce.jpg",
     alt: "James eating a fresh roll with a bowl of peanut sauce in front of him",
+    level: "Medium",
+    time: "30 min",
     tags: ["Chicken", "No cook"],
     intro:
       "The peanut sauce James puts on everything, served with easy chicken and vegetable rice paper rolls. The caption gives amounts for the sauce; fill the rolls however you like.",
@@ -5893,6 +6125,8 @@ window.RECIPES = [
     reel: "DHtJZZ2RVqr",
     photo: "classic-cucumber-kimchi.jpg",
     alt: "A glass bowl of cucumber kimchi with shredded carrot and onion",
+    level: "Easy",
+    time: "40 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "The easiest cucumber kimchi: salted cucumber rounds tossed with onion, carrot and a simple gochugaru, soy and garlic seasoning.",
@@ -5933,6 +6167,7 @@ window.RECIPES = [
     reel: "DHlbgT9R7XT",
     photo: "chicken-corn-soup.jpg",
     alt: "A glass bowl of chicken corn soup with green onion",
+    level: "Easy",
     time: "10 min",
     tags: ["Soup", "Chicken", "Quick"],
     intro:
@@ -5969,6 +6204,8 @@ window.RECIPES = [
     reel: "DHYnIAuRcCK",
     photo: "rotisserie-chicken-asian-salad.jpg",
     alt: "A large glass container of Asian chicken salad with cabbage, carrot and cucumber",
+    level: "Easy",
+    time: "15 min",
     tags: ["Chicken", "Salad", "Meal prep"],
     intro:
       "A ten-minute way to use up a rotisserie chicken: shredded chicken with cabbage, carrot, cucumber and onion in a punchy oyster sauce, lemon and ginger dressing.",
@@ -6014,6 +6251,8 @@ window.RECIPES = [
     reel: "DG0oc47RPp_",
     photo: "cottage-cheese-tuna-salad-classic.jpg",
     alt: "James holding a glass bowl of creamy tuna salad",
+    level: "Easy",
+    time: "10 min",
     tags: ["Seafood", "High protein", "No cook"],
     intro:
       "A classic tuna salad without mayo: tuna with celery, green onion and carrot in a blended cottage cheese, Greek yogurt and Dijon sauce. About 45 grams of protein.",
@@ -6053,6 +6292,8 @@ window.RECIPES = [
     reel: "DGs6b1zxe7U",
     photo: "korean-crispy-tofu.jpg",
     alt: "A plate of crispy tofu glazed in a red gochujang sauce with green onion",
+    level: "Medium",
+    time: "25 min",
     tags: ["Tofu", "Korean", "Spicy"],
     intro:
       "James's favorite tofu: seasoned cubes coated in cornstarch and pan-fried until crispy on every side, then tossed in a sticky gochujang and oyster sauce glaze.",
@@ -6096,6 +6337,8 @@ window.RECIPES = [
     reel: "DGilMrGx5dl",
     photo: "gochujang-shrimp-pasta.jpg",
     alt: "A pan of creamy gochujang pasta with shrimp",
+    level: "Easy",
+    time: "25 min",
     tags: ["Pasta", "Seafood", "Spicy"],
     intro:
       "A creamy, spicy pasta: onion and garlic cooked in butter with gochujang, loosened with milk and Parmesan, then tossed with shrimp and spirals of pasta.",
@@ -6130,6 +6373,7 @@ window.RECIPES = [
     photo: "banana-mug-cake.jpg",
     alt: "James holding a spoonful of chocolate mug cake topped with Greek yogurt",
     serves: "1",
+    level: "Easy",
     time: "5 min",
     tags: ["Sweet", "Quick"],
     intro:
@@ -6163,6 +6407,7 @@ window.RECIPES = [
     reel: "DFnXxFURMbc",
     photo: "korean-soy-dipping-sauce.jpg",
     alt: "James holding a plate of Korean fried tofu topped with spicy soy sauce",
+    level: "Easy",
     time: "5 min",
     tags: ["Sauce", "Korean", "Quick"],
     intro:
@@ -6197,6 +6442,8 @@ window.RECIPES = [
     reel: "DFVVRgEx8ix",
     photo: "easy-beef-bulgogi.jpg",
     alt: "A plate of beef bulgogi topped with green onion",
+    level: "Easy",
+    time: "45 min",
     tags: ["Korean", "High protein"],
     intro:
       "Thinly sliced ribeye marinated in a sweet soy, garlic and Asian pear sauce, then seared with onion and green onion. Wrap it in lettuce with rice and ssamjang.",
@@ -6227,7 +6474,7 @@ window.RECIPES = [
     steps: [
       "Blend the soy sauce, water, garlic, mirin, sesame oil, sugar, pepper and Asian pear until smooth.",
       "Pour the marinade over the sliced beef in a bowl, add the onion and green onion and mix it in with your hands (wear gloves).",
-      "Cover and marinate in the fridge, ideally overnight.",
+      "Cover and marinate in the fridge for at least 30 minutes, ideally overnight.",
       "Cook in a hot pan, spreading the beef out, until browned and cooked through.",
       "Top with sesame seeds and more green onion. Serve with lettuce, rice and kimchi.",
     ],
@@ -6240,6 +6487,7 @@ window.RECIPES = [
     reel: "DC2bJsLzhlq",
     photo: "asian-twist-tuna-salad.jpg",
     alt: "James holding a glass bowl of Asian tuna salad with seaweed",
+    level: "Easy",
     time: "5 min",
     tags: ["Seafood", "Quick", "No cook"],
     intro:
@@ -6274,6 +6522,8 @@ window.RECIPES = [
     reel: "DA5_YepRG81",
     photo: "orange-juice-chia-pudding.jpg",
     alt: "A jar of chia pudding next to a glass of orange juice on a small table",
+    level: "Easy",
+    time: "2 hr",
     tags: ["Breakfast", "Sweet", "No cook"],
     intro:
       "A bright, citrusy chia pudding made with orange juice and plant milk, sweetened with honey. The recipe comes from the caption of a photo post, so there's no video to follow.",
@@ -6302,6 +6552,8 @@ window.RECIPES = [
     reel: "DATe8MvRNa_",
     photo: "gochujang-salmon-chicken-meal-prep.jpg",
     alt: "James packing meal prep containers of rice, roasted vegetables, salmon and chicken",
+    level: "Easy",
+    time: "45 min",
     tags: ["Meal prep", "Korean", "High protein"],
     intro:
       "A week of lunches from one sauce: gochujang, soy, honey and garlic brushed over salmon and chicken thighs, baked with a tray of vegetables and packed with rice. The caption gives amounts for the sauce only.",
@@ -6345,6 +6597,8 @@ window.RECIPES = [
     reel: "C-Arw4-RC53",
     photo: "quick-fresh-kimchi.jpg",
     alt: "James's mom tossing napa cabbage kimchi in a large bowl",
+    level: "Medium",
+    time: "30 min",
     tags: ["Side", "Korean", "Spicy"],
     intro:
       "The quickest kimchi: napa cabbage quickly salted, then tossed with onion and chives in a garlicky gochugaru, fish sauce and plum extract seasoning. A fresh kimchi (geotjeori) to eat right away.",

@@ -42,6 +42,8 @@
   }
   const reelUrl = (id) => `https://www.instagram.com/p/${id}/`;
   const allItems = (r) => r.groups.flatMap((g) => g.items);
+  // The line under every recipe title: difficulty, then how long until it's ready.
+  const metaLine = (r) => `<div class="meta"><span>${esc(r.level)}</span><span>${esc(r.time)}</span></div>`;
 
   function toast(msg) {
     let t = $(".toast");
@@ -114,13 +116,11 @@
       list.innerHTML = shown
         .slice(0, limit)
         .map((r) => {
-          const meta = [r.serves && `Serves ${r.serves}`, r.time].filter(Boolean);
-          if (!meta.length) meta.push(date(r.posted));
           return `<li class="card"><a href="recipe.html?r=${encodeURIComponent(r.slug)}">
             <div class="card-photo">${r.photo ? `<img src="${esc(r.photo)}" alt="" width="1080" height="1350" loading="lazy">` : ""}</div>
             <p class="label">${r.tags.slice(0, 2).map(esc).join(" · ")}</p>
             <h3>${esc(r.title)}</h3>
-            <div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>
+            ${metaLine(r)}
           </a></li>`;
         })
         .join("");
@@ -130,14 +130,13 @@
     const feature = $("#feature");
     const latest = R[0];
     if (feature && latest) {
-      const meta = [latest.serves && `Serves ${latest.serves}`, latest.time].filter(Boolean);
       feature.innerHTML = `<a class="feature" href="recipe.html?r=${encodeURIComponent(latest.slug)}">
         <div class="feature-photo">${latest.photo ? `<img src="${esc(latest.photo)}" alt="${esc(latest.alt || latest.title)}" width="1080" height="1350">` : ""}</div>
         <div class="feature-cap">
           <p class="label">Newest · ${date(latest.posted)}</p>
           <h2>${esc(latest.title)}</h2>
           <span class="go">Get the recipe</span>
-          ${meta.length ? `<div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>` : ""}
+          ${metaLine(latest)}
         </div>
       </a>`;
     }
@@ -197,13 +196,12 @@
       box.innerHTML = plan
         .map((slug, i) => {
           const r = R.find((x) => x.slug === slug);
-          const meta = [r.serves && `Serves ${r.serves}`, r.time].filter(Boolean);
           return `<li class="day"><a href="recipe.html?r=${encodeURIComponent(r.slug)}">
             <span class="day-name">${DAYS[i]}</span>
             <div class="day-photo">${r.photo ? `<img src="${esc(r.photo)}" alt="" width="1080" height="1350" loading="lazy">` : ""}</div>
             <div class="day-text">
               <h3>${esc(r.title)}</h3>
-              ${meta.length ? `<div class="meta">${meta.map((m) => `<span>${esc(m)}</span>`).join("")}</div>` : ""}
+              ${metaLine(r)}
             </div>
           </a></li>`;
         })
@@ -247,8 +245,9 @@
     if (desc) desc.content = r.intro;
 
     const facts = [
+      ["Difficulty", r.level],
+      ["Ready in", r.time],
       r.serves && ["Serves", r.serves],
-      r.time && ["Time", r.time],
       ["Posted", date(r.posted)],
     ].filter(Boolean);
 
