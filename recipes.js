@@ -4,6 +4,7 @@
   photo: a 4:5 image (1080×1350) in this folder, named after the slug. alt: one line describing it.
   level: "Easy", "Medium" or "Hard". time: how long until it's ready to eat, including baking,
   salting or chilling ("15 min", "1 hr 15 min", "Overnight"). Both show under the title on every card.
+  est: true when the caption had no amounts and they were estimated from the video. The recipe page says so.
 
   Ingredient fields:
     q   number (scales with the ½× / 2× buttons). Leave out for "to taste" items.
@@ -1520,6 +1521,42 @@ window.RECIPES = [
   },
 
   {
+    slug: "high-protein-snack-plate",
+    title: "High-Protein Snack Plate",
+    posted: "2026-07-23",
+    reel: "DbJmZvgx6QC",
+    photo: "high-protein-snack-plate.jpg",
+    alt: "A snack plate with boiled eggs, tinned cod, cottage cheese, apple and crackers",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Snack", "High protein", "No cook"],
+    intro:
+      "A plate he could eat at every meal: jammy eggs with Kewpie and chili crisp, tinned cod, cottage cheese with honey, apple and crackers.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["egg", "eggs"], b: "Organic Valley" },
+          { q: 1, i: ["tin cod", "tins cod"], b: "David Protein" },
+          { q: 2, u: "tsp", i: "chili crisp", b: "Momofuku" },
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Good Culture" },
+          { q: 1, u: "tsp", i: "honey", b: "Manuka" },
+          { q: 0.5, i: ["apple", "apples"], n: "sliced" },
+          { q: 6, i: ["cracker", "crackers"], b: "Stonewall Kitchen" },
+          { t: "to taste", i: "Kewpie mayo" },
+          { t: "to taste", i: "black pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Boil the eggs for 7 to 8 minutes, cool them in cold water and halve them.",
+      "Top the eggs with a dot of Kewpie, a little chili crisp and pepper.",
+      "Open the tin of cod and spoon chili crisp over it.",
+      "Add the cottage cheese drizzled with honey, the apple slices and crackers, and build your own bites.",
+    ],
+  },
+
+  {
     slug: "mango-sticky-rice-chia-pudding",
     title: "Mango Sticky \"Rice\" Chia Pudding",
     posted: "2026-07-20",
@@ -2073,6 +2110,40 @@ window.RECIPES = [
   },
 
   {
+    slug: "high-protein-sardine-toast",
+    title: "High-Protein Sardine Toast",
+    posted: "2026-05-21",
+    reel: "DYnXINFRYxC",
+    photo: "high-protein-sardine-toast.jpg",
+    alt: "Sourdough toast topped with cottage cheese, sardines, tomato and chili crisp",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Seafood", "High protein", "Quick"],
+    intro:
+      "Protein-packed and good for your skin: toasted sourdough with cottage cheese, sardines, tomato and chili crisp.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "slice", i: "sourdough", n: "toasted" },
+          { q: 1 / 3, u: "cup", i: "cottage cheese" },
+          { q: 1, u: "tsp", i: "honey" },
+          { q: 1, i: ["tin sardines", "tins sardines"], b: "Fishwife" },
+          { q: 1, i: ["tomato", "tomatoes"], n: "sliced" },
+          { q: 1, u: "tsp", i: "chili crisp", b: "Momofuku" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Toast the sourdough.",
+      "Spread with cottage cheese and add a small drizzle of honey.",
+      "Lay the sardines on top, then the tomato slices.",
+      "Season with salt and pepper and finish with chili crisp.",
+    ],
+  },
+
+  {
     slug: "blueberry-greek-yogurt-pancakes",
     title: "Blueberry Greek Yogurt Pancakes",
     posted: "2026-05-19",
@@ -2519,6 +2590,34 @@ window.RECIPES = [
   },
 
   {
+    slug: "air-fryer-boiled-eggs",
+    title: "Air Fryer Boiled Eggs",
+    posted: "2026-04-20",
+    reel: "DXXncAMkTU0",
+    photo: "air-fryer-boiled-eggs.jpg",
+    alt: "Brown eggs in a glass air fryer basket",
+    level: "Easy",
+    time: "15 min",
+    tags: ["Breakfast", "High protein", "Air fryer"],
+    intro:
+      "Boiled eggs without the water: they cook straight in the air fryer and come out the same every time. 10 minutes for soft, 11 for medium, 12 for hard.",
+    groups: [
+      {
+        items: [
+          { q: 6, i: ["egg", "eggs"], n: "straight from the fridge", b: "Organic Valley" },
+          { t: "for cooling", i: "ice water" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the cold eggs in the air fryer basket in a single layer.",
+      "Air fry at 300°F: 10 minutes for soft-boiled, 11 for medium and 12 for hard-boiled.",
+      "Move the eggs straight into a bowl of ice water for about 5 minutes.",
+      "Peel and eat.",
+    ],
+  },
+
+  {
     slug: "cottage-cheese-tuna-salad",
     title: "Cottage Cheese Tuna Salad",
     posted: "2026-04-13",
@@ -2905,6 +3004,37 @@ window.RECIPES = [
       "Add the tuna, with its oil if you like it richer, and let it simmer for about 10 minutes.",
       "Slide in the tofu and let it heat through.",
       "Top with green onion and serve hot, with rice.",
+    ],
+  },
+
+  {
+    slug: "korean-sweet-potato-chips",
+    title: "Air Fryer Korean Sweet Potato Chips",
+    posted: "2026-03-10",
+    reel: "DVt9iLoEfna",
+    photo: "korean-sweet-potato-chips.jpg",
+    alt: "Golden pressed sweet potato rounds on parchment in an air fryer tray",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["Snack", "Air fryer", "Side"],
+    intro:
+      "Sweet, savoury and crispy. Rounds of Korean sweet potato pressed flat, sprayed with olive oil and salted, then air fried until the edges caramelize. He starts with a cooked sweet potato so the rounds press flat.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["large Korean sweet potato", "large Korean sweet potatoes"], n: "cooked and cooled" },
+          { t: "a few sprays", i: "olive oil", b: "Graza" },
+          { t: "a pinch", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the sweet potato into ½-inch rounds.",
+      "Line the air fryer tray with parchment, spray with olive oil and lay out the rounds.",
+      "Press each round flat with another sheet of parchment.",
+      "Spray the tops with oil and sprinkle with salt.",
+      "Air fry at 350°F for 15 minutes, until the edges are crisp and caramelized.",
     ],
   },
 
@@ -3453,6 +3583,65 @@ window.RECIPES = [
   },
 
   {
+    slug: "blueberry-protein-mousse",
+    title: "3-Ingredient Blueberry Protein Mousse",
+    posted: "2026-01-16",
+    reel: "DTlkQDvEd4V",
+    photo: "blueberry-protein-mousse.jpg",
+    alt: "A slice of layered funfetti cake topped with purple blueberry mousse",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Sweet", "High protein", "No cook"],
+    intro:
+      "Greek yogurt, protein powder and frozen wild blueberries stirred into a thick purple mousse. He spooned it over a slice of cake for a party; it's just as good on its own.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "Greek yogurt" },
+          { q: 1, u: "scoop", i: "vanilla protein powder" },
+          { q: 0.5, u: "cup", i: "frozen wild blueberries" },
+          { t: "a pinch", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Stir the yogurt and protein powder together until smooth.",
+      "Fold in the frozen blueberries, mashing a few so the mousse turns purple.",
+      "Add a pinch of salt and stir again.",
+      "Spoon over cake or fruit, or eat it from the bowl.",
+    ],
+  },
+
+  {
+    slug: "ice-bath-roasted-sweet-potatoes",
+    title: "Ice Bath Roasted Sweet Potatoes",
+    posted: "2026-01-14",
+    reel: "DTgcYsykT2V",
+    photo: "ice-bath-roasted-sweet-potatoes.jpg",
+    alt: "James holding a split roasted Korean sweet potato with a plate of more in front",
+    level: "Easy",
+    time: "1 hr",
+    tags: ["Side", "Korean", "Snack"],
+    intro:
+      "The viral sweet potato hack: bake, a two-minute ice bath, then bake again. The skin pulls away easily and the inside turns soft, sticky and extra sweet.",
+    groups: [
+      {
+        items: [
+          { q: 4, q2: 6, i: ["Korean sweet potato", "Korean sweet potatoes"], b: "Weee!" },
+          { t: "for the ice bath", i: "ice water" },
+        ],
+      },
+    ],
+    steps: [
+      "Trim the ends off the sweet potatoes.",
+      "Bake at 375°F on the top rack for 25 minutes.",
+      "Put the sweet potatoes in an ice bath for 2 minutes.",
+      "Bake at 375°F on the top rack for another 30 minutes, or 35 to 40 if they're big.",
+    ],
+  },
+
+  {
     slug: "celery-apple-salad",
     title: "Creamy Celery Apple Salad",
     posted: "2026-01-11",
@@ -3930,6 +4119,47 @@ window.RECIPES = [
       "Blend the oats into a flour and add them with the baking powder, plus cinnamon and salt if you're using them.",
       "Chop the dates and fold them in.",
       "Pour into the pan, top with nuts or seeds, and bake for 35–40 minutes.",
+    ],
+  },
+
+  {
+    slug: "smoked-trout-snack-plate",
+    title: "Smoked Trout Snack Plate",
+    posted: "2025-12-02",
+    reel: "DRxzzSbEc99",
+    photo: "smoked-trout-snack-plate.jpg",
+    alt: "A snack plate with smoked trout, jammy eggs, blistered tomatoes, cottage cheese and crackers",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["Snack", "Seafood", "High protein"],
+    intro:
+      "A snack plate inspired by @allyqueeks: smoked trout in red chimichurri, jammy eggs, a lemony celery and apple salad, blistered cherry tomatoes, cottage cheese with honey and chili crisp, and seeded crackers.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["tin smoked trout in red chimichurri", "tins smoked trout in red chimichurri"], b: "Fishwife" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 2, u: "stalk", i: "celery", n: "diced" },
+          { q: 0.5, i: ["apple", "apples"], n: "diced" },
+          { q: 1, u: "tsp", i: "lemon juice" },
+          { t: "to taste", i: "salt and pepper" },
+          { q: 1, u: "cup", i: "cherry tomatoes on the vine" },
+          { q: 1, u: "tsp", i: "extra virgin olive oil", b: "Terra Delyssa" },
+          { q: 1 / 3, u: "cup", i: "cottage cheese" },
+          { q: 1, u: "tsp", i: "honey" },
+          { q: 1, u: "tsp", i: "chili crisp" },
+          { t: "a few sprigs", i: "dill" },
+          { t: "to serve", i: "seeded crackers", b: "Top Seedz" },
+        ],
+      },
+    ],
+    steps: [
+      "Boil the eggs for 7 minutes, cool in ice water and halve.",
+      "Toss the celery and apple with the lemon juice, salt and pepper.",
+      "Blister the tomatoes in a hot pan with the olive oil for 3 to 4 minutes.",
+      "Top the cottage cheese with honey and chili crisp.",
+      "Arrange everything on a plate with the open tin of trout, dill and crackers.",
     ],
   },
 
@@ -5322,6 +5552,93 @@ window.RECIPES = [
   },
 
   {
+    slug: "steak-burrata-sandwich",
+    title: "Steak and Burrata Sandwich",
+    posted: "2025-06-26",
+    reel: "DLX_v9lRC_4",
+    photo: "steak-burrata-sandwich.jpg",
+    alt: "A thick steak and burrata sandwich with arugula held up outdoors",
+    serves: "2–4",
+    level: "Medium",
+    time: "1 hr",
+    est: true,
+    tags: ["High protein"],
+    intro:
+      "Simple and so good: seared steak, creamy burrata and arugula on crusty bread spread with a roasted garlic, lemon and chive aioli.",
+    groups: [
+      {
+        name: "Aioli",
+        items: [
+          { q: 1, u: "head", i: "garlic" },
+          { q: 0.5, u: "cup", i: "mayo", b: "Hellmann's" },
+          { q: 0.5, i: ["lemon", "lemons"], n: "zested and juiced" },
+          { q: 2, u: "tbsp", i: "chives", n: "chopped" },
+        ],
+      },
+      {
+        name: "Sandwich",
+        items: [
+          { q: 1, i: ["large loaf crusty bread", "large loaves crusty bread"], n: "ciabatta or baguette" },
+          { q: 1, u: "lb", i: "strip steak" },
+          { q: 2, u: "cup", i: "arugula" },
+          { q: 1, i: ["ball burrata", "balls burrata"] },
+          { t: "to taste", i: "olive oil, salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the top off the garlic head, drizzle with olive oil and salt, wrap in foil and roast at 400°F for about 40 minutes.",
+      "Season the steak and sear in a very hot cast-iron pan for 3 to 4 minutes per side for medium-rare. Rest for 10 minutes, then slice.",
+      "Mash the roasted garlic into the mayo with the lemon zest, juice and chives.",
+      "Split the bread and spread aioli on both sides.",
+      "Layer arugula, steak and torn burrata, drizzle with olive oil, season, then close and cut.",
+    ],
+  },
+
+  {
+    slug: "crispy-prosciutto-bocconcini-salad",
+    title: "Crispy Prosciutto Bocconcini Salad",
+    posted: "2025-06-25",
+    reel: "DLU5BC1sHVs",
+    photo: "crispy-prosciutto-bocconcini-salad.jpg",
+    alt: "A platter of cherry tomatoes, strawberries, bocconcini, crispy prosciutto and basil on arugula",
+    serves: "4",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["Salad", "Side"],
+    intro:
+      "Looks fancy but takes only six main ingredients: cherry tomatoes, arugula, strawberries, crispy prosciutto, bocconcini and basil, with olive oil and balsamic glaze.",
+    groups: [
+      {
+        name: "Salad",
+        items: [
+          { q: 2, u: "cup", i: "mixed cherry tomatoes", n: "halved" },
+          { q: 4, u: "cup", i: "arugula" },
+          { q: 1, u: "cup", i: "strawberries", n: "halved" },
+          { q: 3, u: "oz", i: "prosciutto" },
+          { q: 1, u: "cup", i: "bocconcini" },
+          { t: "a handful", i: "basil leaves" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 3, u: "tbsp", i: "olive oil" },
+          { q: 2, u: "tbsp", i: "balsamic glaze" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Air fry the prosciutto at 350°F for 5 to 6 minutes, until crisp. Let it cool, then crumble.",
+      "Shake the olive oil, balsamic glaze, salt and pepper in a jar and toss with the tomatoes.",
+      "Spread the arugula on a platter and top with the tomatoes, strawberries and bocconcini.",
+      "Finish with the crispy prosciutto and basil.",
+    ],
+  },
+
+  {
     slug: "banana-protein-granola-bars",
     title: "High-Protein Banana Granola Bars",
     posted: "2025-06-23",
@@ -5706,6 +6023,41 @@ window.RECIPES = [
   },
 
   {
+    slug: "cottage-cheese-scrambled-eggs",
+    title: "High-Protein Cottage Cheese Scrambled Eggs",
+    posted: "2025-05-15",
+    reel: "DJrVFI4xEAh",
+    photo: "cottage-cheese-scrambled-eggs.jpg",
+    alt: "Soft scrambled eggs piled high on toast with black pepper and parmesan",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Breakfast", "High protein", "Quick"],
+    intro:
+      "Soft scrambled eggs made extra creamy with cottage cheese and egg whites, piled on toast with parmesan and lots of black pepper. He says it reminds him of cacio e pepe.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["egg", "eggs"] },
+          { q: 0.25, u: "cup", i: "cottage cheese" },
+          { q: 0.25, u: "cup", i: "liquid egg whites" },
+          { q: 1, u: "tsp", i: "butter" },
+          { t: "to taste", i: "salt" },
+          { t: "plenty", i: "black pepper" },
+          { q: 2, u: "tbsp", i: "parmesan", n: "finely grated" },
+          { q: 1, u: "slice", i: "sourdough", n: "toasted" },
+        ],
+      },
+    ],
+    steps: [
+      "Whisk the eggs, cottage cheese and egg whites together.",
+      "Melt the butter in a nonstick pan over low heat and pour in the eggs.",
+      "Stir slowly with a spatula until you have soft, creamy curds, then season with salt.",
+      "Pile onto the toast and finish with grated parmesan and plenty of black pepper.",
+    ],
+  },
+
+  {
     slug: "cottage-cheese-banana-bread",
     title: "High-Protein Cottage Cheese Banana Bread",
     posted: "2025-05-12",
@@ -5831,6 +6183,80 @@ window.RECIPES = [
   },
 
   {
+    slug: "easy-mushroom-poutine",
+    title: "Easy Mushroom Poutine",
+    posted: "2025-04-29",
+    reel: "DJCHbJPR5P9",
+    photo: "easy-mushroom-poutine.jpg",
+    alt: "A bowl of poutine with gravy, cheese curds, mushrooms and onions",
+    serves: "2",
+    level: "Medium",
+    time: "30 min",
+    est: true,
+    tags: ["Snack"],
+    intro:
+      "Canadian poutine at home: crispy fries and cheese curds with sautéed mushrooms and onions, smothered in a quick homemade gravy.",
+    groups: [
+      {
+        name: "Gravy",
+        items: [
+          { q: 2, u: "tbsp", i: "butter" },
+          { q: 2, u: "tbsp", i: "all-purpose flour" },
+          { q: 1.5, u: "cup", i: "beef broth" },
+          { t: "to taste", i: "black pepper" },
+        ],
+      },
+      {
+        name: "Poutine",
+        items: [
+          { q: 2, u: "cup", i: "white mushrooms", n: "sliced" },
+          { q: 1, i: ["onion", "onions"], n: "sliced" },
+          { t: "as needed", i: "neutral oil" },
+          { q: 4, u: "cup", i: "frozen fries" },
+          { q: 1, u: "cup", i: "cheese curds" },
+          { t: "to garnish", i: "green onion or jalapeño", n: "sliced" },
+        ],
+      },
+    ],
+    steps: [
+      "Melt the butter in a small pot, whisk in the flour and cook for a minute until golden.",
+      "Slowly whisk in the broth and simmer until thick. Season with pepper.",
+      "Sauté the mushrooms and onion in a little oil until browned.",
+      "Fry the fries in a shallow layer of hot oil (or air fry them) until crisp, then drain.",
+      "Pile the fries into a bowl with the cheese curds and mushrooms, pour over the hot gravy and top with green onion or jalapeño.",
+    ],
+  },
+
+  {
+    slug: "peanut-butter-butter-toast",
+    title: "Peanut Butter Butter Toast",
+    posted: "2025-04-27",
+    reel: "DI8-KvNxEbc",
+    photo: "peanut-butter-butter-toast.jpg",
+    alt: "A slice of toast spread with butter and peanut butter",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Breakfast", "Quick"],
+    intro:
+      "Butter first, while the toast is hot, then peanut butter on top. Simple, but it might change how you eat toast.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "slice", i: "bread" },
+          { q: 1, u: "tbsp", i: "butter", n: "softened" },
+          { q: 2, u: "tbsp", i: "peanut butter", b: "Kirkland Signature" },
+        ],
+      },
+    ],
+    steps: [
+      "Toast the bread.",
+      "Spread the butter while the toast is hot so it melts in.",
+      "Spread the peanut butter on top.",
+    ],
+  },
+
+  {
     slug: "carrot-cake-baked-oats",
     title: "Carrot Cake Baked Oats",
     posted: "2025-04-24",
@@ -5915,6 +6341,43 @@ window.RECIPES = [
       "Blend oats into a flour if needed, then stir it in with the baking powder.",
       "Fold in chopped dates, seeds and cinnamon if you're using them.",
       "Pour into the pan and bake for about 40 minutes, until a toothpick comes out clean.",
+    ],
+  },
+
+  {
+    slug: "ummas-matcha-pear-cooler",
+    title: "Umma's Matcha Pear Cooler",
+    posted: "2025-04-16",
+    reel: "DIgpRmOxmOw",
+    photo: "ummas-matcha-pear-cooler.jpg",
+    alt: "A tall glass of iced pear juice with whisked matcha poured over the top",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Drink", "Korean", "Quick"],
+    intro:
+      "His mom's favourite matcha drink: a freshly whisked shot of matcha poured over iced Korean pear juice, with a squeeze of lemon if you like. Use 3 g of matcha, not 30.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "tsp", i: "matcha powder", n: "about 3 g" },
+          { q: 3, u: "tbsp", i: "hot water", n: "not boiling" },
+          { q: 1, u: "can", i: "Korean pear juice drink", n: "chilled" },
+          { t: "as needed", i: "ice" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "a squeeze", i: "lemon juice" },
+        ],
+      },
+    ],
+    steps: [
+      "Whisk the matcha with the hot water in a bowl until smooth and frothy, using a bamboo whisk or a milk frother.",
+      "Fill a tall glass with ice and pour in the pear drink.",
+      "Add a squeeze of lemon if you like.",
+      "Pour the matcha over the top and stir before drinking.",
     ],
   },
 
@@ -6119,6 +6582,71 @@ window.RECIPES = [
   },
 
   {
+    slug: "two-minute-korean-egg-rice-bowl",
+    title: "2-Minute Korean Egg Rice Bowl",
+    posted: "2025-04-02",
+    reel: "DH8p0YQxUlg",
+    photo: "two-minute-korean-egg-rice-bowl.jpg",
+    alt: "A bowl of rice topped with soy-steamed egg, crumbled seaweed and green onion",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Rice", "Korean", "Quick"],
+    intro:
+      "His go-to lazy meal. Eggs cooked in the microwave with soy sauce and sesame oil, spooned over warm rice and finished with seaweed and green onion.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked rice", n: "warm" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 1, u: "tbsp", i: "soy sauce" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { t: "as desired", i: "roasted seaweed snacks", n: "crumbled" },
+          { t: "to serve", i: "kimchi" },
+        ],
+      },
+    ],
+    steps: [
+      "Crack the eggs into a microwave-safe bowl and add the soy sauce and sesame oil. Pierce the yolks with a fork.",
+      "Microwave for 60 to 90 seconds, until the eggs are just set.",
+      "Spoon the eggs and all the sauce over the warm rice.",
+      "Top with green onion and crumbled seaweed, mix it all together and eat with kimchi.",
+    ],
+  },
+
+  {
+    slug: "protein-chocolate-strawberries",
+    title: "High-Protein Chocolate-Covered Strawberries",
+    posted: "2025-03-30",
+    reel: "DH02DGeRxZt",
+    photo: "protein-chocolate-strawberries.jpg",
+    alt: "James holding a strawberry dipped in chocolate yogurt over the bowl",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Sweet", "High protein", "No cook"],
+    intro:
+      "Chocolate-covered strawberries with a coating made from Greek yogurt, vanilla protein powder and cocoa. Eat them right away or freeze them for a firmer shell.",
+    groups: [
+      {
+        items: [
+          { q: 0.75, u: "cup", i: "plain Greek yogurt", b: "Kirkland Signature" },
+          { q: 1, u: "scoop", i: "vanilla protein powder" },
+          { q: 1.5, u: "tbsp", i: "cocoa powder" },
+          { q: 12, i: ["strawberry", "strawberries"], n: "washed and dried" },
+        ],
+      },
+    ],
+    steps: [
+      "Stir the yogurt, protein powder and cocoa together until thick and completely smooth.",
+      "Make sure the strawberries are dry so the coating sticks.",
+      "Dip each strawberry into the chocolate yogurt and set it on a parchment-lined plate.",
+      "Eat right away, or freeze for 20 to 30 minutes to firm up the coating.",
+    ],
+  },
+
+  {
     slug: "classic-cucumber-kimchi",
     title: "Classic Cucumber Kimchi",
     posted: "2025-03-27",
@@ -6245,6 +6773,187 @@ window.RECIPES = [
   },
 
   {
+    slug: "egg-dipped-leftover-kimbap",
+    title: "Egg-Dipped Leftover Kimbap",
+    posted: "2025-03-18",
+    reel: "DHWG-qiRtVV",
+    photo: "egg-dipped-leftover-kimbap.jpg",
+    alt: "Slices of kimbap coated in egg frying in a pan",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Korean", "Rice", "Quick"],
+    intro:
+      "The best thing to do with day-old kimbap: dip the cold slices in beaten egg and pan-fry them until golden, so the rice warms through and softens again.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["roll leftover kimbap", "rolls leftover kimbap"], n: "sliced" },
+          { q: 2, i: ["egg", "eggs"] },
+          { t: "a pinch", i: "salt" },
+          { q: 1, u: "tbsp", i: "neutral oil" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "as desired", i: "kimchi" },
+          { t: "optional", i: "instant miso soup" },
+        ],
+      },
+    ],
+    steps: [
+      "Beat the eggs with a pinch of salt in a shallow bowl.",
+      "Heat the oil in a nonstick pan over medium-low heat.",
+      "Dip each kimbap slice in the egg so both cut sides are coated, and lay it in the pan.",
+      "Cook for 1 to 2 minutes per side, until the egg is set and golden and the rice is warm.",
+      "Serve with kimchi and a cup of miso soup.",
+    ],
+  },
+
+  {
+    slug: "asian-tuna-cucumber-salad",
+    title: "Asian Tuna Cucumber Salad",
+    posted: "2025-03-17",
+    reel: "DHTdf0LxBqk",
+    photo: "asian-tuna-cucumber-salad.jpg",
+    alt: "James holding a deli container of tuna cucumber salad",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Seafood", "Salad", "No cook", "High protein"],
+    intro:
+      "A shake-it-up lunch inspired by @logansfewd: thin cucumber, tuna, Kewpie mayo, soy sauce, sriracha and garlic, with seaweed and sesame. He still eats these every week.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["English cucumber", "English cucumbers"], n: "thinly sliced" },
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, u: "tsp", i: "soy sauce" },
+          { q: 1, u: "tsp", i: "sriracha" },
+          { q: 1, u: "clove", i: "garlic", n: "minced" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+          { t: "as desired", i: "roasted seaweed snacks", n: "crumbled" },
+        ],
+      },
+    ],
+    steps: [
+      "Thinly slice the cucumber, ideally on a mandoline, straight into a large deli container.",
+      "Add the tuna, mayo, soy sauce, sriracha and garlic.",
+      "Add the sesame seeds and crumbled seaweed.",
+      "Put the lid on and shake hard until everything is coated. Eat right away.",
+    ],
+  },
+
+  {
+    slug: "microwave-korean-steamed-egg",
+    title: "2-Minute Korean Steamed Egg",
+    posted: "2025-03-11",
+    reel: "DHD_oczRIOj",
+    photo: "microwave-korean-steamed-egg.jpg",
+    alt: "James eating a bowl of steamed egg with kimchi on the side",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Korean", "Breakfast", "Quick", "High protein"],
+    intro:
+      "Gyeran-jjim made in the microwave, the way he makes it for his dad every day. Salted shrimp gives it the classic savoury flavour; a pinch of salt works too.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 2, u: "tbsp", i: "water" },
+          { q: 0.5, u: "tsp", i: "salted shrimp (saeujeot)", n: "minced, or a pinch of salt" },
+          { q: 1, u: "tsp", i: "Korean cooking wine (mirim)" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.5, u: "tsp", i: "sesame oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Whisk the eggs, water, salted shrimp and cooking wine in a microwave-safe bowl until smooth.",
+      "Stir in most of the green onion.",
+      "Microwave for 1 minute, stir gently, then microwave for 30 to 60 seconds more, until puffed and just set.",
+      "Drizzle with sesame oil, top with the rest of the green onion and eat with rice and kimchi.",
+    ],
+  },
+
+  {
+    slug: "chocolate-banana-soft-serve",
+    title: "3-Ingredient Chocolate Banana Soft Serve",
+    posted: "2025-03-10",
+    reel: "DHBaja_RHJg",
+    photo: "chocolate-banana-soft-serve.jpg",
+    alt: "James eating a bowl of chocolate banana soft serve topped with peanuts",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Sweet", "No cook", "Quick"],
+    intro:
+      "Frozen bananas, cocoa and a splash of almond milk blended into something that eats like chocolate soft serve. Top with chopped peanuts.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["frozen ripe banana", "frozen ripe bananas"], n: "sliced before freezing" },
+          { q: 1.5, u: "tbsp", i: "cocoa powder" },
+          { q: 2, q2: 3, u: "tbsp", i: "almond milk" },
+        ],
+      },
+      {
+        name: "Topping",
+        items: [
+          { t: "as desired", i: "peanuts", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the frozen banana, cocoa and 2 tablespoons of almond milk in a high-speed blender or bullet blender.",
+      "Blend, stopping to scrape down the sides, until thick and creamy. Add more milk a spoonful at a time only if it won't blend.",
+      "Scoop into a bowl, top with chopped peanuts and eat right away.",
+    ],
+  },
+
+  {
+    slug: "skin-protein-berry-smoothie",
+    title: "Skin and Protein Berry Smoothie",
+    posted: "2025-03-07",
+    reel: "DG5xc25xFHI",
+    photo: "skin-protein-berry-smoothie.jpg",
+    alt: "A thick purple smoothie in a glass topped with Greek yogurt",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Drink", "High protein", "Breakfast"],
+    intro:
+      "His everyday smoothie for skin and protein: berries, carrot, banana, ginger and turmeric, with whey, collagen and Greek yogurt. The black pepper helps your body absorb the turmeric.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "ice" },
+          { q: 0.5, u: "cup", i: "frozen wild blueberries" },
+          { q: 0.5, u: "cup", i: "strawberries" },
+          { q: 1, i: ["small carrot", "small carrots"], n: "chopped" },
+          { q: 1, i: ["frozen banana", "frozen bananas"] },
+          { q: 1, u: "tsp", i: "fresh ginger", n: "grated" },
+          { q: 0.5, u: "tsp", i: "ground turmeric" },
+          { t: "a pinch", i: "black pepper" },
+          { q: 1, u: "tsp", i: "cocoa powder" },
+          { q: 0.5, u: "cup", i: "Greek yogurt", b: "Skotidakis" },
+          { q: 1, u: "scoop", i: "whey protein", b: "Optimum Nutrition" },
+          { q: 1, u: "scoop", i: "collagen powder" },
+          { q: 0.5, q2: 1, u: "cup", i: "water or milk", n: "to blend" },
+        ],
+      },
+    ],
+    steps: [
+      "Add the liquid and yogurt to the blender first, then everything else.",
+      "Blend on high until completely smooth, adding a little more liquid if it's too thick.",
+      "Pour into a glass and top with a spoonful of yogurt.",
+    ],
+  },
+
+  {
     slug: "cottage-cheese-tuna-salad-classic",
     title: "No-Mayo Tuna Salad",
     posted: "2025-03-05",
@@ -6366,6 +7075,74 @@ window.RECIPES = [
   },
 
   {
+    slug: "air-fryer-peanut-butter-bananas",
+    title: "Air Fryer Peanut Butter Bananas",
+    posted: "2025-02-25",
+    reel: "DGgDmYIxyss",
+    photo: "air-fryer-peanut-butter-bananas.jpg",
+    alt: "Air-fried bananas split in their peels and filled with peanut butter and chocolate",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Sweet", "Air fryer", "Snack"],
+    intro:
+      "Bananas baked in their peels with cinnamon, peanut butter, dark chocolate and peanuts. Eat them straight from the skin with a spoonful of Greek yogurt.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["ripe banana", "ripe bananas"] },
+          { t: "a sprinkle", i: "cinnamon" },
+          { q: 2, u: "tbsp", i: "peanut butter", b: "Kirkland Signature" },
+          { q: 1, u: "tbsp", i: "dark chocolate chips" },
+          { q: 1, u: "tbsp", i: "peanuts", n: "chopped" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "optional", i: "Greek yogurt" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut a slit along the top of each banana through the peel, leaving the bottom peel whole, and open it slightly.",
+      "Sprinkle with cinnamon, then fill with peanut butter, chocolate chips and peanuts.",
+      "Air fry at 375°F for 8 to 10 minutes, until the banana is soft and the chocolate has melted.",
+      "Eat from the peel with a spoonful of Greek yogurt.",
+    ],
+  },
+
+  {
+    slug: "three-ingredient-mango-sorbet",
+    title: "3-Ingredient Mango Sorbet",
+    posted: "2025-02-23",
+    reel: "DGa7KPeRBDQ",
+    photo: "three-ingredient-mango-sorbet.jpg",
+    alt: "Mango sorbet served in a hollowed-out mango skin",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Sweet", "No cook", "High protein"],
+    intro:
+      "Frozen mango, Greek yogurt and honey blended into a thick sorbet with a bit of protein. Serve it back in the mango skins.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["mango", "mangoes"], n: "cubed and frozen overnight" },
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { q: 1, q2: 2, u: "tbsp", i: "honey" },
+        ],
+      },
+    ],
+    steps: [
+      "Cube the mangoes and freeze overnight. Keep the skins if you want to serve the sorbet in them.",
+      "Blend the frozen mango, yogurt and honey until thick and smooth, scraping down the sides as you go.",
+      "If the blender struggles, let the mango sit for 5 minutes and try again.",
+      "Scoop into the mango skins or bowls and eat right away.",
+    ],
+  },
+
+  {
     slug: "banana-mug-cake",
     title: "2-Minute Banana Mug Cake",
     posted: "2025-02-19",
@@ -6401,6 +7178,141 @@ window.RECIPES = [
   },
 
   {
+    slug: "crispy-havarti-egg-white-omelette",
+    title: "Crispy Havarti Egg White Omelette",
+    posted: "2025-02-15",
+    reel: "DGGLuR0xV1T",
+    photo: "crispy-havarti-egg-white-omelette.jpg",
+    alt: "A folded egg white omelette with crispy cheese, tomato and cottage cheese",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Breakfast", "High protein", "Quick"],
+    intro:
+      "His go-to breakfast, about 42 g of protein for 350 calories: a slice of Havarti crisped in the pan, egg whites poured over, and tomato and cottage cheese folded inside.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "slice", i: "Havarti cheese" },
+          { q: 1, u: "cup", i: "liquid egg whites", b: "Kirkland Signature" },
+          { q: 1, u: "cup", i: "baby spinach" },
+          { q: 1, i: ["tomato", "tomatoes"], n: "sliced" },
+          { q: 0.25, u: "cup", i: "cottage cheese" },
+          { t: "to taste", i: "black pepper" },
+          { t: "to taste", i: "hot sauce" },
+        ],
+      },
+    ],
+    steps: [
+      "Lay the cheese slice in a nonstick pan over medium heat and let it melt and crisp for about 2 minutes.",
+      "Pour the egg whites over the cheese, add the spinach and cook, covered, until almost set.",
+      "Lay the tomato and cottage cheese over one half and season with pepper.",
+      "Fold the omelette over, slide it onto a plate and finish with hot sauce.",
+    ],
+  },
+
+  {
+    slug: "crab-salad-sandwich",
+    title: "Crab Salad Sandwich",
+    posted: "2025-02-11",
+    reel: "DF8BRgeRLWZ",
+    photo: "crab-salad-sandwich.jpg",
+    alt: "A crab salad sandwich on toasted white bread, cut in half on a plate",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Seafood", "Quick"],
+    intro:
+      "The sandwich he grew up on: shredded imitation crab with pickles and Kewpie mayo on buttery pan-toasted white bread, with slices of tomato.",
+    groups: [
+      {
+        items: [
+          { q: 8, u: "oz", i: "imitation crab sticks" },
+          { q: 2, i: ["dill pickle", "dill pickles"], n: "finely chopped" },
+          { q: 3, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, u: "tsp", i: "lemon juice" },
+          { t: "to taste", i: "black pepper" },
+          { q: 4, u: "slice", i: "white bread", b: "D'Italiano" },
+          { q: 1, u: "tbsp", i: "butter" },
+          { q: 1, i: ["tomato", "tomatoes"], n: "sliced" },
+        ],
+      },
+    ],
+    steps: [
+      "Pull the crab sticks apart into thin strands.",
+      "Mix the crab with the pickles, mayo, lemon juice and pepper.",
+      "Butter the bread and toast it in a pan until golden.",
+      "Fill with the crab salad and tomato slices, then cut in half.",
+    ],
+  },
+
+  {
+    slug: "creamy-milk-ramen",
+    title: "Creamy Milk Ramen",
+    posted: "2025-02-07",
+    reel: "DFxpz9Hx_qU",
+    photo: "creamy-milk-ramen.jpg",
+    alt: "A bowl of creamy spicy ramen with mushrooms and greens",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Noodles", "Korean", "Quick", "Spicy"],
+    intro:
+      "Spicy instant ramen made creamy with milk, with sautéed mushrooms and onion. The milk softens the heat and adds protein.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["pack spicy Korean instant ramen", "packs spicy Korean instant ramen"] },
+          { q: 1, u: "tbsp", i: "neutral oil" },
+          { q: 0.5, i: ["onion", "onions"], n: "sliced" },
+          { q: 1, u: "cup", i: "mushrooms", n: "sliced" },
+          { q: 1.5, u: "cup", i: "milk" },
+          { q: 2, i: ["green onion", "green onions"], n: "or a handful of spinach" },
+        ],
+      },
+    ],
+    steps: [
+      "Boil the noodles for about 3 minutes, then drain.",
+      "Heat the oil in the pot and sauté the onion and mushrooms for 3 minutes.",
+      "Pour in the milk, add the soup packets and bring to a gentle simmer. Don't let it boil hard.",
+      "Add the noodles and greens and toss for a minute until creamy.",
+    ],
+  },
+
+  {
+    slug: "caramelized-cream-cheese-croissant",
+    title: "Caramelized Cream Cheese Croissant",
+    posted: "2025-02-06",
+    reel: "DFtgBmGxmhT",
+    photo: "caramelized-cream-cheese-croissant.jpg",
+    alt: "A flattened croissant with a crackly caramelized crust and cream cheese inside",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Sweet", "Breakfast", "Quick"],
+    intro:
+      "A late-night Costco croissant hack: fill it with cream cheese and jam, press it flat and fry it in butter and sugar until it turns crisp and caramelized.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["croissant", "croissants"] },
+          { q: 2, u: "tbsp", i: "cream cheese", b: "Philadelphia" },
+          { q: 1, u: "tbsp", i: "strawberry jam" },
+          { q: 1, u: "tbsp", i: "butter" },
+          { q: 1, u: "tbsp", i: "sugar" },
+        ],
+      },
+    ],
+    steps: [
+      "Slice the croissant open, spread with cream cheese and jam, and close it.",
+      "Press it flat with your hand or the bottom of a pan.",
+      "Melt the butter in a pan over medium-low heat and sprinkle in the sugar.",
+      "Lay the croissant in the pan, press down and cook for about 2 minutes per side, until caramelized and crisp.",
+      "Let it cool for a minute before biting in. The sugar gets very hot.",
+    ],
+  },
+
+  {
     slug: "korean-soy-dipping-sauce",
     title: "Korean All-Purpose Soy Sauce (Yangnyeom Ganjang)",
     posted: "2025-02-03",
@@ -6432,6 +7344,83 @@ window.RECIPES = [
       "Add the soy sauce, plum extract, gochugaru, garlic, sugar, sesame oil, sesame seeds and pepper.",
       "Stir until the sugar dissolves.",
       "Spoon it over pan-fried tofu, Korean acorn jelly (dotorimuk), noodles or rice.",
+    ],
+  },
+
+  {
+    slug: "banana-oat-bites",
+    title: "3-Ingredient Banana Oat Bites",
+    posted: "2025-01-31",
+    reel: "DFfpyxPxOIi",
+    photo: "banana-oat-bites.jpg",
+    alt: "Golden banana oat bites with dark chocolate on a plate",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Sweet", "Air fryer", "Snack"],
+    intro:
+      "The easiest way to use up an old banana: mash it with oats and dark chocolate, roll into bites and air fry until golden.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["large ripe banana", "large ripe bananas"] },
+          { q: 0.75, u: "cup", i: "rolled oats", b: "Bob's Red Mill" },
+          { q: 1, u: "oz", i: "dark chocolate", n: "chopped" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { q: 0.5, u: "tsp", i: "cinnamon" },
+        ],
+      },
+    ],
+    steps: [
+      "Mash the banana in a bowl, then stir in the oats and cinnamon.",
+      "Fold in the chopped chocolate.",
+      "Roll into about 8 small balls and flatten them slightly.",
+      "Air fry on parchment at 350°F for 8 to 10 minutes, flipping halfway, until golden. Let cool for 5 minutes.",
+    ],
+  },
+
+  {
+    slug: "kimchi-tuna-melt",
+    title: "Kimchi Tuna Melt",
+    posted: "2025-01-29",
+    reel: "DFagAeWxpAN",
+    photo: "kimchi-tuna-melt.jpg",
+    alt: "A golden kimchi tuna melt cut in half showing melted cheese",
+    level: "Easy",
+    time: "15 min",
+    est: true,
+    tags: ["Seafood", "Korean", "Quick"],
+    intro:
+      "A tuna family favourite: tuna mixed with chopped kimchi, Kewpie mayo and green onion, pressed between buttery thick white bread with melted cheese.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1 / 3, u: "cup", i: "kimchi", n: "chopped" },
+          { q: 2, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 2, u: "slice", i: "thick white bread" },
+          { q: 2, u: "slice", i: "cheese" },
+          { q: 1, u: "tbsp", i: "butter", n: "softened" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "optional", i: "pickles" },
+        ],
+      },
+    ],
+    steps: [
+      "Mix the tuna, kimchi, mayo and green onion.",
+      "Butter the outside of both slices of bread.",
+      "Pile the tuna on one slice, add the cheese and close the sandwich.",
+      "Cook in a pan over medium-low heat for 3 to 4 minutes per side, pressing down, until golden and the cheese has melted.",
+      "Cut in half and eat with pickles.",
     ],
   },
 
@@ -6481,6 +7470,149 @@ window.RECIPES = [
   },
 
   {
+    slug: "korean-egg-shrimp-jeon",
+    title: "5-Ingredient Korean Egg Jeon",
+    posted: "2025-01-16",
+    reel: "DE5AxfTRJVS",
+    photo: "korean-egg-shrimp-jeon.jpg",
+    alt: "Small golden egg pancakes with carrot and green onion frying in a pan",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["Korean", "Side", "Seafood"],
+    intro:
+      "Bite-size Korean savoury pancakes made with eggs, shrimp, carrot and green onion. James and his mom made them for Lunar New Year.",
+    groups: [
+      {
+        items: [
+          { q: 4, i: ["egg", "eggs"], b: "Burnbrae Farms Naturegg Omega 3" },
+          { q: 4, u: "oz", i: "shrimp", n: "peeled and finely chopped" },
+          { q: 0.5, i: ["carrot", "carrots"], n: "finely diced" },
+          { q: 2, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 0.25, u: "tsp", i: "salt" },
+          { q: 2, u: "tbsp", i: "neutral oil" },
+        ],
+      },
+    ],
+    steps: [
+      "Beat the eggs with the salt.",
+      "Stir in the shrimp, carrot and green onion.",
+      "Heat the oil in a nonstick pan over medium-low heat and drop in spoonfuls of the mixture to make small rounds.",
+      "Cook for 1 to 2 minutes until set underneath, flip and cook for 1 minute more.",
+      "Serve warm with soy dipping sauce.",
+    ],
+  },
+
+  {
+    slug: "three-ingredient-chocolate-banana-cookies",
+    title: "3-Ingredient Chocolate Banana Cookies",
+    posted: "2025-01-14",
+    reel: "DEz5Iv2RTXf",
+    photo: "three-ingredient-chocolate-banana-cookies.jpg",
+    alt: "A plate of soft chocolate banana cookies with James taking a bite",
+    level: "Easy",
+    time: "25 min",
+    est: true,
+    tags: ["Sweet", "Baking"],
+    intro:
+      "Ripe bananas, peanut butter and cocoa, and that's the cookie. They come out soft and fudgy. Press a little chopped dark chocolate on top if you want.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["ripe banana", "ripe bananas"] },
+          { q: 0.5, u: "cup", i: "peanut butter", b: "Kirkland Signature" },
+          { q: 0.25, u: "cup", i: "cocoa powder" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "as desired", i: "dark chocolate", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the oven to 350°F and line a baking tray with parchment.",
+      "Mash the bananas, then stir in the peanut butter and cocoa until you have a thick batter.",
+      "Scoop 2-tablespoon mounds onto the tray and flatten them, since they won't spread. Top with chopped chocolate if you like.",
+      "Bake for 15 to 18 minutes, until set.",
+      "Let them cool on the tray for 10 minutes. They firm up as they cool.",
+    ],
+  },
+
+  {
+    slug: "papaya-yogurt-boats",
+    title: "Papaya Yogurt Boats",
+    posted: "2024-12-30",
+    reel: "DEOHoaehOfR",
+    photo: "papaya-yogurt-boats.jpg",
+    alt: "Papaya halves filled with Greek yogurt, kiwi, blueberries and granola",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Breakfast", "Sweet", "No cook"],
+    intro:
+      "Papaya is his pick for the most underrated fruit. Halve one, scoop out the seeds and fill it with Greek yogurt, kiwi, blueberries and granola.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["papaya", "papayas"] },
+          { q: 1, u: "cup", i: "Greek yogurt" },
+          { q: 1, i: ["kiwi", "kiwis"], n: "diced" },
+          { q: 0.25, u: "cup", i: "blueberries" },
+          { q: 0.25, u: "cup", i: "granola", b: "Amazin Graze" },
+        ],
+      },
+    ],
+    steps: [
+      "Cut the papaya in half lengthwise and scoop out the seeds.",
+      "Fill each half with Greek yogurt.",
+      "Top with kiwi, blueberries and granola.",
+      "Eat with a spoon straight from the skin.",
+    ],
+  },
+
+  {
+    slug: "kimchi-bacon-egg-rice-bowl",
+    title: "Kimchi Bacon Egg Rice Bowl",
+    posted: "2024-12-28",
+    reel: "DEGfTZ_BPlZ",
+    photo: "kimchi-bacon-egg-rice-bowl.jpg",
+    alt: "James mixing a rice bowl of kimchi, bacon and egg",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Rice", "Korean", "Quick"],
+    intro:
+      "A five-minute Korean lunch. Bacon and kimchi fried in the same pan as the egg, piled on reheated rice with gochujang and seaweed. Bacon and fried kimchi is his favourite combo.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked rice", n: "frozen portions work" },
+          { q: 2, u: "slice", i: "bacon", n: "chopped" },
+          { q: 1, i: ["egg", "eggs"] },
+          { q: 1 / 3, u: "cup", i: "kimchi" },
+          { q: 1, u: "tsp", i: "gochujang" },
+          { t: "as desired", i: "roasted seaweed", n: "crumbled" },
+          { q: 1, u: "tsp", i: "sesame seeds" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "optional", i: "avocado and banchan" },
+        ],
+      },
+    ],
+    steps: [
+      "Reheat the rice in the microwave, covered with a damp paper towel, for about 2 minutes.",
+      "Cook the bacon in a pan until crisp. Crack the egg into the same pan and fry it, with the kimchi alongside for 1 to 2 minutes.",
+      "Top the rice with the bacon, kimchi, egg, gochujang, seaweed and sesame seeds.",
+      "Mix it all together and eat with avocado or any banchan you have.",
+    ],
+  },
+
+  {
     slug: "asian-twist-tuna-salad",
     title: "5-Minute Asian-Style Tuna Salad",
     posted: "2024-11-26",
@@ -6516,6 +7648,465 @@ window.RECIPES = [
   },
 
   {
+    slug: "korean-breakfast-rice-bowl",
+    title: "5-Minute Korean Breakfast Rice Bowl",
+    posted: "2024-11-23",
+    reel: "DCt-v4ORwhi",
+    photo: "korean-breakfast-rice-bowl.jpg",
+    alt: "Overhead view of rice topped with two fried eggs, seaweed and green onion",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Rice", "Korean", "Breakfast"],
+    intro:
+      "The childhood breakfast he still eats: warm rice with two fried eggs, gochujang, sesame oil and seaweed, mixed together and eaten with whatever banchan is in the fridge.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked rice", n: "warm" },
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 1, u: "tsp", i: "gochujang" },
+          { q: 1, i: ["green onion", "green onions"], n: "chopped" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { t: "as desired", i: "roasted seaweed", n: "crumbled" },
+          { t: "as desired", i: "sesame seeds" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { q: 0.5, i: ["avocado", "avocados"], n: "sliced" },
+          { t: "as desired", i: "kimchi, danmuji (yellow pickled radish) or perilla leaf kimchi" },
+        ],
+      },
+    ],
+    steps: [
+      "Warm the rice in the microwave.",
+      "Fry the eggs sunny side up.",
+      "Spoon the gochujang onto the rice and add the eggs, green onion, sesame oil, seaweed and sesame seeds.",
+      "Mix everything together and eat with avocado and banchan.",
+    ],
+  },
+
+  {
+    slug: "brownie-rice-crispies",
+    title: "4-Ingredient Brownie Rice Crispies",
+    posted: "2024-11-18",
+    reel: "DChi4nZRSQM",
+    photo: "brownie-rice-crispies.jpg",
+    alt: "Squares of chocolate rice crispy brownies on a cutting board",
+    level: "Easy",
+    time: "1 hr 10 min",
+    est: true,
+    tags: ["Sweet", "No cook", "Snack"],
+    intro:
+      "Crushed chocolate rice cakes bound with peanut butter, honey and cocoa, pressed into a container and frozen until sliceable. Keep them in the freezer.",
+    groups: [
+      {
+        items: [
+          { q: 3, i: ["chocolate rice cake", "chocolate rice cakes"], n: "crushed" },
+          { q: 0.5, u: "cup", i: "peanut butter", b: "Kirkland Signature" },
+          { q: 0.25, u: "cup", i: "honey" },
+          { q: 2, u: "tbsp", i: "cocoa powder" },
+        ],
+      },
+    ],
+    steps: [
+      "Crush the rice cakes into a bowl with your hands.",
+      "Add the peanut butter, honey and cocoa and mix until everything is coated and sticks together.",
+      "Press the mixture firmly into a container lined with parchment or plastic wrap.",
+      "Freeze for at least 1 hour, then slice into squares. Store in the freezer.",
+    ],
+  },
+
+  {
+    slug: "gochujang-tuna-mayo-rice",
+    title: "3-Minute Gochujang Tuna Mayo Rice",
+    posted: "2024-11-10",
+    reel: "DCMgwIAxVlh",
+    photo: "gochujang-tuna-mayo-rice.jpg",
+    alt: "James holding a seaweed wrap of spicy tuna rice over the bowl",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Rice", "Seafood", "Korean", "Quick"],
+    intro:
+      "A three-minute Korean lunch: canned tuna mixed into hot rice with gochujang, Kewpie mayo and sesame oil, scooped up in seaweed with yellow radish and cucumber.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "cooked rice", n: "hot" },
+          { q: 1, u: "can", i: "tuna", n: "drained" },
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tbsp", i: "Kewpie mayo" },
+          { q: 1, u: "tsp", i: "sesame oil" },
+          { q: 1, i: ["green onion", "green onions"], n: "snipped" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "as desired", i: "roasted seaweed snacks" },
+          { t: "as desired", i: "danmuji (yellow pickled radish)" },
+          { t: "as desired", i: "cucumber", n: "sliced" },
+        ],
+      },
+    ],
+    steps: [
+      "Heat the rice in the microwave.",
+      "Drain the tuna and add it to the rice with the gochujang, mayo and sesame oil.",
+      "Snip the green onion over the top and mix well.",
+      "Scoop onto seaweed sheets with a piece of radish and cucumber and eat like a little wrap.",
+    ],
+  },
+
+  {
+    slug: "two-minute-apple-crumble",
+    title: "2-Minute High-Protein Apple Crumble",
+    posted: "2024-11-03",
+    reel: "DB6yZZdRqAg",
+    photo: "two-minute-apple-crumble.jpg",
+    alt: "A glass dish of apple crumble topped with Greek yogurt and cinnamon",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Sweet", "High protein", "Quick"],
+    intro:
+      "Apple crumble made in the microwave: cinnamon apples softened in two minutes, topped with an oat and protein powder crumble and a spoonful of Greek yogurt.",
+    groups: [
+      {
+        name: "Filling",
+        items: [
+          { q: 1, i: ["apple", "apples"], n: "diced" },
+          { q: 1, u: "tsp", i: "lemon juice" },
+          { q: 0.5, u: "tsp", i: "cinnamon" },
+        ],
+      },
+      {
+        name: "Crumble",
+        items: [
+          { q: 1 / 3, u: "cup", i: "rolled oats", b: "Bob's Red Mill" },
+          { q: 1, u: "scoop", i: "whey protein powder" },
+          { t: "a pinch", i: "cinnamon" },
+          { q: 1, q2: 2, u: "tbsp", i: "water" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { q: 0.25, u: "cup", i: "Greek yogurt" },
+        ],
+      },
+    ],
+    steps: [
+      "Dice the apple into a microwave-safe dish and toss with the lemon juice and cinnamon.",
+      "Microwave for about 2 minutes, until softened.",
+      "Mix the oats, protein powder and cinnamon with just enough water to make clumps.",
+      "Scatter the crumble over the apples and microwave for 1 minute more.",
+      "Top with Greek yogurt and a little more cinnamon.",
+    ],
+  },
+
+  {
+    slug: "healthier-broccoli-cheddar-soup",
+    title: "Healthier Broccoli Cheddar Soup",
+    posted: "2024-10-31",
+    reel: "DBysVQKR2GW",
+    photo: "healthier-broccoli-cheddar-soup.jpg",
+    alt: "A bowl of broccoli cheddar soup with a spoon lifted out of it",
+    serves: "4",
+    level: "Easy",
+    time: "35 min",
+    est: true,
+    tags: ["Soup", "High protein"],
+    intro:
+      "A lighter broccoli cheddar soup thickened with blended cottage cheese and sweet potato instead of flour and cream. James eats it with toast for dipping.",
+    groups: [
+      {
+        items: [
+          { q: 3, u: "tbsp", i: "butter" },
+          { q: 1, i: ["onion", "onions"], n: "diced" },
+          { q: 1, i: ["carrot", "carrots"], n: "grated" },
+          { t: "to taste", i: "black pepper" },
+          { q: 1, u: "cup", i: "cottage cheese" },
+          { q: 0.5, u: "cup", i: "cooked sweet potato" },
+          { q: 1, u: "cup", i: "milk" },
+          { q: 2, u: "cup", i: "water" },
+          { q: 1, u: "tbsp", i: "chicken bouillon powder" },
+          { q: 3, u: "cup", i: "broccoli florets", n: "chopped" },
+          { q: 1.5, u: "cup", i: "sharp cheddar", n: "grated" },
+        ],
+      },
+    ],
+    steps: [
+      "Melt the butter in a pot and cook the onion and carrot for about 5 minutes, until soft. Season with pepper.",
+      "Blend the cottage cheese and sweet potato until smooth. This thickens the soup.",
+      "Add the milk, water and bouillon to the pot and bring to a gentle simmer.",
+      "Add the broccoli and simmer for about 10 minutes, until tender.",
+      "Stir in the blended cottage cheese and the cheddar until melted. Serve with toast.",
+    ],
+  },
+
+  {
+    slug: "leftover-banchan-bibimbap",
+    title: "Leftover Banchan Bibimbap",
+    posted: "2024-10-30",
+    reel: "DBwGyj3xNBz",
+    photo: "leftover-banchan-bibimbap.jpg",
+    alt: "A large glass bowl of mixed bibimbap with vegetables and gochujang",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Rice", "Korean", "Quick"],
+    intro:
+      "The best way to eat bibimbap, in his opinion: every leftover banchan in the fridge over rice, with a fried egg, gochujang and sesame oil, mixed in a big bowl and wrapped in seaweed.",
+    groups: [
+      {
+        items: [
+          { q: 1.5, u: "cup", i: "cooked rice", n: "warm" },
+          { q: 1, u: "cup", i: "namul (seasoned spinach and bean sprouts)" },
+          { q: 1 / 3, u: "cup", i: "radish kimchi" },
+          { q: 0.5, u: "cup", i: "leftover stir-fried pork or beef" },
+          { q: 0.25, u: "cup", i: "carrot", n: "shredded" },
+          { q: 1, i: ["egg", "eggs"], n: "fried" },
+          { q: 1, u: "tbsp", i: "gochujang" },
+          { q: 1, u: "tbsp", i: "sesame oil" },
+          { t: "as desired", i: "roasted seaweed", n: "crumbled" },
+        ],
+      },
+      {
+        name: "Optional",
+        items: [
+          { t: "to wrap", i: "seaweed sheets" },
+        ],
+      },
+    ],
+    steps: [
+      "Put the warm rice in a large bowl.",
+      "Arrange the banchan, kimchi, meat and carrot around it.",
+      "Top with the fried egg, gochujang, sesame oil and crumbled seaweed.",
+      "Mix everything together. Eat it as it is or wrapped in seaweed.",
+    ],
+  },
+
+  {
+    slug: "high-protein-blender-pancakes",
+    title: "High-Protein Blender Pancakes",
+    posted: "2024-10-29",
+    reel: "DBthmOBR6Ue",
+    photo: "high-protein-blender-pancakes.jpg",
+    alt: "A stack of oat pancakes topped with warm blueberries",
+    serves: "2",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["Breakfast", "Sweet", "High protein"],
+    intro:
+      "Oat pancakes blended with banana, egg whites and cottage cheese, topped with defrosted frozen blueberries and maple syrup.",
+    groups: [
+      {
+        items: [
+          { q: 1, u: "cup", i: "rolled oats" },
+          { q: 1, i: ["frozen banana", "frozen bananas"] },
+          { q: 0.5, u: "cup", i: "liquid egg whites", b: "Kirkland Signature" },
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Kirkland Signature" },
+          { q: 1, u: "tsp", i: "cinnamon" },
+          { q: 1, u: "tsp", i: "baking powder" },
+        ],
+      },
+      {
+        name: "Topping",
+        items: [
+          { q: 0.5, u: "cup", i: "frozen blueberries", n: "defrosted" },
+          { t: "to taste", i: "maple syrup" },
+        ],
+      },
+    ],
+    steps: [
+      "Blend the oats into a flour.",
+      "Add the banana, egg whites, cottage cheese, cinnamon and baking powder and blend until smooth.",
+      "Heat a lightly oiled nonstick pan over medium-low heat and pour in about ¼ cup of batter per pancake.",
+      "Cook until bubbles appear, then flip and cook for 1 to 2 minutes more.",
+      "Stack and top with the blueberries and their juices and a drizzle of maple syrup.",
+    ],
+  },
+
+  {
+    slug: "smoked-salmon-cucumber-salad",
+    title: "Smoked Salmon Cucumber Salad",
+    posted: "2024-10-22",
+    reel: "DBbgIFhxGjI",
+    photo: "smoked-salmon-cucumber-salad.jpg",
+    alt: "A deli container of sliced cucumber, smoked salmon and red onion in a creamy dressing",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Seafood", "Salad", "High protein", "No cook"],
+    intro:
+      "His take on the cucumber salads from @logansfewd: thin cucumber, smoked salmon and red onion shaken up with a blended cottage cheese and Dijon dressing and everything bagel seasoning.",
+    groups: [
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Kirkland Signature" },
+          { q: 1, u: "tsp", i: "Dijon mustard" },
+          { q: 1, u: "tsp", i: "lemon juice" },
+        ],
+      },
+      {
+        name: "Salad",
+        items: [
+          { q: 1, i: ["English cucumber", "English cucumbers"], n: "thinly sliced" },
+          { q: 3, u: "oz", i: "smoked salmon", n: "torn" },
+          { q: 0.25, i: ["red onion", "red onions"], n: "thinly sliced" },
+          { q: 1, u: "tsp", i: "everything bagel seasoning" },
+        ],
+      },
+    ],
+    steps: [
+      "Blend the cottage cheese, mustard and lemon juice in a large deli container with an immersion blender until smooth.",
+      "Slice the cucumber straight into the container, ideally on a mandoline.",
+      "Add the smoked salmon, red onion and everything bagel seasoning.",
+      "Put the lid on and shake until everything is coated.",
+    ],
+  },
+
+  {
+    slug: "easy-japchae",
+    title: "Easy Japchae",
+    posted: "2024-10-17",
+    reel: "DBOpzmbxs_u",
+    photo: "easy-japchae.jpg",
+    alt: "A plate of japchae glass noodles with peppers, mushrooms and egg strips",
+    serves: "6",
+    level: "Medium",
+    time: "45 min",
+    est: true,
+    tags: ["Noodles", "Korean"],
+    intro:
+      "Korean glass noodles tossed in a sweet soy sauce with colourful peppers, shiitake, carrot, spinach and egg strips. A big batch for the family.",
+    groups: [
+      {
+        name: "Noodles and sauce",
+        items: [
+          { q: 1, u: "lb", i: "sweet potato glass noodles (dangmyeon)", b: "Ottogi" },
+          { q: 0.5, u: "cup", i: "soy sauce" },
+          { q: 8, u: "tbsp", i: "brown sugar" },
+          { q: 1, u: "tbsp", i: "vegetable oil" },
+        ],
+      },
+      {
+        name: "Vegetables and egg",
+        items: [
+          { q: 3, i: ["bell pepper", "bell peppers"], n: "red, yellow and orange, sliced" },
+          { q: 2, u: "cup", i: "shiitake mushrooms", n: "sliced" },
+          { q: 1, i: ["onion", "onions"], n: "sliced" },
+          { q: 1, i: ["carrot", "carrots"], n: "julienned" },
+          { q: 1, u: "bunch", i: "spinach", n: "blanched" },
+          { q: 3, i: ["egg", "eggs"], n: "beaten" },
+          { t: "as needed", i: "neutral oil" },
+        ],
+      },
+      {
+        name: "To finish",
+        items: [
+          { q: 3, u: "tbsp", i: "sesame oil" },
+          { q: 1, u: "tbsp", i: "sesame seeds" },
+          { t: "to taste", i: "black pepper" },
+        ],
+      },
+    ],
+    steps: [
+      "Boil the noodles for 5 minutes, then drain.",
+      "In the same pot, warm the soy sauce, brown sugar and vegetable oil until the sugar dissolves. Add the noodles and stir over low heat until they soak up the sauce.",
+      "Stir-fry the peppers, onion, carrot and mushrooms separately in a little oil until just tender.",
+      "Cook the beaten eggs into a thin omelette, then roll it up and slice into strips.",
+      "Put the noodles, vegetables, spinach and egg strips in a large bowl, add the sesame oil, sesame seeds and pepper, and toss everything together with gloved hands.",
+    ],
+  },
+
+  {
+    slug: "creamy-no-mayo-egg-salad",
+    title: "Creamiest No-Mayo Egg Salad",
+    posted: "2024-10-15",
+    reel: "DBJgVapRetZ",
+    photo: "creamy-no-mayo-egg-salad.jpg",
+    alt: "A glass dish of egg salad with carrot, green onion and pickles",
+    level: "Easy",
+    time: "20 min",
+    est: true,
+    tags: ["High protein", "Salad", "Meal prep"],
+    intro:
+      "Egg salad without mayo: the yolks are blended with cottage cheese and Dijon into a silky dressing, then folded through the chopped whites with carrot, green onion and pickles.",
+    groups: [
+      {
+        items: [
+          { q: 8, i: ["hard-boiled egg", "hard-boiled eggs"], n: "peeled" },
+          { q: 0.5, u: "cup", i: "cottage cheese", b: "Kirkland Signature" },
+          { q: 1, u: "tbsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "black pepper" },
+          { t: "to taste", i: "salt" },
+          { q: 2, i: ["green onion", "green onions"], n: "finely chopped" },
+          { q: 1, i: ["small carrot", "small carrots"], n: "finely diced" },
+          { q: 2, i: ["dill pickle", "dill pickles"], n: "finely diced" },
+        ],
+      },
+    ],
+    steps: [
+      "Separate the yolks from the whites. Chop the whites.",
+      "Finely chop the green onion, carrot and pickles.",
+      "Blend the cottage cheese, mustard, pepper and yolks with an immersion blender until silky.",
+      "Fold the dressing into the whites and vegetables and season with salt.",
+    ],
+  },
+
+  {
+    slug: "five-minute-blueberry-crumble",
+    title: "5-Minute High-Protein Blueberry Crumble",
+    posted: "2024-10-10",
+    reel: "DA8mUv2xwcR",
+    photo: "five-minute-blueberry-crumble.jpg",
+    alt: "A bowl of warm blueberry crumble topped with Greek yogurt",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Sweet", "High protein", "Quick"],
+    intro:
+      "A microwave crumble: jammy frozen blueberries under an oat topping bound with mashed banana and peanut butter, finished with a scoop of Greek yogurt.",
+    groups: [
+      {
+        name: "Filling",
+        items: [
+          { q: 1, u: "cup", i: "frozen blueberries" },
+          { q: 1, u: "tsp", i: "lemon juice" },
+        ],
+      },
+      {
+        name: "Crumble",
+        items: [
+          { q: 0.5, u: "cup", i: "rolled oats", b: "Bob's Red Mill" },
+          { q: 0.5, i: ["frozen banana", "frozen bananas"], n: "thawed slightly and mashed" },
+          { q: 0.5, u: "tsp", i: "cinnamon" },
+          { q: 1, u: "tsp", i: "maple syrup" },
+          { q: 1, u: "tbsp", i: "peanut butter" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { q: 0.25, u: "cup", i: "Greek yogurt", b: "Kirkland Signature" },
+        ],
+      },
+    ],
+    steps: [
+      "Microwave the blueberries and lemon juice in a bowl for about 2 minutes, until jammy.",
+      "Mash the banana and mix in the oats, cinnamon, maple syrup and peanut butter until clumpy.",
+      "Spoon the crumble over the berries and microwave for 1½ to 2 minutes.",
+      "Top with Greek yogurt.",
+    ],
+  },
+
+  {
     slug: "orange-juice-chia-pudding",
     title: "Orange Juice Chia Pudding",
     posted: "2024-10-09",
@@ -6542,6 +8133,129 @@ window.RECIPES = [
       "Add the chia seeds and stir well so there are no clumps.",
       "Stir again after 5 minutes, then cover and refrigerate until thick, at least 2 hours or overnight.",
       "Give it a stir before eating.",
+    ],
+  },
+
+  {
+    slug: "five-minute-protein-chicken-salad",
+    title: "5-Minute High-Protein Chicken Salad",
+    posted: "2024-10-07",
+    reel: "DA021-GR3wS",
+    photo: "five-minute-protein-chicken-salad.jpg",
+    alt: "James holding a container of creamy chicken salad with carrot and celery",
+    level: "Easy",
+    time: "10 min",
+    est: true,
+    tags: ["Chicken", "Salad", "High protein", "Meal prep"],
+    intro:
+      "Leftover rotisserie chicken with crunchy carrot, celery, onion and pickles in a blended cottage cheese and Dijon dressing. Eat it with crackers or in a sandwich.",
+    groups: [
+      {
+        name: "Salad",
+        items: [
+          { q: 3, u: "cup", i: "rotisserie chicken", n: "shredded" },
+          { q: 1, i: ["carrot", "carrots"], n: "finely diced" },
+          { q: 2, u: "stalk", i: "celery", n: "diced" },
+          { q: 0.25, i: ["onion", "onions"], n: "finely diced" },
+          { q: 3, i: ["dill pickle", "dill pickles"], n: "finely diced" },
+        ],
+      },
+      {
+        name: "Dressing",
+        items: [
+          { q: 0.75, u: "cup", i: "cottage cheese", b: "Kirkland Signature" },
+          { q: 1, u: "tbsp", i: "Dijon mustard" },
+          { q: 0.5, u: "tsp", i: "black pepper" },
+          { t: "to taste", i: "salt" },
+        ],
+      },
+    ],
+    steps: [
+      "Shred the chicken and dice the vegetables and pickles.",
+      "Blend the cottage cheese, mustard and pepper until smooth.",
+      "Mix the dressing through the chicken and vegetables and season with salt.",
+      "Keeps in the fridge for 3 to 4 days.",
+    ],
+  },
+
+  {
+    slug: "green-skincare-protein-smoothie",
+    title: "Green Skincare Protein Smoothie",
+    posted: "2024-10-04",
+    reel: "DAtJrwlx-0t",
+    photo: "green-skincare-protein-smoothie.jpg",
+    alt: "A glass mug of green smoothie on the counter",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Drink", "High protein", "Breakfast"],
+    intro:
+      "A green smoothie for skin, protein and overall health: spinach, carrot and frozen fruit with matcha whey, fresh ginger, citrus for vitamin C and a packet of collagen.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "cup", i: "spinach" },
+          { q: 1, i: ["small carrot", "small carrots"] },
+          { q: 1, u: "scoop", i: "matcha whey protein" },
+          { q: 0.5, u: "cup", i: "frozen blueberries" },
+          { q: 0.5, u: "cup", i: "frozen mango or pineapple" },
+          { q: 1, u: "tsp", i: "fresh ginger", n: "grated" },
+          { q: 0.5, i: ["grapefruit or orange", "grapefruits or oranges"], n: "peeled" },
+          { q: 1, u: "packet", i: "collagen powder" },
+          { q: 1, u: "cup", i: "water" },
+        ],
+      },
+    ],
+    steps: [
+      "Add the spinach, carrot, protein powder, fruit, ginger and citrus to the blender.",
+      "Pour in the water and add the collagen.",
+      "Blend on high for about a minute, until smooth.",
+    ],
+  },
+
+  {
+    slug: "greek-chicken-salad-jars",
+    title: "Greek Chicken Salad Meal Prep Jars",
+    posted: "2024-09-29",
+    reel: "DAgoKPaxFMh",
+    photo: "greek-chicken-salad-jars.jpg",
+    alt: "Overhead view of a Greek salad with chicken, chickpeas, tomatoes and cucumber",
+    serves: "5 jars",
+    level: "Easy",
+    time: "40 min",
+    est: true,
+    tags: ["Salad", "Chicken", "Meal prep", "High protein"],
+    intro:
+      "Five jars of Greek salad for the week, with the dressing at the bottom and the lettuce on top so nothing goes soggy. Shake one into a bowl at lunch.",
+    groups: [
+      {
+        name: "Dressing (split between 5 jars)",
+        items: [
+          { q: 5, u: "tbsp", i: "olive oil" },
+          { q: 5, u: "tsp", i: "Dijon mustard" },
+          { q: 5, u: "tbsp", i: "red wine vinegar or lemon juice" },
+          { t: "to taste", i: "salt and pepper" },
+        ],
+      },
+      {
+        name: "Salad",
+        items: [
+          { q: 1.5, u: "lb", i: "chicken breast", n: "seasoned with salt, pepper and garlic powder" },
+          { q: 1, u: "can", i: "chickpeas", n: "drained" },
+          { q: 2, u: "cup", i: "cherry tomatoes", n: "halved" },
+          { q: 1, i: ["cucumber", "cucumbers"], n: "diced" },
+          { q: 0.5, i: ["red onion", "red onions"], n: "diced" },
+          { q: 0.5, u: "cup", i: "Kalamata olives" },
+          { q: 1, u: "cup", i: "feta", n: "crumbled" },
+          { q: 1, u: "head", i: "romaine", n: "chopped" },
+        ],
+      },
+    ],
+    steps: [
+      "Season the chicken and cook it in a pan or the oven until it reaches 165°F. Rest, then dice.",
+      "Add 1 tablespoon olive oil, 1 teaspoon mustard, 1 tablespoon vinegar, salt and pepper to each jar and stir.",
+      "Layer in the chickpeas, tomatoes, onion, cucumber, olives, feta and chicken, with the romaine last.",
+      "Seal and refrigerate for up to 4 days. Shake into a bowl to eat.",
     ],
   },
 
@@ -6591,6 +8305,115 @@ window.RECIPES = [
   },
 
   {
+    slug: "microwave-egg-salad-sandwich",
+    title: "1-Minute Microwave Egg Salad Sandwich",
+    posted: "2024-09-23",
+    reel: "DAQx3Jax-Ng",
+    photo: "microwave-egg-salad-sandwich.jpg",
+    alt: "A bowl of mashed egg salad next to a toasted bun",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Breakfast", "Quick", "High protein"],
+    intro:
+      "A boiled-egg shortcut: cook the eggs in a mug in the microwave, mash them with mayo and pile them on a toasted bun.",
+    groups: [
+      {
+        items: [
+          { q: 2, i: ["egg", "eggs"] },
+          { q: 1, u: "tbsp", i: "mayo" },
+          { t: "to taste", i: "salt and pepper" },
+          { q: 1, i: ["bun", "buns"], n: "toasted" },
+        ],
+      },
+    ],
+    steps: [
+      "Crack the eggs into a greased mug and pierce the yolks. Cover loosely.",
+      "Microwave for 1 minute, then in 15-second bursts until fully set.",
+      "Tip into a bowl and mash with a fork, mayo, salt and pepper.",
+      "Pile onto the toasted bun.",
+    ],
+  },
+
+  {
+    slug: "whipped-vietnamese-iced-coffee",
+    title: "Whipped Vietnamese-Style Iced Coffee",
+    posted: "2024-08-02",
+    reel: "C-K5PcqRAFk",
+    photo: "whipped-vietnamese-iced-coffee.jpg",
+    alt: "A tall glass of frothy iced coffee with milk",
+    level: "Easy",
+    time: "5 min",
+    tags: ["Drink", "Quick"],
+    intro:
+      "Instant coffee whipped with condensed milk and cold water until foamy, poured over ice and topped with milk. No hot water needed.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "tsp", i: "iced instant coffee", b: "Nescafé Iced" },
+          { q: 1, u: "tbsp", i: "sweetened condensed milk" },
+          { q: 75, u: "ml", i: "cold water" },
+          { t: "as needed", i: "ice" },
+          { t: "as desired", i: "milk" },
+        ],
+      },
+    ],
+    steps: [
+      "Add the instant coffee, condensed milk and cold water to a tall glass.",
+      "Whip with a handheld frother until light and foamy.",
+      "Fill the glass with ice.",
+      "Top with as much milk as you like and stir.",
+    ],
+  },
+
+  {
+    slug: "tiramisu-berry-overnight-oats",
+    title: "Tiramisu and Berry Overnight Oats",
+    posted: "2024-07-30",
+    reel: "C-DL_CzxcqJ",
+    photo: "tiramisu-berry-overnight-oats.jpg",
+    alt: "Two jars of overnight oats, one with espresso and yogurt and one with berries",
+    serves: "2 jars",
+    level: "Easy",
+    time: "Overnight",
+    est: true,
+    tags: ["Breakfast", "Meal prep", "High protein"],
+    intro:
+      "Five minutes tonight for two breakfasts tomorrow: the same oat, chia and plant milk base, one jar with espresso, Greek yogurt and cocoa, the other with yogurt and berries.",
+    groups: [
+      {
+        name: "Base (for 2 jars)",
+        items: [
+          { q: 1, u: "cup", i: "rolled oats" },
+          { q: 2, u: "tbsp", i: "chia seeds" },
+          { q: 1, u: "cup", i: "plant milk" },
+        ],
+      },
+      {
+        name: "Tiramisu jar",
+        items: [
+          { q: 1, i: ["shot espresso", "shots espresso"] },
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { t: "to dust", i: "cocoa powder" },
+        ],
+      },
+      {
+        name: "Berry jar",
+        items: [
+          { q: 0.5, u: "cup", i: "Greek yogurt" },
+          { q: 0.5, u: "cup", i: "mixed berries" },
+        ],
+      },
+    ],
+    steps: [
+      "Split the oats, chia seeds and milk between two jars and stir.",
+      "For the tiramisu jar, pour in the espresso, add a layer of yogurt and dust with cocoa through a sieve.",
+      "For the berry jar, add the yogurt and top with berries.",
+      "Seal and refrigerate overnight.",
+    ],
+  },
+
+  {
     slug: "quick-fresh-kimchi",
     title: "Umma's Quick Fresh Kimchi",
     posted: "2024-07-29",
@@ -6629,6 +8452,78 @@ window.RECIPES = [
       "In a large bowl, mix the gochugaru, garlic, shrimp paste, fish sauce and plum extract.",
       "Add the cabbage, onion and chives and toss with your hands (wear gloves) until everything is coated.",
       "Finish with the sesame seeds and sesame oil.",
+    ],
+  },
+
+  {
+    slug: "shaken-brown-sugar-iced-coffee",
+    title: "Shaken Brown Sugar Iced Coffee",
+    posted: "2024-07-10",
+    reel: "C9PqkMbRvQH",
+    photo: "shaken-brown-sugar-iced-coffee.jpg",
+    alt: "A mason jar of iced coffee with milk and an orange straw",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Drink", "Quick"],
+    intro:
+      "Instant coffee shaken with brown sugar, a little maple syrup and cold water until frothy, then poured over ice and topped with milk.",
+    groups: [
+      {
+        items: [
+          { q: 2, u: "tsp", i: "iced instant coffee", b: "Nescafé Iced" },
+          { q: 1, u: "tsp", i: "brown sugar" },
+          { q: 1, u: "tsp", i: "maple syrup" },
+          { q: 0.5, u: "cup", i: "cold water" },
+          { t: "as needed", i: "ice" },
+          { q: 0.5, u: "cup", i: "milk", n: "or as much as you like" },
+        ],
+      },
+    ],
+    steps: [
+      "Add the instant coffee, brown sugar, maple syrup and cold water to a cocktail shaker.",
+      "Add a handful of ice and shake hard for about 15 seconds, until frothy.",
+      "Pour into a jar full of ice.",
+      "Top with milk.",
+    ],
+  },
+
+  {
+    slug: "two-minute-protein-brownie",
+    title: "2-Minute Healthy Protein Brownie",
+    posted: "2024-07-04",
+    reel: "C9APm_qR-3E",
+    photo: "two-minute-protein-brownie.jpg",
+    alt: "A glass dish of gooey microwave brownie topped with Greek yogurt",
+    level: "Easy",
+    time: "5 min",
+    est: true,
+    tags: ["Sweet", "High protein", "Quick"],
+    intro:
+      "A fudgy brownie made in the microwave for when a sweet craving hits: egg, Greek yogurt, maple syrup, cocoa and protein powder, topped with more yogurt.",
+    groups: [
+      {
+        items: [
+          { q: 1, i: ["egg", "eggs"] },
+          { q: 1 / 3, u: "cup", i: "Greek yogurt" },
+          { q: 2, u: "tbsp", i: "maple syrup" },
+          { q: 3, u: "tbsp", i: "cocoa powder", b: "Camino" },
+          { q: 1, u: "scoop", i: "protein powder" },
+        ],
+      },
+      {
+        name: "To serve",
+        items: [
+          { t: "a spoonful", i: "Greek yogurt" },
+        ],
+      },
+    ],
+    steps: [
+      "Crack the egg into a small microwave-safe glass dish.",
+      "Add the yogurt and maple syrup and mix well.",
+      "Add the cocoa and protein powder and stir into a smooth, thick batter.",
+      "Microwave for about 2 minutes, until set at the edges but still a little gooey in the middle.",
+      "Top with a spoonful of Greek yogurt and eat warm.",
     ],
   },
 ];

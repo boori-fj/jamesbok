@@ -367,6 +367,10 @@ button { font: inherit; color: inherit; }
 .ing .q.soft { font-weight: 400; color: var(--ink-3); font-size: 14px; }
 .ing .n { color: var(--ink-3); }
 .ing .b { display: block; font-size: 13px; color: var(--ink-3); margin-top: 1px; }
+.est-note {
+  margin: 16px 0 0; padding: 10px 12px; border-left: 3px solid var(--accent);
+  background: var(--paper, transparent); font-size: 14px; line-height: 1.45; color: var(--ink-2);
+}
 .ing input:checked ~ span { color: var(--ink-3); text-decoration: line-through; text-decoration-color: var(--ink-3); }
 .ing input:checked ~ span .b { text-decoration: none; }
 

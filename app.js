@@ -1,5 +1,5 @@
 (function () {
-  const R = window.RECIPES || [];
+  const R = (window.RECIPES || []).slice().sort((a, b) => b.posted.localeCompare(a.posted));
   const $ = (s, el = document) => el.querySelector(s);
   const esc = (s) =>
     String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -269,6 +269,7 @@
               </div>
             </div>
             <div id="groups"></div>
+            ${r.est ? `<p class="est-note">James didn't list amounts for this one, so these are estimated from the video. Taste as you go.</p>` : ""}
             <div class="panel-foot">
               <button type="button" class="textbtn" id="copy">Copy shopping list</button>
               <button type="button" class="textbtn" id="reset">Clear ticks</button>
