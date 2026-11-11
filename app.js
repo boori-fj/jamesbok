@@ -126,18 +126,13 @@
         .join("");
     }
 
-    // Newest recipe, featured in the hero.
+    // Newest recipe: a small card in the corner of the hero.
     const feature = $("#feature");
     const latest = R[0];
     if (feature && latest) {
-      feature.innerHTML = `<a class="feature" href="recipe.html?r=${encodeURIComponent(latest.slug)}">
-        <div class="feature-photo">${latest.photo ? `<img src="${esc(latest.photo)}" alt="${esc(latest.alt || latest.title)}" width="1080" height="1350">` : ""}</div>
-        <div class="feature-cap">
-          <p class="label">Newest · ${date(latest.posted)}</p>
-          <h2>${esc(latest.title)}</h2>
-          <span class="go">Get the recipe</span>
-          ${metaLine(latest)}
-        </div>
+      feature.innerHTML = `<a class="newest" href="recipe.html?r=${encodeURIComponent(latest.slug)}">
+        ${latest.photo ? `<img src="${esc(latest.photo)}" alt="" width="1080" height="1350">` : ""}
+        <span><small>Newest recipe</small><b>${esc(latest.title)}</b>${metaLine(latest)}</span>
       </a>`;
     }
 
@@ -357,6 +352,45 @@
     document.body.appendChild(s);
   }
 
+  /* ---------- header menu (phones and tablets) ---------- */
+  function initMenu() {
+    const head = $(".site-head");
+    const btn = $(".menu-btn");
+    if (!head || !btn) return;
+    const set = (open) => {
+      head.classList.toggle("open", open);
+      btn.setAttribute("aria-expanded", open);
+      btn.textContent = open ? "Close" : "Menu";
+    };
+    btn.addEventListener("click", () => set(!head.classList.contains("open")));
+    head.querySelectorAll(".head-links a").forEach((a) => a.addEventListener("click", () => set(false)));
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape" && head.classList.contains("open")) { set(false); btn.focus(); } });
+  }
+
+  /* ---------- newsletter ---------- */
+  // The form posts to whatever newsletter service is set in its action="" attribute.
+  // Until one is connected, it says so instead of pretending to sign people up.
+  function initNewsletter() {
+    const form = $("#news-form");
+    if (!form) return;
+    const input = $("#news-email");
+    const note = $("#news-note");
+    form.addEventListener("submit", (e) => {
+      if (!input.checkValidity()) {
+        e.preventDefault();
+        note.textContent = "Please enter a valid email address.";
+        input.focus();
+        return;
+      }
+      if (!form.getAttribute("action")) {
+        e.preventDefault();
+        note.textContent = "Sign-ups open soon. Until then, follow @jamesbok on Instagram for new recipes.";
+      }
+    });
+  }
+
+  initMenu();
+  initNewsletter();
   if ($("#list")) renderIndex();
   if ($("#plan-list")) renderPlan();
   if ($("#recipe")) renderRecipe();
