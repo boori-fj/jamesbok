@@ -56,7 +56,6 @@ button { font: inherit; color: inherit; }
 .head-in { display: flex; align-items: center; justify-content: space-between; gap: 24px; min-height: 68px; }
 .mark { text-decoration: none; display: flex; align-items: baseline; gap: 10px; white-space: nowrap; }
 .mark b { font: 700 21px/1 var(--sans); letter-spacing: -0.02em; }
-.mark span { font: 700 11px/1 var(--sans); letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); }
 .head-links { display: flex; align-items: center; gap: 28px; }
 .site-nav { display: flex; gap: 26px; font-size: 15px; }
 .site-nav a { text-decoration: none; color: var(--ink-2); white-space: nowrap; }
@@ -82,7 +81,6 @@ button { font: inherit; color: inherit; }
   display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) auto; gap: 32px 48px; align-items: start;
 }
 .foot-brand .mark b { color: var(--paper); }
-.foot-brand .mark span { color: #e8907a; }
 .foot-brand p { margin: 12px 0 0; font: 400 17px/1.5 var(--serif); }
 .foot-nav { display: grid; gap: 10px; }
 .foot-nav a { color: var(--paper); text-decoration: none; }
@@ -460,9 +458,7 @@ button { font: inherit; color: inherit; }
 @media (max-width: 760px) {
   body { font-size: 16px; }
   .head-in { min-height: 60px; }
-  .mark { gap: 8px; }
   .mark b { font-size: 19px; }
-  .mark span { font-size: 10px; }
 
   .hero { min-height: calc(100svh - 60px); }
   .hero-img { object-position: 79% 30%; }
