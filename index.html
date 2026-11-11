@@ -33,8 +33,7 @@
 
   <main>
     <section class="hero" aria-labelledby="hero-title">
-      <img class="hero-blur" src="james-hero.jpg" alt="" aria-hidden="true">
-      <img class="hero-img" src="james-hero.jpg" alt="James Bok at his dining table, building a bulgogi lettuce wrap, with kimchi and rice in front of him" width="720" height="1280" fetchpriority="high">
+      <img class="hero-img" src="james-hero.webp" alt="James Bok smiling beside a long wooden table set for dinner under an outdoor pergola" width="1920" height="1080" fetchpriority="high">
       <div class="wrap hero-in">
         <div class="hero-text">
           <p class="hero-kicker">James Bok · New York &amp; Toronto</p>
@@ -48,19 +47,21 @@
       </div>
     </section>
 
-    <section class="band band-plan" id="plan" aria-labelledby="plan-title">
-      <div class="wrap plan">
+    <section class="block block-plan" id="plan" aria-labelledby="plan-title">
+      <div class="wrap">
+        <div class="box box-plan">
         <div class="plan-head">
           <div>
             <h2 id="plan-title">Meal plan for the week</h2>
             <p class="plan-lede">Five meals picked at random from my recipes. Not feeling one? Shuffle again.</p>
           </div>
           <div class="plan-actions">
-            <button class="btn btn-light" id="shuffle" type="button">Shuffle the week <span aria-hidden="true">↻</span></button>
+            <button class="btn" id="shuffle" type="button">Shuffle the week <span aria-hidden="true">↻</span></button>
             <button class="textbtn" id="plan-copy" type="button">Copy shopping list</button>
           </div>
         </div>
         <ol class="plan-list" id="plan-list" aria-live="polite"></ol>
+        </div>
       </div>
     </section>
 
@@ -83,8 +84,9 @@
       </section>
     </div>
 
-    <section class="band band-news" id="newsletter" aria-labelledby="news-title">
-      <div class="wrap news">
+    <section class="block block-news" id="newsletter" aria-labelledby="news-title">
+      <div class="wrap">
+        <div class="box box-news news">
         <div class="news-text">
           <h2 id="news-title">New recipes, straight to your inbox.</h2>
           <p>Get my newest recipes by email, with the amounts and steps already written out. No spam, and you can unsubscribe anytime.</p>
@@ -93,9 +95,10 @@
         <form class="news-form" id="news-form" action="" method="post" novalidate>
           <label class="sr" for="news-email">Email address</label>
           <input id="news-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
-          <button class="btn" type="submit">Subscribe</button>
+          <button class="btn btn-light" type="submit">Subscribe</button>
           <p class="news-note" id="news-note" aria-live="polite"></p>
         </form>
+        </div>
       </div>
     </section>
 
