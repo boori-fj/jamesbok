@@ -376,6 +376,7 @@ button { font: inherit; color: inherit; }
   color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px;
 }
 .textbtn:hover { color: var(--ink); }
+.print-btns { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-top: 22px; }
 
 .method .label { margin-bottom: 8px; }
 .steps { list-style: none; counter-reset: s; margin: 0; padding: 0; }
@@ -523,14 +524,5 @@ button { font: inherit; color: inherit; }
 }
 
 
-/* ---------- print ---------- */
-@media print {
-  body { background: #fff; font-size: 12pt; }
-  .site-head, .site-foot, .back, .scale, .panel-foot, .video, .pager, .hint, .r-photo { display: none !important; }
-  .r-head { grid-template-columns: 1fr; }
-  .r-body { grid-template-columns: 1fr 1.4fr; gap: 32px; }
-  .panel { border: 0; padding: 0; background: none; }
-  .ingredients { position: static; }
-  .steps li { padding: 10px 0 10px 44px; font-size: 12pt; }
-  .steps li::before { font-size: 16pt; top: 10px; }
-}
+/* ---------- print: see print.css (recipe pages) ---------- */
+

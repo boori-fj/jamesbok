@@ -44,6 +44,8 @@
   const allItems = (r) => r.groups.flatMap((g) => g.items);
   // The line under every recipe title: difficulty, then how long until it's ready.
   const metaLine = (r) => `<div class="meta"><span>${esc(r.level)}</span><span>${esc(r.time)}</span></div>`;
+  // Shared with print.js, which builds the printable recipe.
+  window.JB = { qty, name, date, reelUrl };
 
   function toast(msg) {
     let t = $(".toast");
@@ -255,6 +257,10 @@
           <h1>${esc(r.title)}</h1>
           <p class="r-intro">${esc(r.intro)}</p>
           <dl class="facts">${facts.map(([a, b]) => `<div><dt>${a}</dt><dd>${esc(b)}</dd></div>`).join("")}</dl>
+          <div class="print-btns">
+            <button type="button" class="textbtn" id="print-page">Print recipe</button>
+            <button type="button" class="textbtn" id="print-card">Print as a card</button>
+          </div>
         </div>
         ${r.photo ? `<figure class="r-photo"><img src="${esc(r.photo)}" alt="${esc(r.alt || r.title)}" width="1080" height="1350"></figure>` : ""}
       </header>
@@ -321,7 +327,13 @@
         </div>`)
         .join("");
     }
+    // Tell print.js to rebuild the printable version (it prints at whatever scale is chosen).
+    const announce = () => document.dispatchEvent(new CustomEvent("recipe:ready", { detail: { r, k } }));
     drawIngredients();
+    announce();
+
+    $("#print-page").addEventListener("click", () => window.JBPrint ? window.JBPrint.print(false) : window.print());
+    $("#print-card").addEventListener("click", () => window.JBPrint ? window.JBPrint.print(true) : window.print());
 
     groupsEl.addEventListener("change", (e) => {
       const id = e.target.dataset.id;
@@ -334,6 +346,7 @@
       k = Number(b.dataset.k);
       $(".scale").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b));
       drawIngredients();
+      announce();
     });
     $("#reset").addEventListener("click", () => { ticked.clear(); drawIngredients(); });
     $("#copy").addEventListener("click", async () => {
